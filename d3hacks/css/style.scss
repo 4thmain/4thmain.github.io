@@ -1,0 +1,108 @@
+@import "_settings";
+$block-grid-default-spacing: 10px;
+$accent:#D43B39;
+$mute1:#444;
+$mute2:#666;
+
+$opacity1:0.8;
+$opacity2:0.5;
+
+$best-red:#D43B39;
+$best-route-ltd:#D43B39;
+$best-ac:#D43B39;
+$best-route:#111;
+
+
+@mixin rounded($vert, $horz, $radius: 10px) {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
+@mixin rounded-corners($amount: 5px){
+  border-radius: $amount;
+  -moz-border-radius: $amount;
+  -webkit-border-radius: $amount;
+}
+
+@mixin shadow($color: #333333) {
+  -moz-box-shadow: 0px 1px 2px $color;
+  -webkit-box-shadow: 0px 1px 2px $color;
+  box-shadow: 0px 1px 2px $color;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color');
+}
+
+body{
+ //   background-color:#444;
+}
+#map{
+    height:500px;
+}
+
+h1,h2,h3,svg{
+ //   color:#eee;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    margin-bottom:0;
+    img{
+        height:40px;
+    }
+}
+
+#cctv{
+    height:40px;
+}
+
+#map{
+    position:relative;
+}
+
+svg{
+    font-size: 60%;
+}
+path {
+  fill: #777;
+  stroke: #fff;
+  stroke-width: 0.3px;
+  opacity:0.5;
+  &.focus{
+    opacity:1;
+    fill: yellow;
+    stroke:orange;
+    stroke-width: 1px;
+}
+  &:hover,&.active{
+    opacity:1;
+    fill: yellow;
+  //  stroke:orange;
+  //  stroke-width: 1px;
+}
+
+}
+text{
+  //  pointer-events: none;
+  //fill:white;
+  text-anchor: middle;
+  cursor: pointer;
+  opacity:0.6;
+  &.focus{
+    font-size: 150%;
+    transition: transform 2s;
+    opacity:1;
+}
+&:hover,&.active{
+   font-size: 150%;
+   opacity:1;
+}
+}
+.Union{
+    font-size: 80%;
+}
+.State{
+
+}
+footer{
+    display:none;
+}
+

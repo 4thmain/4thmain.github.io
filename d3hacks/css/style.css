@@ -1,0 +1,51 @@
+#map {
+  height: 500px; }
+
+h1, h2, h3, svg {
+  font-family: 'Roboto Slab', serif; }
+
+h1 {
+  margin-bottom: 0; }
+  h1 img {
+    height: 40px; }
+
+#cctv {
+  height: 40px; }
+
+#map {
+  position: relative; }
+
+svg {
+  font-size: 60%; }
+
+path {
+  fill: #777;
+  stroke: #fff;
+  stroke-width: 0.3px;
+  opacity: 0.5; }
+  path.focus {
+    opacity: 1;
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 1px; }
+  path:hover, path.active {
+    opacity: 1;
+    fill: yellow; }
+
+text {
+  text-anchor: middle;
+  cursor: pointer;
+  opacity: 0.6; }
+  text.focus {
+    font-size: 150%;
+    transition: transform 2s;
+    opacity: 1; }
+  text:hover, text.active {
+    font-size: 150%;
+    opacity: 1; }
+
+.Union {
+  font-size: 80%; }
+
+footer {
+  display: none; }
