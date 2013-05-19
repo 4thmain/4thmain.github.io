@@ -1,8 +1,8 @@
 name: "Design Studio on 4TH MAIN"
 description: ""
 
-#url: "http://localhost:4000"
-url: "http://4thmain.github.io"
+url: "http://localhost:4000"
+#url: "http://4thmain.github.io"
 
 paginate: 10
 
