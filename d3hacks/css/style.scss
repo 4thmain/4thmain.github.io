@@ -35,74 +35,87 @@ $best-route:#111;
 body{
  //   background-color:#444;
 }
-#map{
-    height:500px;
-}
+
 
 h1,h2,h3,svg{
- //   color:#eee;
-    font-family: 'Roboto Slab', serif;
-}
-h1{
-    margin-bottom:0;
-    img{
-        height:40px;
-    }
+
+ font-family: 'Source Sans Pro', serif;
 }
 
-#cctv{
+h1{
+  margin-bottom:0;
+  img{
     height:40px;
+  }
 }
+
 
 #map{
-    position:relative;
+  height:500px;
+  position:relative;
 }
-
+#map-overlay{
+  position:absolute;
+}
 svg{
-    font-size: 60%;
+  font-size: 60%;
+
 }
-path {
-  fill: #777;
+path[data] {
+  fill: #ccc;
   stroke: #fff;
-  stroke-width: 0.3px;
-  opacity:0.5;
+  stroke-width: 0.2px;
+  
+  &:hover,&.active{
+    fill: #ddd;
+    stroke:white;
+    stroke-width: 1px;
+  }
   &.focus{
     opacity:1;
     fill: yellow;
-    stroke:orange;
+    stroke:#ccc;
     stroke-width: 1px;
-}
-  &:hover,&.active{
-    opacity:1;
-    fill: yellow;
-  //  stroke:orange;
-  //  stroke-width: 1px;
+  }
 }
 
-}
 text{
-  //  pointer-events: none;
-  //fill:white;
   text-anchor: middle;
   cursor: pointer;
-  opacity:0.6;
-  &.focus{
-    font-size: 150%;
-    transition: transform 2s;
-    opacity:1;
-}
-&:hover,&.active{
+  opacity:0.4;
+  &:hover,&.active{
    font-size: 150%;
    opacity:1;
-}
+ }
+ &.focus{
+    //font-size: 150%;
+    transition: transform 2s;
+    opacity:1;
+    text-decoration: underline;
+    @include shadow(white);
+    z-index: 999;
+  }
 }
 .Union{
-    font-size: 80%;
+  font-size: 8px;
+  font-style: italic;
 }
 .State{
-
+  font-size: 10px;
 }
-footer{
-    display:none;
+.Capital{
+  font-weight: bold;
+}
+
+#map-overlay{
+  margin-left: 10px;
+  opacity:0.6;
+  h5{margin-bottom: 0;}
+  .subheader span{
+    background-color: #eee;
+    @include rounded-corners(10px);
+    padding:2px 6px;
+    cursor: pointer;
+  }
 }
 

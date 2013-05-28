@@ -1,51 +1,72 @@
-#map {
-  height: 500px; }
-
 h1, h2, h3, svg {
-  font-family: 'Roboto Slab', serif; }
+  font-family: 'Source Sans Pro', serif; }
 
 h1 {
   margin-bottom: 0; }
   h1 img {
     height: 40px; }
 
-#cctv {
-  height: 40px; }
-
 #map {
+  height: 500px;
   position: relative; }
+
+#map-overlay {
+  position: absolute; }
 
 svg {
   font-size: 60%; }
 
-path {
-  fill: #777;
+path[data] {
+  fill: #ccc;
   stroke: #fff;
-  stroke-width: 0.3px;
-  opacity: 0.5; }
-  path.focus {
+  stroke-width: 0.2px; }
+  path[data]:hover, path[data].active {
+    fill: #ddd;
+    stroke: white;
+    stroke-width: 1px; }
+  path[data].focus {
     opacity: 1;
     fill: yellow;
-    stroke: orange;
+    stroke: #ccc;
     stroke-width: 1px; }
-  path:hover, path.active {
-    opacity: 1;
-    fill: yellow; }
 
 text {
   text-anchor: middle;
   cursor: pointer;
-  opacity: 0.6; }
-  text.focus {
-    font-size: 150%;
-    transition: transform 2s;
-    opacity: 1; }
+  opacity: 0.4; }
   text:hover, text.active {
     font-size: 150%;
     opacity: 1; }
+  text.focus {
+    transition: transform 2s;
+    opacity: 1;
+    text-decoration: underline;
+    -moz-box-shadow: 0px 1px 2px white;
+    -webkit-box-shadow: 0px 1px 2px white;
+    box-shadow: 0px 1px 2px white;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color');
+    z-index: 999; }
 
 .Union {
-  font-size: 80%; }
+  font-size: 8px;
+  font-style: italic; }
 
-footer {
-  display: none; }
+.State {
+  font-size: 10px; }
+
+.Capital {
+  font-weight: bold; }
+
+#map-overlay {
+  margin-left: 10px;
+  opacity: 0.6; }
+  #map-overlay h5 {
+    margin-bottom: 0; }
+  #map-overlay .subheader span {
+    background-color: #eee;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 2px 6px;
+    cursor: pointer; }
