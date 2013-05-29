@@ -18,21 +18,24 @@
 
   <div class="container">
     <div class="row">
-      <h1>The Wiki Atlas<small> <form>
-            <label for="right-label" class="left inline">Try a language: </label>
-            <input type="text" id="lang" placeholder="en">
-      </form></small></h1>
+      <h1>The Wiki Atlas <small>using latest technology</small></h1>
     </div>
 
     <div class="row">
-      <div class="large-6 columns" id="map"><div id="map-overlay">
-        <h5><span wiki="q668">India</span> - Administrative Divisions<small>(Level1)</small></h5>
+      <div class="large-4 columns">
+        <form class="row">
+            <label for="right-label" class="left inline">Try a language: </label>
+            <input type="text" id="lang" placeholder="en">
+      </form>
+      <div class="row">
+        <small>Powered by d3 and wikidata <a href="https://github.com/4thmain/4thmain.github.io/tree/master/d3hacks">(source)</a></small>
+      </div>
+      </div>
+      <div class="large-8 columns" id="map"><div class="row" id="map-overlay">
+        <h5><span wiki="q668">India</span> - Administrative Divisions <small>(Level1)</small></h5>
         <!--h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5-->
 
       </div></div>
-      <div class="large-6 columns">
-
-      </div>
 
     </div>
   </div>
