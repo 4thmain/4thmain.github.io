@@ -16,10 +16,6 @@ h2.subheader {
   background-color: #f5f5f5;
   position: relative; }
 
-#map-overlay {
-  position: absolute;
-  top: 20px; }
-
 svg {
   font-size: 60%; }
 
@@ -48,11 +44,6 @@ text[wiki] {
     transition: transform 2s;
     opacity: 1;
     text-decoration: underline;
-    -moz-box-shadow: 0px 1px 2px white;
-    -webkit-box-shadow: 0px 1px 2px white;
-    box-shadow: 0px 1px 2px white;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color')";
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color');
     z-index: 999; }
 
 .Union {
@@ -77,7 +68,9 @@ text[wiki] {
 
 #map-overlay {
   margin-left: 10px;
-  opacity: 0.6; }
+  opacity: 0.6;
+  position: absolute;
+  top: 20px; }
   #map-overlay h5 {
     margin-bottom: 0; }
   #map-overlay .subheader span {

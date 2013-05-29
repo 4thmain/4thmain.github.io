@@ -55,10 +55,6 @@ h2.subheader{margin:0;}
   background-color: #f5f5f5;
   position:relative;
 }
-#map-overlay{
-  position:absolute;
-  top:20px;
-}
 svg{
   font-size: 60%;
 
@@ -94,7 +90,6 @@ text[wiki]{
     transition: transform 2s;
     opacity:1;
     text-decoration: underline;
-    @include shadow(white);
     z-index: 999;
   }
 }
@@ -123,6 +118,8 @@ text[wiki]{
 #map-overlay{
   margin-left: 10px;
   opacity:0.6;
+  position:absolute;
+  top:20px;
   h5{margin-bottom: 0;}
   .subheader span{
     background-color: #eee;
