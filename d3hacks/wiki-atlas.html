@@ -215,6 +215,20 @@ $('.subheader span').hover(
   );
  
 
+//Railways layer
+d3.json("img/indiarail.json", function(error, rail) {
+  console.log(rail)
+
+  var indiarail=topojson.feature(rail, rail.objects.indiarail).features;
+  svg.selectAll(".rail")
+.data(indiarail)
+.enter().append("path")
+.attr("d", path)
+.attr("class", "rail");
+
+});
+
+
 });
 
 

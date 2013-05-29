@@ -58,6 +58,16 @@ text[wiki] {
 .Capital {
   font-weight: bold; }
 
+.rail {
+  opacity: 0.1;
+  fill: none;
+  stroke: #777;
+  stroke-width: 1.5px;
+  pointer-events: none; }
+  .rail:hover {
+    opacity: 1;
+    stroke-width: 2px; }
+
 #map-overlay {
   margin-left: 10px;
   opacity: 0.6; }
