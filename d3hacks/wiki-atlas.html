@@ -20,26 +20,26 @@
     <div class="row">
       <h1>The Wiki Atlas</h1>
       <form>
-  <div class="row">
-    <div class="small-8">
-      <div class="row">
-        <div class="small-2 columns">
-          <label for="right-label" class="right inline">Language</label>
+        <div class="row">
+          <div class="small-8">
+            <div class="row">
+              <div class="small-2 columns">
+                <label for="right-label" class="right inline">Language</label>
+              </div>
+              <div class="small-1 columns end">
+                <input type="text" id="lang" placeholder="en">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="small-1 columns end">
-          <input type="text" id="lang" placeholder="en">
-        </div>
-      </div>
-    </div>
-  </div>
-</form>
+      </form>
     </div>
 
     <div class="row">
       <div class="large-6 columns" id="map"><div id="map-overlay">
-        <h5>Administrative Divisions of India <small>(Level1)</small></h5>
+        <h5><span wiki="q668">India</span> - Administrative Divisions<small>(Level1)</small></h5>
         <h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5>
-       
+
       </div></div>
       <div class="large-6 columns">
 
@@ -138,18 +138,18 @@ d3.json("img/indiamap.json", function(error, india) {
 //Change map language
 wd= function(props,lang){
    
-  $("text[data]").each(function(){
-
+  $("[wiki]").each(function(){
+console.log(this.getAttribute("wiki"));
     $.ajax({
       dataType: "json",
-      url: "http://www.wikidata.org/w/api.php?action=wbgetentities&ids="+this.getAttribute("data")+"&languages="+lang+"&props="+props+"&format=json&callback=?" ,
+      url: "http://www.wikidata.org/w/api.php?action=wbgetentities&ids="+this.getAttribute("wiki")+"&languages="+lang+"&props="+props+"&format=json&callback=?" ,
     }).done(function ( data) {
-  // do my stuff
   for (var q in data.entities)
-  {
-    if(props=="labels")
-      $("text[data='"+q+"']")[0].textContent=data.entities[q].labels[lang].value;
-  }
+    label=data.entities[q].labels[lang].value;
+    //if(props=="labels")
+      $("svg text[wiki='"+q+"']")[0].textContent=label;
+      console.log(q);
+  
 });
   });
    
@@ -157,11 +157,11 @@ wd= function(props,lang){
     //focus state
     clickState=function(d){
       $("table tbody tr").slideUp();
-      var stateName=$("text[data='"+wikidata(d)+"']")[0].textContent;
+      var stateName=$("text[wiki='"+wikidata(d)+"']")[0].textContent;
       $("tbody tr a:contains('"+stateName+"')").parent().parent().slideDown();
       d3.selectAll("svg text").classed("focus",false);
       d3.selectAll("svg path").classed("focus",false);
-      d3.selectAll("[data='"+wikidata(d)+"']").classed("focus",true);
+      d3.selectAll("[wiki='"+wikidata(d)+"']").classed("focus",true);
     };
      
      
@@ -169,19 +169,19 @@ wd= function(props,lang){
 svg.selectAll(".subunit")
 .data(topojson.feature(india, india.objects.indiamap).features)
 .enter().append("path")
-.attr("data", function(d) { return wikidata(d); })
+.attr("wiki", function(d) { return wikidata(d); })
 .attr("d", path)
   //-interactions
   //-click path navigator
   .on("click", clickState)
   .on("mouseover", function(d,i){
     d3.selectAll("path").classed("active",false);
-    d3.selectAll("text[data='"+wikidata(d)+"']").classed("active",true);
-    d3.select("text[data='"+wikidata(d)+"']").transition().styleTween("font-size", function() { return d3.interpolate("100%", "150%"); });
+    d3.selectAll("text[wiki='"+wikidata(d)+"']").classed("active",true);
+    d3.select("text[wiki='"+wikidata(d)+"']").transition().styleTween("font-size", function() { return d3.interpolate("100%", "150%"); });
   })
   .on("mouseout", function(d,i){
     d3.selectAll("text").classed("active",false);
-    d3.select("text[data='"+wikidata(d)+"']").transition().styleTween("font-size", function() { return d3.interpolate("150%", "100%"); });
+    d3.select("text[wiki='"+wikidata(d)+"']").transition().styleTween("font-size", function() { return d3.interpolate("150%", "100%"); });
   });
    
 //text labels: create for all states
@@ -191,7 +191,7 @@ svg.selectAll("text")
 .append("text")
 .attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
 .attr("class", function(d) { return d.properties.ENGTYPE_1})
-.attr("data", function(d) { return wikidata(d);})
+.attr("wiki", function(d) { return wikidata(d);})
 .text(function(d) { 
 })
   //-interactions
@@ -200,11 +200,11 @@ svg.selectAll("text")
   //-highlight corresponding state path
   .on("mouseover", function(d,i){
    d3.selectAll("text").classed("active",false);
-   d3.selectAll("path[data='"+wikidata(d)+"']").classed("active",true);
+   d3.selectAll("path[wiki='"+wikidata(d)+"']").classed("active",true);
  })
   //-dim all state paths
   .on("mouseout", function(d,i){
-    d3.selectAll("path[data='"+wikidata(d)+"']").classed("active",false);
+    d3.selectAll("path[wiki='"+wikidata(d)+"']").classed("active",false);
   });
 
   wd("labels","en");

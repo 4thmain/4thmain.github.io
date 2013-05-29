@@ -16,28 +16,28 @@ h1 {
 svg {
   font-size: 60%; }
 
-path[data] {
+path[wiki] {
   fill: #ccc;
   stroke: #fff;
   stroke-width: 0.2px; }
-  path[data]:hover, path[data].active {
+  path[wiki]:hover, path[wiki].active {
     fill: #ddd;
     stroke: white;
     stroke-width: 1px; }
-  path[data].focus {
+  path[wiki].focus {
     opacity: 1;
     fill: yellow;
     stroke: #ccc;
     stroke-width: 1px; }
 
-text {
+text[wiki] {
   text-anchor: middle;
   cursor: pointer;
   opacity: 0.4; }
-  text:hover, text.active {
+  text[wiki]:hover, text[wiki].active {
     font-size: 150%;
     opacity: 1; }
-  text.focus {
+  text[wiki].focus {
     transition: transform 2s;
     opacity: 1;
     text-decoration: underline;

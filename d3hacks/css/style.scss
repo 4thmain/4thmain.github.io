@@ -61,7 +61,7 @@ svg{
   font-size: 60%;
 
 }
-path[data] {
+path[wiki] {
   fill: #ccc;
   stroke: #fff;
   stroke-width: 0.2px;
@@ -79,7 +79,7 @@ path[data] {
   }
 }
 
-text{
+text[wiki]{
   text-anchor: middle;
   cursor: pointer;
   opacity:0.4;
