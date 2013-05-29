@@ -18,27 +18,16 @@
 
   <div class="container">
     <div class="row">
-      <h1>The Wiki Atlas</h1>
-      <form>
-        <div class="row">
-          <div class="small-8">
-            <div class="row">
-              <div class="small-2 columns">
-                <label for="right-label" class="right inline">Language</label>
-              </div>
-              <div class="small-1 columns end">
-                <input type="text" id="lang" placeholder="en">
-              </div>
-            </div>
-          </div>
-        </div>
-      </form>
+      <h1>The Wiki Atlas<small> <form>
+            <label for="right-label" class="left inline">Try a language: </label>
+            <input type="text" id="lang" placeholder="en">
+      </form></small></h1>
     </div>
 
     <div class="row">
       <div class="large-6 columns" id="map"><div id="map-overlay">
         <h5><span wiki="q668">India</span> - Administrative Divisions<small>(Level1)</small></h5>
-        <h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5>
+        <!--h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5-->
 
       </div></div>
       <div class="large-6 columns">
@@ -95,7 +84,7 @@ var projection = d3.geo.albers()
  
 var projection = d3.geo.mercator()
 .center([82.7,23])
-.scale(5000)
+.scale(6000)
 .translate([width / 2, height / 2]);
  
 var path = d3.geo.path()
@@ -138,19 +127,20 @@ d3.json("img/indiamap.json", function(error, india) {
 //Change map language
 wd= function(props,lang){
    
-  $("[wiki]").each(function(){
-console.log(this.getAttribute("wiki"));
+  $("text[wiki], #map-overlay [wiki]").each(function(){
+    q=this.getAttribute("wiki");
     $.ajax({
       dataType: "json",
-      url: "http://www.wikidata.org/w/api.php?action=wbgetentities&ids="+this.getAttribute("wiki")+"&languages="+lang+"&props="+props+"&format=json&callback=?" ,
+      url: "http://www.wikidata.org/w/api.php?action=wbgetentities&ids="+q+"&languages="+lang+"&props="+props+"&format=json&callback=?" ,
     }).done(function ( data) {
-  for (var q in data.entities)
-    label=data.entities[q].labels[lang].value;
+      for (var q in data.entities)
+        label=data.entities[q].labels[lang].value;
     //if(props=="labels")
-      $("svg text[wiki='"+q+"']")[0].textContent=label;
-      console.log(q);
-  
-});
+    $("svg text[wiki='"+q+"']")[0].textContent=label;
+    console.log(label);
+    console.log($("#map-overlay [wiki]"));
+
+  });
   });
    
 };
@@ -216,6 +206,7 @@ $('.subheader span').hover(
  
 
 //Railways layer
+/*
 d3.json("img/indiarail.json", function(error, rail) {
   console.log(rail)
 
@@ -227,7 +218,7 @@ d3.json("img/indiarail.json", function(error, rail) {
 .attr("class", "rail");
 
 });
-
+*/
 
 });
 
