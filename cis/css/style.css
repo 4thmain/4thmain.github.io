@@ -84,3 +84,30 @@ form {
 
 #lang {
   width: 40px; }
+
+.title {
+  margin-bottom: 0; }
+  .title a {
+    color: inherit;
+    font-weight: bold; }
+
+article section {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 5px;
+  font-size: 80%; }
+
+footer {
+  margin-top: 10px !important;
+  font-size: 80%;
+  color: #999; }
+  footer p {
+    border-top: 1px solid #eee;
+    padding-top: 5px; }
+  footer a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted black; }

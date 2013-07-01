@@ -122,3 +122,32 @@ form{
   width:40px;
 }
 
+  .title {
+      margin-bottom:0;
+    a{
+    color:inherit;
+    font-weight: bold;
+}
+  }
+  article section{
+@include rounded-corners(5px);
+background-color:#eee;
+padding:20px;
+margin-bottom:5px;
+font-size:80%;
+  }
+footer{
+  margin-top:10px!important;
+  font-size: 80%;
+  color:#999;
+  p{
+    border-top:1px solid #eee;
+    padding-top:5px;
+  }
+  a{
+    color:inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+
+  }
+}

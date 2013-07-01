@@ -36,7 +36,11 @@
 </div>
 
 </div>
-
+<footer class="row">
+  <p class="large-12 columns">
+  <i>Researched by <b>Maria, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i>. <small><a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">code</a></small>
+</p>
+</footer>
 <script src="vendor/jquery.js">
 
 </script>
@@ -97,7 +101,7 @@ d3.json("img/indiamapjk.json", function(error, india) {
 
   var indiamap=topojson.feature(india, india.objects.indiamap).features;
 console.log(indiamap);
-
+d3.selectAll("path[wiki]").classed("focus",true);
    //Change map language by taking a user input
   changeMapLanguage=function(){
 
