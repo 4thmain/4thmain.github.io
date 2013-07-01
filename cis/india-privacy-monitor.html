@@ -140,8 +140,7 @@
       //focus state
       clickState = function(d) {
         //check if already in focus
-        if ($(this)[0].classList[0] == 'focus' || $(this)[0].classList[1] ==
-          'focus') {
+        if (/focus/.test(this.className.baseVal)) {
           //reset focus
           d3.selectAll("svg text").classed("focus", false);
           d3.selectAll("svg path").classed("focus", false);
