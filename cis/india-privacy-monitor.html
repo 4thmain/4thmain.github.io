@@ -93,10 +93,10 @@ var svg = d3.select("#map").append("svg")
 .attr("height", height);
 
 
-d3.json("img/indiamap.json", function(error, india) {
+d3.json("img/indiamapjk.json", function(error, india) {
 
   var indiamap=topojson.feature(india, india.objects.indiamap).features;
-
+console.log(indiamap);
 
    //Change map language by taking a user input
   changeMapLanguage=function(){
