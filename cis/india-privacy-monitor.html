@@ -38,7 +38,7 @@
 </div>
 <footer class="row">
   <p class="large-12 columns">
-  <i>Researched by <b>Maria, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i>. <small><a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">code</a></small>
+  <i>Researched by <b>Maria Ksinou, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i> <small><a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">(code)</a></small>
 </p>
 </footer>
 <script src="vendor/jquery.js">
@@ -188,6 +188,7 @@ svg.selectAll("text")
 .attr("class", function(d) { return d.properties.ENGTYPE_1})
 .attr("wiki", function(d) { return wikidata(d);})
 .text(function(d) { 
+  return d.properties.NAME_1;
 })
   //-interactions
   //-click text map navigator
@@ -202,7 +203,7 @@ svg.selectAll("text")
     d3.selectAll("path[wiki='"+wikidata(d)+"']").classed("active",false);
   });
 
-  wd("labels","en");
+  //wd("labels","en");
 //Legend teaser
 $('.subheader span').hover(
   function(){$('svg .'+$(this).attr('class')).attr('class','active')},
