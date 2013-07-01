@@ -72,8 +72,8 @@ document.write('<script src=vendor/foundation-4/js/vendor/'
   + '.js><\/script>');
 
 //Load the map data
-var width = 500,
-height = 600,
+var width = 400,
+height = 450,
 centered;
  
 var projection = d3.geo.albers()
@@ -82,7 +82,7 @@ var projection = d3.geo.albers()
  
 var projection = d3.geo.mercator()
 .center([82.7,23])
-.scale(5000)
+.scale(4500)
 .translate([width / 2, height / 2]);
  
 var path = d3.geo.path()
