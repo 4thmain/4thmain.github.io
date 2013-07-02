@@ -18,42 +18,76 @@
 
   <div class="container">
     <div class="row">
-      <h1>India Privacy Monitor <small>How the Indian Government watches its people</small></h1>
+      <h1>Privacy Monitor <small>How the Indian Government is tracking you</small></h1>
     </div>
+    <div class="row" id="projects">
+      <ul>
+        <li><a href="#"><h2>UID</h2>
+          <p><b>Unique Identification</b>
+            Also known as the Aadhar project, the UIDAI scheme will</p>
+          </a></li>
+          <li><a href="#"><h2>NPR</h2>
+            <p><b>National Population Register</b>
+              Also known as the Aadhar project, the UIDAI scheme will</p>
+            </a></li>
+            <li><a href="#"><h2>CCTV</h2>
+              <p><b>Closed Circuit Television Cameras</b>
+                Also known as the Aadhar project, the UIDAI scheme will</p>
+              </a></li>
+              <li><a href="#"><h2>CCTNS</h2>
+                <p><b>Crime and Criminal Tracking & Network System</b>
+                  Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will</p>
+                </a></li>
+                <li><a href="#"><h2>UAV</h2>
+                  <p><b>Unmanned Aerial Vehicles</b>
+                    UAV's or Drones are useful for remote surveillance</p>
+                  </a></li>
+                </ul>
 
-    <div class="row">
-      <div class="large-5 columns" id="map">
-        <div class="row" id="map-overlay">
-          <h3>Pick a state:</h3>
-          <!--h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5-->
+              </div>
+              <div class="row">
+                <div class="large-5 columns" id="map">
+                  <div class="row" id="map-overlay">
+                    <h3>Pick a state:</h3>
+                    <!--h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5-->
+                  </div>
+                </div>
+                <div class="large-7 columns" id="privacy">
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-      <div class="large-7 columns" id="privacy">
+        <footer class="row">
+          <p id="author" class="large-12 columns">
+            <i>Researched by <b>Maria Ksinou, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i>  
+          </p>
 
-      </div>
+          <ul id="credits" class="large-12 columns"><small><li>
+            <a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">Code & Design</a> by <b><a href="http://twitter.com/planemad">Arun Ganesh</a>/4th Main</b>
+          </li>
+          <li>
+            <a href="http://thenounproject.com/noun/fingerprint/#icon-No1803" target="_blank">Fingerprint</a> designed by <a href="http://thenounproject.com/andrewforrester" target="_blank">Andrew Forrester</a> from The Noun Project
+          </li>
+          <li><a href="http://thenounproject.com/noun/crime/#icon-No8847" target="_blank">Crime</a> designed by <a href="http://thenounproject.com/Nobunigga" target="_blank">Eden Clairicia</a> from The Noun Project
+          </li></small></ul>
 
+        </footer>
+        <script src="vendor/jquery.js">
+        </script>
+        <script src="vendor/foundation-4/js/foundation.min.js"></script>
 
-    </div>
-  </div>
-  </div>
-
-  </div>
-  <footer class="row">
-    <p class="large-12 columns">
-      <i>Researched by <b>Maria Ksinou, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i>  <small><a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">(code)</a></small>
-    </p>
-  </footer>
-  <script src="vendor/jquery.js">
-  </script>
-  <script src="vendor/foundation-4/js/foundation.min.js"></script>
-
-  <script src="vendor/foundation-4/js/foundation/foundation.dropdown.js"></script>
-  <script src="vendor/d3/d3.v3.min.js" charset="utf-8"></script>
-  <script src="vendor/d3/topojson.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#privacy').load('privacy-monitor.html');
-      $(document).foundation();
+        <script src="vendor/foundation-4/js/foundation/foundation.dropdown.js"></script>
+        <script src="vendor/d3/d3.v3.min.js" charset="utf-8"></script>
+        <script src="vendor/d3/topojson.js"></script>
+        <script>
+        $(document).ready(function() {
+          $('#privacy').load('privacy-monitor.html');
+          $(document).foundation();
 
       //Query wikidata to update language 0.5s after typing a language code
       var timerid;
@@ -70,29 +104,29 @@
 
     });
 
-     <!-- Check for Zepto support, load jQuery if necessary -->
-    document.write('<script src=vendor/foundation-4/js/vendor/' + ('__proto__' in {} ?
-      'zepto' : 'jquery') + '.js><\/script>');
+        <!-- Check for Zepto support, load jQuery if necessary -->
+        document.write('<script src=vendor/foundation-4/js/vendor/' + ('__proto__' in {} ?
+          'zepto' : 'jquery') + '.js><\/script>');
 
      //Load the map data
-    var width = 400,
-      height = 450,
-      centered; 
-    var projection = d3.geo.albers()
-      .scale(50)
-      .translate([width / 2, height / 2]); 
-    var projection = d3.geo.mercator()
-      .center([82.7, 23])
-      .scale(4500)
-      .translate([width / 2, height / 2]); 
-    var path = d3.geo.path()
-      .projection(projection); 
-    var svg = d3.select("#map").append("svg")
-      .attr("width", width)
-      .attr("height", height);
+     var width = 400,
+     height = 450,
+     centered; 
+     var projection = d3.geo.albers()
+     .scale(50)
+     .translate([width / 2, height / 2]); 
+     var projection = d3.geo.mercator()
+     .center([82.7, 23])
+     .scale(4500)
+     .translate([width / 2, height / 2]); 
+     var path = d3.geo.path()
+     .projection(projection); 
+     var svg = d3.select("#map").append("svg")
+     .attr("width", width)
+     .attr("height", height);
 
 
-    d3.json("img/indiamapjk.json", function(error, india) {
+     d3.json("img/indiamapjk.json", function(error, india) {
 
       var indiamap = topojson.feature(india, india.objects.indiamap).features;
       d3.selectAll("path[wiki]").classed("focus", true);  //Change map language by taking a user input
@@ -114,7 +148,7 @@
           url: "http://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&ids=" + q + "&languages=" + lang + "&props=labels&format=json&callback=?",
         }).done(function(data) {
           for (var q in data.entities);
-          return data.entities[q].labels[lang].value;
+            return data.entities[q].labels[lang].value;
         });
 
       };
@@ -160,47 +194,47 @@
       };  
       //create state paths
       svg.selectAll(".subunit")
-        .data(topojson.feature(india, india.objects.indiamap).features)
-        .enter().append("path")
-        .attr("wiki", function(d) {
-          return wikidata(d);
-        })
-        .attr("d", path)
+      .data(topojson.feature(india, india.objects.indiamap).features)
+      .enter().append("path")
+      .attr("wiki", function(d) {
+        return wikidata(d);
+      })
+      .attr("d", path)
       //-interactions
       //-click path navigator
       .on("click", clickState)
-        .on("mouseover", function(d, i) {
-          d3.selectAll("path").classed("active", false);
-          d3.selectAll("text[wiki='" + wikidata(d) + "']").classed("active", true);
-          d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
-            "font-size", function() {
-              return d3.interpolate("100%", "150%");
-            });
-        })
-        .on("mouseout", function(d, i) {
-          d3.selectAll("text").classed("active", false);
-          d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
-            "font-size", function() {
-              return d3.interpolate("150%", "100%");
-            });
-        }); 
+      .on("mouseover", function(d, i) {
+        d3.selectAll("path").classed("active", false);
+        d3.selectAll("text[wiki='" + wikidata(d) + "']").classed("active", true);
+        d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
+          "font-size", function() {
+            return d3.interpolate("100%", "150%");
+          });
+      })
+      .on("mouseout", function(d, i) {
+        d3.selectAll("text").classed("active", false);
+        d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
+          "font-size", function() {
+            return d3.interpolate("150%", "100%");
+          });
+      }); 
       //text labels: create for all states
       svg.selectAll("text")
-        .data(topojson.feature(india, india.objects.indiamap).features)
-        .enter()
-        .append("text")
-        .attr("transform", function(d) {
-          return "translate(" + path.centroid(d) + ")";
-        })
-        .attr("class", function(d) {
-          return d.properties.ENGTYPE_1
-        })
-        .attr("wiki", function(d) {
-          return wikidata(d);
-        })
-        .text(function(d) {
-          return d.properties.NAME_1;
-        })
+      .data(topojson.feature(india, india.objects.indiamap).features)
+      .enter()
+      .append("text")
+      .attr("transform", function(d) {
+        return "translate(" + path.centroid(d) + ")";
+      })
+      .attr("class", function(d) {
+        return d.properties.ENGTYPE_1
+      })
+      .attr("wiki", function(d) {
+        return wikidata(d);
+      })
+      .text(function(d) {
+        return d.properties.NAME_1;
+      })
       //-interactions
       //-click text map navigator
       .on("click", clickState)
@@ -223,7 +257,7 @@
         function() {
           $('svg .active').removeAttr('class', 'active')
         }
-      ); 
+        ); 
 
       //Railways layer
       /*
@@ -240,8 +274,8 @@ d3.json("img/indiarail.json", function(error, rail) {
 });
 */
 
-    });
-  </script>
+});
+</script>
 
 </body>
 
