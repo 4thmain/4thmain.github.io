@@ -18,33 +18,8 @@
 
   <div class="container">
     <div class="row">
-      <h1>India Privacy Watch <small>How the Indian Government is tracking you</small></h1>
+      <h1>The India Privacy Monitor</h1>
     </div>
-    <div class="row" id="projects">
-      <ul>
-        <li><a href="#"><h2>UID</h2>
-          <p><b>Unique Identification</b>
-            Also known as the Aadhar project, the UIDAI scheme will</p>
-          </a></li>
-          <li><a href="#"><h2>NPR</h2>
-            <p><b>National Population Register</b>
-              Also known as the Aadhar project, the UIDAI scheme will</p>
-            </a></li>
-            <li><a href="#"><h2>CCTV</h2>
-              <p><b>Closed Circuit Television Cameras</b>
-                Also known as the Aadhar project, the UIDAI scheme will</p>
-              </a></li>
-              <li><a href="#"><h2>CCTNS</h2>
-                <p><b>Crime and Criminal Tracking & Network System</b>
-                  Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will. Also known as the Aadhar project, the UIDAI scheme will</p>
-                </a></li>
-                <li><a href="#"><h2>UAV</h2>
-                  <p><b>Unmanned Aerial Vehicles</b>
-                    UAV's or Drones are useful for remote surveillance</p>
-                  </a></li>
-                </ul>
-
-              </div>
               <div class="row">
                 <div class="large-5 columns" id="map">
                   <div class="row" id="map-overlay">
@@ -88,6 +63,11 @@
         $(document).ready(function() {
           $('#privacy').load('privacy-monitor.html');
           $(document).foundation();
+
+          //article reset
+          $('article .title a').on('click',function(){
+            console.log('ye');
+          })
 
       //Query wikidata to update language 0.5s after typing a language code
       var timerid;

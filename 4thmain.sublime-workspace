@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"bloc",
+				"inline-block"
+			],
+			[
+				"thi",
+				"thisClass"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"state",
+				"stateName"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"map",
+				"map-overlay"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"mou",
+				"mouseout"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"class",
+				"classed"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"article",
+				"articleId"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"best-r",
+				"best-route-ltd"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"india",
+				"indiaadm1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <title>\n    India Privacy Watch\n  </title>\n  <link href=\"vendor/foundation-4/css/foundation.css\" media=\"all\" rel=\"stylesheet\"\n  type=\"text/css\" />\n  <link href=\"css/style.css\" media=\"all\" rel=\"stylesheet\" type=\"text/css\" />\n  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'\n  type='text/css'>\n  <script src=\"vendor/foundation-4/js/vendor/custom.modernizr.js\"></script>\n</head>\n\n<body>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <h1>The India Privacy Monitor</h1>\n    </div>\n              <div class=\"row\">\n                <div class=\"large-5 columns\" id=\"map\">\n                  <div class=\"row\" id=\"map-overlay\">\n                    <h3>Pick a state:</h3>\n                    <!--h5 class=\"subheader\"><span class=\"State\">26 States</span> & <span class=\"Union\">7 Union Territories</span></h5-->\n                  </div>\n                </div>\n                <div class=\"large-7 columns\" id=\"privacy\">\n\n                </div>\n\n\n              </div>\n            </div>\n          </div>\n\n        </div>\n        <footer class=\"row\">\n          <p id=\"author\" class=\"large-12 columns\">\n            <i>Researched by <b>Maria Ksinou, <a href=\"http://cis-india.org/\">Centre for Internet and Society</a></b>, June 2013</i>  \n          </p>\n\n          <ul id=\"credits\" class=\"large-12 columns\"><small><li>\n            <a href=\"https://github.com/4thmain/4thmain.github.io/tree/master/cis\">Code & Design</a> by <b><a href=\"http://twitter.com/planemad\">Arun Ganesh</a>/4th Main</b>\n          </li>\n          <li>\n            <a href=\"http://thenounproject.com/noun/fingerprint/#icon-No1803\" target=\"_blank\">Fingerprint</a> designed by <a href=\"http://thenounproject.com/andrewforrester\" target=\"_blank\">Andrew Forrester</a> from The Noun Project\n          </li>\n          <li><a href=\"http://thenounproject.com/noun/crime/#icon-No8847\" target=\"_blank\">Crime</a> designed by <a href=\"http://thenounproject.com/Nobunigga\" target=\"_blank\">Eden Clairicia</a> from The Noun Project\n          </li></small></ul>\n\n        </footer>\n        <script src=\"vendor/jquery.js\">\n        </script>\n        <script src=\"vendor/foundation-4/js/foundation.min.js\"></script>\n\n        <script src=\"vendor/foundation-4/js/foundation/foundation.dropdown.js\"></script>\n        <script src=\"vendor/d3/d3.v3.min.js\" charset=\"utf-8\"></script>\n        <script src=\"vendor/d3/topojson.js\"></script>\n        <script>\n        $(document).ready(function() {\n          $('#privacy').load('privacy-monitor.html');\n          $(document).foundation();\n\n          //article reset\n          $('article .title a').on('click',function(){\n            console.log('ye');\n          })\n\n      //Query wikidata to update language 0.5s after typing a language code\n      var timerid;\n      jQuery(\"#lang\").keyup(function() {\n        clearTimeout(timerid);\n        timerid = setTimeout(function() {\n          lang = $(\"#lang\").val();\n          wd(\"labels\", lang);\n          $(\"#lang\").addClass(\"disabled\");\n        }, 500);\n      });\n\n\n\n    });\n\n        <!-- Check for Zepto support, load jQuery if necessary -->\n        document.write('<script src=vendor/foundation-4/js/vendor/' + ('__proto__' in {} ?\n          'zepto' : 'jquery') + '.js><\\/script>');\n\n     //Load the map data\n     var width = 400,\n     height = 450,\n     centered; \n     var projection = d3.geo.albers()\n     .scale(50)\n     .translate([width / 2, height / 2]); \n     var projection = d3.geo.mercator()\n     .center([82.7, 23])\n     .scale(4500)\n     .translate([width / 2, height / 2]); \n     var path = d3.geo.path()\n     .projection(projection); \n     var svg = d3.select(\"#map\").append(\"svg\")\n     .attr(\"width\", width)\n     .attr(\"height\", height);\n\n\n     d3.json(\"img/indiamapjk.json\", function(error, india) {\n\n      var indiamap = topojson.feature(india, india.objects.indiamap).features;\n      d3.selectAll(\"path[wiki]\").classed(\"focus\", true);  //Change map language by taking a user input\n      changeMapLanguage = function() {\n\n      };\n      //return wikidata key from shape\n      wikidata = function(d) {\n        return d.properties.wiki;\n      };\n      //add wikidata id to data attribute from existing labels\n      wdGet = function(lang) {\n\n      };\n      //Returns a label for a wikidata id and language code\n      wdLabel = function(q, lang) {\n        $.ajax({\n          dataType: \"json\",\n          url: \"http://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&ids=\" + q + \"&languages=\" + lang + \"&props=labels&format=json&callback=?\",\n        }).done(function(data) {\n          for (var q in data.entities);\n            return data.entities[q].labels[lang].value;\n        });\n\n      };\n\n      //Change map language\n      wd = function(props, lang) { \n        $(\"text[wiki], #map-overlay [wiki]\").each(function() {\n          q = this.getAttribute(\"wiki\");\n          $.ajax({\n            dataType: \"json\",\n            url: \"http://www.wikidata.org/w/api.php?action=wbgetentities&ids=\" + q + \"&languages=\" + lang + \"&props=\" + props + \"&format=json&callback=?\",\n          }).done(function(data) {\n            for (var q in data.entities)\n              label = data.entities[q].labels[lang].value;\n            //if(props==\"labels\")\n            $(\"svg text[wiki='\" + q + \"']\")[0].textContent = label;\n            //console.log(label);\n            //console.log($(\"#map-overlay [wiki]\"));\n\n          });\n        }); \n      };\n      //reset focus\n      unclickState= function(){\n        d3.selectAll(\"svg text\").classed(\"focus\", false);\n          d3.selectAll(\"svg path\").classed(\"focus\", false);\n          $(\"#privacy article\").slideDown();\n      }\n      //focus state\n      clickState = function(d) {\n        //check if already in focus\n        if (/focus/.test(this.className.baseVal)) {\n          //reset focus\n          unclickState();\n        } else {\n          //set focus\n          //read label that is clicked\n          var stateName = $(\"text[wiki='\" + wikidata(d) + \"']\")[0].textContent;\n          //show selected content\n          console.log(stateName);\n          $(\"#privacy article\").slideUp();\n          $(\"#privacy article h3:contains('\" + stateName + \"')\").parent().slideDown();\n          d3.selectAll(\"svg text\").classed(\"focus\", false);\n          d3.selectAll(\"svg path\").classed(\"focus\", false);\n          d3.selectAll(\"[wiki='\" + wikidata(d) + \"']\").classed(\"focus\", true);\n        }\n      };  \n      //create state paths\n      svg.selectAll(\".subunit\")\n      .data(topojson.feature(india, india.objects.indiamap).features)\n      .enter().append(\"path\")\n      .attr(\"wiki\", function(d) {\n        return wikidata(d);\n      })\n      .attr(\"d\", path)\n      //-interactions\n      //-click path navigator\n      .on(\"click\", clickState)\n      .on(\"mouseover\", function(d, i) {\n        d3.selectAll(\"path\").classed(\"active\", false);\n        d3.selectAll(\"text[wiki='\" + wikidata(d) + \"']\").classed(\"active\", true);\n        d3.select(\"text[wiki='\" + wikidata(d) + \"']\").transition().styleTween(\n          \"font-size\", function() {\n            return d3.interpolate(\"100%\", \"150%\");\n          });\n      })\n      .on(\"mouseout\", function(d, i) {\n        d3.selectAll(\"text\").classed(\"active\", false);\n        d3.select(\"text[wiki='\" + wikidata(d) + \"']\").transition().styleTween(\n          \"font-size\", function() {\n            return d3.interpolate(\"150%\", \"100%\");\n          });\n      }); \n      //text labels: create for all states\n      svg.selectAll(\"text\")\n      .data(topojson.feature(india, india.objects.indiamap).features)\n      .enter()\n      .append(\"text\")\n      .attr(\"transform\", function(d) {\n        return \"translate(\" + path.centroid(d) + \")\";\n      })\n      .attr(\"class\", function(d) {\n        return d.properties.ENGTYPE_1\n      })\n      .attr(\"wiki\", function(d) {\n        return wikidata(d);\n      })\n      .text(function(d) {\n        return d.properties.NAME_1;\n      })\n      //-interactions\n      //-click text map navigator\n      .on(\"click\", clickState)\n      //-highlight corresponding state path\n      .on(\"mouseover\", function(d, i) {\n        d3.selectAll(\"text\").classed(\"active\", false);\n        d3.selectAll(\"path[wiki='\" + wikidata(d) + \"']\").classed(\"active\", true);\n      })\n      //-dim all state paths\n      .on(\"mouseout\", function(d, i) {\n        d3.selectAll(\"path[wiki='\" + wikidata(d) + \"']\").classed(\"active\", false);\n      });\n\n      //wd(\"labels\",\"en\");\n      //Legend teaser\n      $('.subheader span').hover(\n        function() {\n          $('svg .' + $(this).attr('class')).attr('class', 'active')\n        },\n        function() {\n          $('svg .active').removeAttr('class', 'active')\n        }\n        ); \n\n      //Railways layer\n      /*\nd3.json(\"img/indiarail.json\", function(error, rail) {\n  console.log(rail)\n\n  var indiarail=topojson.feature(rail, rail.objects.indiarail).features;\n  svg.selectAll(\".rail\")\n.data(indiarail)\n.enter().append(\"path\")\n.attr(\"d\", path)\n.attr(\"class\", \"rail\");\n\n});\n*/\n\n});\n</script>\n\n</body>\n\n</html>",
+			"file": "cis/india-privacy-monitor.html",
+			"file_size": 8977,
+			"file_write_time": 1373429941000000,
+			"settings":
+			{
+				"buffer_size": 9050,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"hy",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"hyp",
+				"Hyperlink Helper: Wrap Word / Selection as Link"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ft",
+				"FTPSync: Upload current file"
+			],
+			[
+				"",
+				"FTPSync: Upload current file"
+			],
+			[
+				"h",
+				"HTMLPrettify: Prettify"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 277.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/_plugins/jekyll-sass.rb",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/cis/privacy-monitor.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/cis/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/cis/india-privacy-monitor.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/_config.yml",
+		"/Users/Me/Documents/Work/Www/test/_config.yml",
+		"/Users/Me/Documents/Work/Www/4hmain.github.io/projects/chennai-wayfinding/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/chennai-wayfinding/bus-stop-panel.html",
+		"/Users/Me/Documents/Work/Www/4hmain.github.io/projects/chennai-wayfinding/bus-stop-panel.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/cis/untitled.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/cis2/india-privacy-monitor.html",
+		"/Users/Me/Documents/MapBox/project/kedarnath/project.mml",
+		"/Users/Me/Documents/Img/Cathedral_5587dd.svg",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/d3hacks/img/worldmap.json",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/d3hacks/img/indiamap.json",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/stylesheets/styles.css",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/d3hacks/css/style.css",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/index.html",
+		"/Users/Me/Documents/Work/Github/ChaloBEST/chaloBEST/templates/poster/css/style.css",
+		"/Users/Me/Documents/Work/Github/ChaloBEST/chaloBEST/templates/poster/css/style.scss",
+		"/Users/Me/Documents/Work/Github/ChaloBEST/chaloBEST/templates/poster/stop-routes-poster.html",
+		"/Users/Me/Documents/Work/Github/ChaloBEST/chaloBEST/templates/poster/404.html",
+		"/Users/Me/Documents/Work/Github/ChaloBEST/chaloBEST/templates/poster/css/main.css",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_posts/2013-04-23-simple-and-powerful-cms-using-jekyll",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_includes/header.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_layouts/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_layouts/default.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/index.md",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_layouts/header.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_layouts/footer.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/jekyll/_config.yml",
+		"/Users/Me/Documents/Work/Www/4thmain-website/_config.yml",
+		"/Users/Me/Documents/Work/Www/4thmain-website/jekyll/index.md",
+		"/Users/Me/Documents/Work/Www/Boilerplate/.gitattributes",
+		"/Users/Me/Documents/Work/Www/4thmain-website/.gitattributes",
+		"/Users/Me/Documents/Work/Www/4thmain-website/.gitignore",
+		"/Users/Me/Documents/Work/Www/4thmain-website/.htaccess",
+		"/Users/Me/Documents/Work/Www/4thmain-website/d3app/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/main.scss",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/style.css",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/project.mml",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/points",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/rail",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/built",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/natural",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/landuse",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/streets",
+		"/Users/Me/Documents/MapBox/project/india-streets-2/style.mss",
+		"/Users/Me/Documents/GIS/Tools/Scripts/osm2pgsql/default.style",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/normalize.css",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/styles.css",
+		"/Users/Me/Documents/Work/Www/4thmain-website/openup/css/style.scss.css",
+		"/Users/Me/Documents/Work/Www/4thmain-website/d3app/css/style.scss.less",
+		"/Users/Me/Documents/Work/Www/4thmain-website/d3app/d3-leaflet-map.html",
+		"/Users/Me/Documents/Work/Www/4thmain-homepage/ftpsync.settings",
+		"/Users/Me/Documents/Work/Www/4thmain-homepage/d3-leaflet-map.html",
+		"/Users/Me/Documents/Work/Www/lib/jquery/jquery.js",
+		"/Users/Me/Documents/Work/Www/Templates/ajax.php",
+		"/Users/Me/Documents/Github/Induction/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<span\nspan",
+			"<span class=\"c16 c20\">",
+			"<span class=\"c7 c8\">",
+			"<span class=\"c7 c2\">",
+			"<span class=\"c7\">",
+			"<div class=\"section\">",
+			"\"c18",
+			"\"c2",
+			"c2",
+			"span",
+			"<span class=\"\">",
+			"c4",
+			"span",
+			"spna",
+			"c34",
+			"c14 ",
+			"span",
+			"<span class=\"c2\">",
+			"<span>",
+			"&nbsp;",
+			"</span>",
+			"<span class=\"c3\">",
+			" class=\"c5\"",
+			"data-section-content",
+			"data-section-title",
+			"class=\"section-container auto\" data-section",
+			"</div></section>",
+			"<div class=\"section-container auto\" data-section>",
+			"andaman",
+			"orissa",
+			"textCon",
+			"<span class=\"c3 c9\">",
+			"</p>\n	<p class=\"c0\"><span></span>\n	</p>\n	<p class=\"c1\"><span class=\"c3\">",
+			"land",
+			"p",
+			"[data",
+			"log",
+			"wikiwiki",
+			"wiki",
+			"data",
+			"\"Q",
+			"Q",
+			"1159",
+			"clickState",
+			"h2",
+			"replac",
+			"wl",
+			"id",
+			"1000",
+			"uk",
+			"wikiInfo",
+			"list",
+			"span",
+			"bus",
+			"route",
+			"min",
+			"rounded",
+			"a>",
+			"<a",
+			"a",
+			"A",
+			"a",
+			"div",
+			"gray",
+			"highw",
+			"coas",
+			"coat",
+			"chenna\ncoast",
+			"chenna\nchennai",
+			"chenna",
+			"data",
+			"index",
+			"topo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\"",
+			"",
+			"class=\"section\"",
+			"",
+			"[wiki",
+			"wiki",
+			"\"q",
+			"mute"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cis/india-privacy-monitor.html",
+					"settings":
+					{
+						"buffer_size": 9050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5692,
+								5692
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2848.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.475283454818,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}

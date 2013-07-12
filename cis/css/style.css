@@ -1,193 +1,575 @@
-.blur, #projects h2, #projects a p {
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  -webkit-transition: text-shadow 0.6s, color 1s;
-  -moz-transition: text-shadow 0.6s, color 1s;
-  -o-transition: text-shadow 0.6s, color 1s;
-  transition: text-shadow 0.6s, color 1s; }
+#
+planetosmpoint {
+  [railway = 'station']::dot {
+    marker - type: ellipse;
+    marker - width: 2;
+    marker - allow - overlap: true;
+    marker - fill: white;
+    marker - line - color: @building;
+    marker - comp - op: overlay;
+    marker - line - width: 1;
+  }
+}
 
-.sharp, #projects a:hover p, #projects a:hover h2 {
-  color: inherit;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0);
-  -webkit-transition: text-shadow 0.6s, color 1s;
-  -moz-transition: text-shadow 0.6s, color 1s;
-  -o-transition: text-shadow 0.6s, color 1s;
-  transition: text-shadow 0.6s, color 1s; }
+#
+xplanetosmpoint[zoom > 12]::data {
+  [highway = 'bus_stop'], [amenity = 'bus_station'], [railway = 'station'], [amenity = 'ferry_terminal'], [aeroway = 'terminal'] {
+    marker - type: ellipse;
+    marker - width: 3;
+    marker - allow - overlap: true;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.6;
+    marker - fill: yellow;
+    //  marker-comp-op:overlay;
+  }
+  [railway = 'buffer_stop'] {
+    marker - type: ellipse;
+    marker - width: 2;
+    marker - allow - overlap: true;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 1;
+    marker - fill: @railway;
+    //  marker-comp-op:overlay;
+  }
+  [amenity = 'hospital'] {
+    marker - type: ellipse;
+    marker - width: 10;
+    marker - line - color: red;
+    marker - line - opacity: 1;
+    marker - fill - opacity: 0.5;
+    marker - fill: red;
+    marker - allow - overlap: true;
+    // marker-comp-op:hard-light;
+  }
+  [amenity = 'clinic'], [amenity = 'dentist'], [amenity = 'doctors'], [amenity = 'nursing_home'] {
+    marker - type: ellipse;
+    marker - width: 8;
+    marker - line - color: red;
+    marker - line - opacity: 1;
+    marker - fill - opacity: 0.5;
+    marker - fill: red;
+    marker - allow - overlap: true;
+    // marker-comp-op:hard-light;
+  }
+  [amenity = 'pharmacy'] {
+    marker - type: ellipse;
+    marker - width: 4;
+    marker - line - color: red;
+    marker - line - opacity: 1;
+    marker - fill - opacity: 0.5;
+    marker - fill: red;
+    marker - allow - overlap: true;
+    // marker-comp-op:hard-light;
+  }
+  [amenity = 'courthouse'], [amenity = 'townhall'], [amenity = 'university'] {
+    marker - type: ellipse;
+    marker - width: 12;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'police'], [amenity = 'fire_station'], [amenity = 'bank'], [amenity = 'college'] {
+    marker - type: ellipse;
+    marker - width: 10;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'post_office'], [amenity = 'police'], [amenity = 'fire_station'], [amenity = 'bank'], [amenity = 'school'] {
+    marker - type: ellipse;
+    marker - width: 8;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'atm'], [amenity = 'post_box'], [amenity = 'bench'], [amenity = 'toilets'], [amenity = 'kindergarten'] {
+    marker - type: ellipse;
+    marker - width: 5;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'fuel'], [amenity = 'parking'], [amenity = 'taxi'], [amenity = 'car_wash'], [amenity = 'bicycle_parking'] {
+    marker - type: ellipse;
+    marker - width: 5;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: white;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'bicycle_rental'], [amenity = 'car_sharing'] {
+    marker - type: ellipse;
+    marker - width: 3;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: white;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [tourism = 'attraction'], [tourism = 'museum'], [tourism = 'theme_park'], [historic = 'ruins'], [tourism = 'zoo'], [amenity = 'place_of_worship'], [amenity = 'library'] {
+    marker - type: ellipse;
+    marker - width: 10;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: brown;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [tourism = 'artwork'], [historic = 'monument'], [tourism = 'viewpoint'], [tourism = 'yes'], [tourism = 'information'] {
+    marker - type: ellipse;
+    marker - width: 5;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: brown;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'cinema'], [amenity = 'theatre'], [leisure = 'stadium'], [amenity = 'arts_centre'] {
+    marker - type: ellipse;
+    marker - width: 10;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [tourism = 'hotel'], [tourism = 'guest_house'], [tourism = 'hostel'], [amenity = 'nightclub'], {
+    marker - type: ellipse;
+    marker - width: 8;
+    marker - line - color: white;
+    marker - line - opacity: 0;
+    marker - fill - opacity: 0.5;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    // marker-comp-op:overlay;
+  }
+  [amenity = 'restaurant'], [amenity = 'cafe'], [amenity = 'fast_food'], [amenity = 'pub'], [amenity = 'bar'], [shop != ''], [amenity = 'ice_cream'] {
+    marker - type: ellipse;
+    marker - width: 5;
+    marker - line - color: blue;
+    marker - line - opacity: 0.5;
+    marker - fill - opacity: 0.1;
+    marker - fill: blue;
+    marker - allow - overlap: true;
+    marker - comp - op: hard - light;
+  }
+  [natural = 'beach'], [leisure = 'stadium'] {
+    marker - type: ellipse;
+    marker - width: 10;
+    marker - line - color: green;
+    marker - line - opacity: 0.5;
+    marker - fill - opacity: 0.1;
+    marker - fill: green;
+    marker - allow - overlap: true;
+    marker - comp - op: hard - light;
+  }
+  [natural = 'tree'][zoom > 16] {
+    marker - type: ellipse;
+    marker - width: 1;
+    marker - line - opacity: 1;
+    marker - line - color: lightgreen;
+    marker - allow - overlap: true;
+    marker - comp - op: hard - light;::blur {
+      marker - type: ellipse;
+      marker - width: 20;
+      marker - line - color: lighten(green, 50 % );
+      marker - line - opacity: 0;
+      marker - fill - opacity: 0.5;
+      marker - fill: darken(green, 15 % );
+      marker - allow - overlap: true;
+      marker - comp - op: hard - light;
+      image - filters: agg - stack - blur(3, 3);
+    }
+  }
+  [power != ''] {
+    marker - type: ellipse;
+    marker - width: 1;
+    marker - fill: white;
+    marker - allow - overlap: true;
+  }
+}
 
-body {
-  background-color: #eee; }
+#
+planetosmpoint {
+  [place = 'town'] {
+    [tourism = 'attraction'][zoom < 14] {
+      text - halo - fill: @transit;
+    }
+    [admin_level != ''] {
+      text - transform: uppercase;
+    }
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Semibold';
+    text - fill: @national;
+    text - size: 20;
+    text - character - spacing: 10;
+    text - opacity: 0.9;
+    text - allow - overlap: true;
+    text - halo - fill: @residential;
+    text - halo - radius: 1.5;
+    // text-comp-op:overlay;
+  }
+  [place = 'suburb'] {
+    [tourism = 'attraction'][zoom < 15] {
+      text - halo - fill: @transit;
+      text - halo - radius: 1;
+    }
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Semibold';
+    text - fill: @national;
+    text - size: 14;
+    text - character - spacing: 3;
+    text - opacity: 0.8;
+    text - allow - overlap: true;
+    [zoom < 15] {
+      text - allow - overlap: false;
+    }
+  }
+  [place = 'village'] {
+    [tourism = 'attraction'][zoom < 16] {
+      text - halo - fill: @transit;
+      text - fill: darken(@regional, 25 % );
+    }
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Regular';
+    text - fill: @regional;
+    text - size: 14;
+    text - character - spacing: 3;
+    text - opacity: 1;
+    text - halo - fill: @residential;
+    text - halo - radius: 1.5;
+    text - allow - overlap: true;
+    [zoom < 14] {
+      text - allow - overlap: false;
+    }
 
-h1, h2, h3, svg {
-  font-family: 'Source Sans Pro', serif; }
+  }
+  [place = 'hamlet'] {
+    [tourism = 'attraction'][zoom < 16] {
+      text - halo - fill: @transit;
+      text - fill: darken(@regional, 25 % );
+    }
 
-h1 {
-  margin-bottom: 0; }
-  h1 img {
-    height: 40px; }
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Regular';
+    text - fill: @regional;
+    text - size: 10;
+    text - character - spacing: 2;
+    text - opacity: 1;
+    text - halo - fill: @residential;
+    text - halo - radius: 1.2;
+    text - allow - overlap: true;
+    [zoom < 15] {
+      text - allow - overlap: false;
+    }
+  }
 
-h2.subheader {
-  margin: 0; }
+  [place = 'neighbourhood'][zoom > 13] {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Regular';
+    text - size: 10;
+    text - fill: @street;
+    text - wrap - width: 20;
+    text - character - spacing: 1.5;
+    //text-allow-overlap:true;
+    text - placement - type: simple;
+    text - placements: W,
+    E,
+    S,
+    N,
+    10,
+    9;
+    text - align: auto;
+    text - comp - op: multiply;
+  }
+  [place = 'locality'][zoom > 12], [amenity = 'public_building'][zoom > 13] {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Italic';
+    text - size: 9;
+    text - fill: @regional;
+    text - comp - op: multiply;
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    NW,
+    SE,
+    8,
+    7;
+    text - align: auto;
+    // text-allow-overlap:true;
+  }
 
-/*  Project bar  */
-#projects {
-  margin-bottom: 10px; }
-  #projects h2 {
-    opacity: 1;
-    margin: 0; }
-  #projects ul {
-    list-style: none; }
-  #projects li {
-    float: left;
-    width: 20%;
-    padding: 1px; }
-    #projects li:nth-child(1) a {
-      background-image: url("../img/uid.svg"); }
-    #projects li:nth-child(2) a {
-      background-image: url("../img/npr.svg"); }
-    #projects li:nth-child(3) a {
-      background-image: url("../img/cctv.svg"); }
-    #projects li:nth-child(4) a {
-      background-image: url("../img/cctns.svg"); }
-    #projects li:nth-child(5) a {
-      background-image: url("../img/uav.svg"); }
-  #projects a {
-    z-index: 100;
-    background: #222222 url("../img/cctv.svg") no-repeat 80% 50px;
-    color: #eee;
-    padding: 10px;
-    display: block;
-    border-top: 4px solid #111;
-    min-height: 150px;
-    max-height: 150px;
-    cursor: default;
-    -webkit-transition: background-color 0.3s, max-height 0.5s;
-    overflow: hidden;
-    -moz-box-shadow: 0px 1px 2px #333333;
-    -webkit-box-shadow: 0px 1px 2px #333333;
-    box-shadow: 0px 1px 2px #333333;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color')";
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color'); }
-    #projects a:hover {
-      color: #222;
-      background-color: #ddd;
-      min-height: 150px;
-      max-height: 600px;
-      overflow-y: auto; }
-    #projects a p {
-      font-size: 60%; }
-      #projects a p b {
-        display: inline-block; }
+  [natural != ''] {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Semibold Italic';
+    text - size: 10;
+    text - wrap - width: 20;
+    text - character - spacing: 1.5;
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    NW,
+    SE,
+    10,
+    9,
+    8;
+    text - align: auto;
+    text - opacity: 0;
+    [natural = 'wood'] {
+      text - opacity: 1;
+      text - fill: darken(@wood, 30 % );
+      text - comp - op: multiply;
+    }
+    [natural = 'water'] {
+      text - opacity: 1;
+      text - fill: darken(@water, 30 % );
+      text - comp - op: multiply;
+    }
+    [natural = 'peak'] {
+      marker - file: url(peak.svg);
+      marker - allow - overlap: true;
+      marker - ignore - placement: true;
+      marker - transform: scale(0.3, 0.3);
+      text - size: 9;
+      text - opacity: 1;
+      text - dy: 7;
+      text - fill: darken(@wood, 30 % );
+      text - comp - op: multiply;
+    }
+  }
+  [waterway != ''] {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Semibold Italic';
+    text - size: 10;
+    text - wrap - width: 20;
+    text - character - spacing: 1.5;
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    NW,
+    SE,
+    10,
+    9,
+    8;
+    text - align: auto;
+    text - opacity: 0;
+    [waterway = 'waterfall'] {
+      text - opacity: 1;
+      text - fill: darken(@water, 30 % );
+      text - comp - op: multiply;
+    }
+  }
+  [leisure != ''] {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Semibold Italic';
+    text - size: 10;
+    text - wrap - width: 30;
+    text - character - spacing: 1.5;
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    NW,
+    SE,
+    10,
+    9,
+    8;
+    text - align: auto;
+    text - opacity: 0;
+    [leisure = 'stadium'] {
+      text - opacity: 1;
+      text - fill: darken(@wood, 30 % );
+      text - comp - op: multiply;
+    }
+    [leisure = 'common'], [leisure = 'park'] {
+      text - size: 8;
+      text - opacity: 1;
+      text - fill: darken(@recreation, 10 % );
+      text - comp - op: multiply;
+      text - line - spacing: -1;
+    }
 
-/*  Map   */
-#map {
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  position: relative; }
+  }
+  //tourism
+  ::pois {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Italic';
+    text - size: 7.8;
+    text - opacity: 0;
+    text - fill: darken(@market, 15 % );
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    NW,
+    SE,
+    8,
+    7;
+    text - align: auto;
+    text - halo - fill: @transit;
+    text - halo - radius: 1.2;
+    text - wrap - width: 40;
 
-svg {
-  font-size: 60%; }
+    [zoom > 13] {
+      [tourism = 'attraction'], [tourism = 'museum'], [tourism = 'viewpoint'], [historic != ''], [tourism = 'camp_site'], [tourism = 'alpine_hut'], [amenity = 'theatre'], [amenity = 'cinema'] {
+        text - opacity: 1;
+        text - face - name: 'Source Sans Pro Italic';
+      }
+      [tourism != ''][zoom > 15] {
+        text - opacity: 1;
+      }
+      [amenity = 'hospital'] {
+        text - opacity: 1;
+        text - fill: @health;
+        text - comp - op: multiply;
+        text - size: 8;
+        text - halo - fill: transparent;
+      }
+    }
+  }
 
-path[wiki] {
-  fill: #ccc;
-  stroke: #fff;
-  stroke-width: 0.2px; }
-  path[wiki]:hover, path[wiki].active {
-    fill: #ddd;
-    stroke: white;
-    stroke-width: 1px; }
-  path[wiki].focus {
-    opacity: 1;
-    fill: yellow;
-    stroke: #ccc;
-    stroke-width: 1px; }
 
-text[wiki] {
-  text-anchor: middle;
-  cursor: pointer;
-  opacity: 0.4; }
-  text[wiki]:hover, text[wiki].active {
-    font-size: 150%;
-    opacity: 1; }
-  text[wiki].focus {
-    transition: transform 2s;
-    opacity: 1;
-    text-decoration: underline;
-    z-index: 999; }
+  [aeroway = 'terminal'][zoom > 12]::shadow {
+    image - filters: agg - stack - blur(4, 4);
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Bold';
+    text - size: 17;
+    text - fill: black;
+    text - opacity: 0.6;
+    text - allow - overlap: true;
+    text - comp - op: multiply;
+    text - halo - fill: black;
+    text - halo - radius: 2;
+    [disused = 'yes'] {
+      text - opacity: 0;
+    }::top {
+      text - name: '[name]';
+      text - face - name: 'Source Sans Pro Bold';
+      text - size: 17;
+      text - fill: @travel;
+      text - allow - overlap: true;
+      // text-comp-op:overlay;
+      [disused = 'yes'] {
+        text - opacity: 0.5;
+      }
+    }
+  }
+  [aeroway = 'aerodrome'][zoom > 10]::shadow {
 
-.Union {
-  font-size: 8px;
-  font-style: italic; }
+    ::top {
+      text - name: '[name]';
+      text - face - name: 'Source Sans Pro Bold';
+      text - size: 17;
+      text - fill: @travel;
+      text - allow - overlap: true;
+      // text-comp-op:overlay;
+      [disused = 'yes'] {
+        text - opacity: 0.3;
+      }
+    }
+  }
+  [railway = 'station'][zoom > 14]
 
-.State {
-  font-size: 10px; }
+  ::top {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Bold';
+    text - size: 15;
+    text - fill: @transit;
+    text - allow - overlap: true;
+    text - halo - fill: black;
+    text - halo - radius: 2;
+    text - allow - overlap: true;
+    text - dy: 16;
+    [disused = 'yes'] {
+      text - opacity: 0.2;
+    }
+  }
+  [amenity = 'bus_station'][zoom > 14]::top {
 
-.Capital {
-  font-weight: bold; }
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Bold';
+    text - size: 12;
+    text - fill: @transit;
+    text - placement - type: simple;
+    text - placements: N,
+    S,
+    E,
+    W,
+    12;
+    text - dy: 13;
+    text - allow - overlap: true;
+    text - halo - fill: @regional;
+    text - halo - radius: 1;
+  }
+  [amenity = 'ferry_terminal'][zoom > 14]::xshadow {
+    image - filters: agg - stack - blur(1, 1);
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Bold';
+    text - size: 10;
+    text - fill: black;
+    text - opacity: 0.5;
+    text - allow - overlap: true;
+    text - comp - op: multiply;
+    text - halo - fill: black;
+    text - halo - radius: 2;::top {
+      text - name: '[name]';
+      text - face - name: 'Source Sans Pro Bold';
+      text - size: 10;
+      text - fill: yellow;
+      text - allow - overlap: true;
+      // text-comp-op:overlay;
+    }
+  }
+  [highway = 'bus_stop'][zoom > 15]::top {
+    text - name: '[name]';
+    text - face - name: 'Source Sans Pro Regular';
+    text - size: 8;
+    text - align: auto;
+    text - fill: @transit;
+    text - halo - fill: @pedestrian;
+    text - halo - radius: 1.2;
+    text - placement - type: simple;
+    text - placements: NE,
+    SW,
+    SE,
+    NW,
+    E,
+    W,
+    8;
+    text - dy: 8;
+    text - min - distance: 5;
 
-.rail {
-  opacity: 0.1;
-  fill: none;
-  stroke: #777;
-  stroke-width: 1.5px;
-  pointer-events: none; }
-  .rail:hover {
-    opacity: 1;
-    stroke-width: 2px; }
+    // text-comp-op:overlay;
+  }
+  /*
+  [amenity='post_office'],[place!='']{
+    [postal_code!=''],[addr:postcode!='']{
+    text-name:'[postal_code][addr:postcode]';
+    text-face-name:'Source Sans Pro Regular';
+    text-size:10;
+    text-fill:yellow;
+    text-allow-overlap:true;
+   // text-comp-op:overlay;
+    }*/
+}
 
-#map-overlay {
-  margin-left: 10px;
-  opacity: 0.6;
-  position: absolute; }
-  #map-overlay h3 {
-    margin-bottom: 0;
-    pointer-events: none; }
-  #map-overlay .subheader span {
-    background-color: #eee;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    padding: 2px 6px;
-    cursor: pointer; }
 
-form {
-  border-bottom: 1px solid #333; }
-
-#lang {
-  width: 40px; }
-
-.title {
-  margin-bottom: 0; }
-  .title a {
-    color: inherit;
-    font-weight: bold; }
-
-article section {
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  background-color: #fff;
-  padding: 10px 20px;
-  margin-bottom: 5px;
-  font-size: 80%; }
-
-footer {
-  margin-top: 10px !important;
-  font-size: 80%;
-  color: #999; }
-  footer p {
-    border-top: 1px solid #eee;
-    padding-top: 5px;
-    margin-bottom: 0; }
-  footer a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: 1px dotted black; }
-  footer #credits li {
-    display: inline;
-    margin-right: 5px;
-    opacity: 0.5; }
-    footer #credits li:hover {
-      opacity: 1; }
-    footer #credits li:before {
-      content: '\ffed'; }
+}

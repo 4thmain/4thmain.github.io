@@ -1,60 +1,257 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>4thmain/Jekyll on Gihub Pages</title>
+<!DOCTYPE html>
+<html lang="en">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>4thmain/Jekyll on Gihub Pages</h1>
-        <p>4thmain website hosted on github pages</p>
+<head>
+  <meta charset="utf-8">
+  <title>
+    India Privacy Watch
+  </title>
+  <link href="vendor/foundation-4/css/foundation.css" media="all" rel="stylesheet"
+  type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet'
+  type='text/css'>
+  <script src="vendor/foundation-4/js/vendor/custom.modernizr.js"></script>
+</head>
 
+<body>
 
-        <p class="view"><a href="https://github.com/4thmain">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+  <div class="container">
+    <div class="row">
+      <h1>The India Privacy Monitor</h1>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+              <div class="row">
+                <div class="large-5 columns" id="map">
+                  <div class="row" id="map-overlay">
+                    <h3>Pick a state:</h3>
+                    <!--h5 class="subheader"><span class="State">26 States</span> & <span class="Union">7 Union Territories</span></h5-->
+                  </div>
+                </div>
+                <div class="large-7 columns" id="privacy">
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <footer class="row">
+          <p id="author" class="large-12 columns">
+            <i>Researched by <b>Maria Ksinou, <a href="http://cis-india.org/">Centre for Internet and Society</a></b>, June 2013</i>  
+          </p>
+
+          <ul id="credits" class="large-12 columns"><small><li>
+            <a href="https://github.com/4thmain/4thmain.github.io/tree/master/cis">Code & Design</a> by <b><a href="http://twitter.com/planemad">Arun Ganesh</a>/4th Main</b>
+          </li>
+          <li>
+            <a href="http://thenounproject.com/noun/fingerprint/#icon-No1803" target="_blank">Fingerprint</a> designed by <a href="http://thenounproject.com/andrewforrester" target="_blank">Andrew Forrester</a> from The Noun Project
+          </li>
+          <li><a href="http://thenounproject.com/noun/crime/#icon-No8847" target="_blank">Crime</a> designed by <a href="http://thenounproject.com/Nobunigga" target="_blank">Eden Clairicia</a> from The Noun Project
+          </li></small></ul>
+
+        </footer>
+        <script src="vendor/jquery.js">
+        </script>
+        <script src="vendor/foundation-4/js/foundation.min.js"></script>
+
+        <script src="vendor/foundation-4/js/foundation/foundation.dropdown.js"></script>
+        <script src="vendor/d3/d3.v3.min.js" charset="utf-8"></script>
+        <script src="vendor/d3/topojson.js"></script>
+        <script>
+        $(document).ready(function() {
+          $('#privacy').load('privacy-monitor.html');
+          $(document).foundation();
+
+      //Query wikidata to update language 0.5s after typing a language code
+      var timerid;
+      jQuery("#lang").keyup(function() {
+        clearTimeout(timerid);
+        timerid = setTimeout(function() {
+          lang = $("#lang").val();
+          wd("labels", lang);
+          $("#lang").addClass("disabled");
+        }, 500);
+      });
+
+
+
+    });
+
+        <!-- Check for Zepto support, load jQuery if necessary -->
+        document.write('<script src=vendor/foundation-4/js/vendor/' + ('__proto__' in {} ?
+          'zepto' : 'jquery') + '.js><\/script>');
+
+     //Load the map data
+     var width = 400,
+     height = 450,
+     centered; 
+     var projection = d3.geo.albers()
+     .scale(50)
+     .translate([width / 2, height / 2]); 
+     var projection = d3.geo.mercator()
+     .center([82.7, 23])
+     .scale(4500)
+     .translate([width / 2, height / 2]); 
+     var path = d3.geo.path()
+     .projection(projection); 
+     var svg = d3.select("#map").append("svg")
+     .attr("width", width)
+     .attr("height", height);
+
+
+     d3.json("img/indiamapjk.json", function(error, india) {
+
+      var indiamap = topojson.feature(india, india.objects.indiamap).features;
+      d3.selectAll("path[wiki]").classed("focus", true);  //Change map language by taking a user input
+      changeMapLanguage = function() {
+
+      };
+      //return wikidata key from shape
+      wikidata = function(d) {
+        return d.properties.wiki;
+      };
+      //add wikidata id to data attribute from existing labels
+      wdGet = function(lang) {
+
+      };
+      //Returns a label for a wikidata id and language code
+      wdLabel = function(q, lang) {
+        $.ajax({
+          dataType: "json",
+          url: "http://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&ids=" + q + "&languages=" + lang + "&props=labels&format=json&callback=?",
+        }).done(function(data) {
+          for (var q in data.entities);
+            return data.entities[q].labels[lang].value;
+        });
+
+      };
+
+      //Change map language
+      wd = function(props, lang) { 
+        $("text[wiki], #map-overlay [wiki]").each(function() {
+          q = this.getAttribute("wiki");
+          $.ajax({
+            dataType: "json",
+            url: "http://www.wikidata.org/w/api.php?action=wbgetentities&ids=" + q + "&languages=" + lang + "&props=" + props + "&format=json&callback=?",
+          }).done(function(data) {
+            for (var q in data.entities)
+              label = data.entities[q].labels[lang].value;
+            //if(props=="labels")
+            $("svg text[wiki='" + q + "']")[0].textContent = label;
+            //console.log(label);
+            //console.log($("#map-overlay [wiki]"));
+
+          });
+        }); 
+      };
+      //focus state
+      clickState = function(d) {
+        //check if already in focus
+        if (/focus/.test(this.className.baseVal)) {
+          //reset focus
+          d3.selectAll("svg text").classed("focus", false);
+          d3.selectAll("svg path").classed("focus", false);
+          $("#privacy article").slideDown();
+        } else {
+          //set focus
+          //read label that is clicked
+          var stateName = $("text[wiki='" + wikidata(d) + "']")[0].textContent;
+          //show selected content
+          console.log(stateName);
+          $("#privacy article").slideUp();
+          $("#privacy article h3:contains('" + stateName + "')").parent().slideDown();
+          d3.selectAll("svg text").classed("focus", false);
+          d3.selectAll("svg path").classed("focus", false);
+          d3.selectAll("[wiki='" + wikidata(d) + "']").classed("focus", true);
+        }
+      };  
+      //create state paths
+      svg.selectAll(".subunit")
+      .data(topojson.feature(india, india.objects.indiamap).features)
+      .enter().append("path")
+      .attr("wiki", function(d) {
+        return wikidata(d);
+      })
+      .attr("d", path)
+      //-interactions
+      //-click path navigator
+      .on("click", clickState)
+      .on("mouseover", function(d, i) {
+        d3.selectAll("path").classed("active", false);
+        d3.selectAll("text[wiki='" + wikidata(d) + "']").classed("active", true);
+        d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
+          "font-size", function() {
+            return d3.interpolate("100%", "150%");
+          });
+      })
+      .on("mouseout", function(d, i) {
+        d3.selectAll("text").classed("active", false);
+        d3.select("text[wiki='" + wikidata(d) + "']").transition().styleTween(
+          "font-size", function() {
+            return d3.interpolate("150%", "100%");
+          });
+      }); 
+      //text labels: create for all states
+      svg.selectAll("text")
+      .data(topojson.feature(india, india.objects.indiamap).features)
+      .enter()
+      .append("text")
+      .attr("transform", function(d) {
+        return "translate(" + path.centroid(d) + ")";
+      })
+      .attr("class", function(d) {
+        return d.properties.ENGTYPE_1
+      })
+      .attr("wiki", function(d) {
+        return wikidata(d);
+      })
+      .text(function(d) {
+        return d.properties.NAME_1;
+      })
+      //-interactions
+      //-click text map navigator
+      .on("click", clickState)
+      //-highlight corresponding state path
+      .on("mouseover", function(d, i) {
+        d3.selectAll("text").classed("active", false);
+        d3.selectAll("path[wiki='" + wikidata(d) + "']").classed("active", true);
+      })
+      //-dim all state paths
+      .on("mouseout", function(d, i) {
+        d3.selectAll("path[wiki='" + wikidata(d) + "']").classed("active", false);
+      });
+
+      //wd("labels","en");
+      //Legend teaser
+      $('.subheader span').hover(
+        function() {
+          $('svg .' + $(this).attr('class')).attr('class', 'active')
+        },
+        function() {
+          $('svg .active').removeAttr('class', 'active')
+        }
+        ); 
+
+      //Railways layer
+      /*
+d3.json("img/indiarail.json", function(error, rail) {
+  console.log(rail)
+
+  var indiarail=topojson.feature(rail, rail.objects.indiarail).features;
+  svg.selectAll(".rail")
+.data(indiarail)
+.enter().append("path")
+.attr("d", path)
+.attr("class", "rail");
+
+});
+*/
+
+});
+</script>
+
+</body>
+
 </html>
