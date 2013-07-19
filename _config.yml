@@ -4,6 +4,8 @@ description: ""
 url: "http://localhost:4000"
 #url: "http://4thmain.github.io"
 
+projects: ./_projects
+
 paginate: 10
 
 markdown: rdiscount

@@ -1,6 +1,9 @@
 ---
 title: Jekyll, you were whom I was looking for
 layout: default
+category: web
+tags: [starting, jekyll]
+comments: true
 ---
 
 ## Website up and running using Jekyll
