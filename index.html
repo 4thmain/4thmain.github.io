@@ -14,16 +14,13 @@ layout: default
       {% endif %}
       <!-- Post title -->
       <h6>{{ post.title }}
-      <small>{{ post.category }} . {{ post.time | date_to_long_string }}</small></h6></a>
+      <small>{{ post.category }} . {{ post.date | date_to_long_string }}</small></h6></a>
     </li>
   {% endfor %}
 </ul> 
 </div>
 <div class="large-3 columns">
 	<ul class="side-nav">
-   {% for p in site.categories %}
-  <li class="active"><a href="#">ad</a></li>
-  {% endfor %}
   <li><a href="#">Link 2</a></li>
   <li class="divider"></li>
   <li><a href="#">Link 3</a></li>
