@@ -6,14 +6,24 @@ layout: default
 <ul class="small-block-grid-2 large-block-grid-3 board">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+    <!-- Start a block -->
+      <a href="{{ post.url }}">
+      <!-- Display thumbnail if set -->
+      {% if post.thumb %}
+      <img src="/public/img/{{ post.thumb }}" />
+      {% endif %}
+      <!-- Post title -->
+      <h6>{{ post.title }}
+      <small>{{ post.category }} . {{ post.time | date_to_long_string }}</small></h6></a>
     </li>
   {% endfor %}
 </ul> 
 </div>
 <div class="large-3 columns">
 	<ul class="side-nav">
-  <li class="active"><a href="#">Link 1</a></li>
+   {% for p in site.categories %}
+  <li class="active"><a href="#">ad</a></li>
+  {% endfor %}
   <li><a href="#">Link 2</a></li>
   <li class="divider"></li>
   <li><a href="#">Link 3</a></li>

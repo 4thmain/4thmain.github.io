@@ -1,7 +1,7 @@
 ---
 title: Ahmedabad BRTS Network Map
 layout: default
-category: web
+category: map
 tags: [starting, jekyll]
 comments: true
 thumb: Ahmedabad_BRTS_Network_Map-thumb.png
@@ -13,4 +13,4 @@ source: http://upload.wikimedia.org/wikipedia/commons/4/47/Ahmedabad_BRTS_Networ
 
 I have never built a website before, this is the first, and its been a breeze.
 
-[Jekyll]() {{ site.linkInfo }}
+[Jekyll]() tut {{ page.info }}
