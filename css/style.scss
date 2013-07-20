@@ -1,6 +1,6 @@
 @import "_settings";
 
-$text:#111;
+$text:#333;
 
 @mixin rounded($vert, $horz, $radius: 10px) {
   border-#{$vert}-#{$horz}-radius: $radius;
@@ -38,11 +38,19 @@ $text:#111;
  transition: text-shadow 0.6s, color 1s;
 }
 html{
+
     background-color:#eee;
   background-image: url('../public/img/texture-paper.jpg');
 }
 body{
     background-color:transparent;
+    font-family:'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,b{
+  font-family:'Roboto Slab' ;
+  font-weight:700;
+}
+small{
 }
 
 .color{
@@ -63,9 +71,14 @@ header{
 
 .board{
   li>a{
-    background-color: #eee;
     padding:5px;
     display:block;
     color:$text;
+    font-size:80%;
   }
+}
+
+/*  Disqus  */
+#layout{
+  display:none;
 }
