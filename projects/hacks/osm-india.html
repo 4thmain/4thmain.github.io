@@ -52,12 +52,12 @@
         //When GeoJSON is ready
         var geojsonLayer = new L.GeoJSON(jk);   //New GeoJSON layer
         
-       L.geoJson( jk, {
+        L.geoJson( jk, {
         //Define boundary style to match map. Reference: http://leafletjs.com/reference.html#path-options
-    style: function (feature) {
-        return { color: "#222", opacity: 1, fillOpacity: 0, weight: 1.5,clickable:false };
-    }
-}).addTo(map);
+        style: function (feature) {
+          return { color: "#222", opacity: 1, fillOpacity: 0, weight: 1.5,clickable:false };
+        }
+      }).addTo(map);
 
       });
 
@@ -66,8 +66,8 @@
 
 
 
-    </script>
+</script>
 
-  </body>
+</body>
 
-  </html>
+</html>
