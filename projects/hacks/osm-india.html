@@ -46,13 +46,14 @@
         }).addTo(map);
 
       //Overlay Indian version of Jammu & Kashmir
-      $.get("img/jkline.geojson", function(jk) {  //Ajax load file
+      $.get("img/jkline.geojson", function(jk) {  //Ajax load boundary file
         jk = JSON.parse( jk );  //Parse the geojson
 
         //When GeoJSON is ready
         var geojsonLayer = new L.GeoJSON(jk);   //New GeoJSON layer
         
        L.geoJson( jk, {
+        //Define boundary style to match map. Reference: http://leafletjs.com/reference.html#path-options
     style: function (feature) {
         return { color: "#222", opacity: 1, fillOpacity: 0, weight: 1.5,clickable:false };
     }
