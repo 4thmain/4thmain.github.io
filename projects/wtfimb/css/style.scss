@@ -1,0 +1,45 @@
+@import "_settings";
+
+@mixin rounded($vert, $horz, $radius: 10px) {
+  border-#{$vert}-#{$horz}-radius: $radius;
+  -moz-border-radius-#{$vert}#{$horz}: $radius;
+  -webkit-border-#{$vert}-#{$horz}-radius: $radius;
+}
+@mixin rounded-corners($amount: 5px){
+  border-radius: $amount;
+  -moz-border-radius: $amount;
+  -webkit-border-radius: $amount;
+}
+
+@mixin shadow($color: #333333) {
+  -moz-box-shadow: 0px 1px 2px $color;
+  -webkit-box-shadow: 0px 1px 2px $color;
+  box-shadow: 0px 1px 2px $color;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='$color');
+}
+.blur {
+ color: transparent;
+ text-shadow: 0 0 5px rgba(0,0,0,0.5);
+ -webkit-transition: text-shadow 0.6s, color 1s;
+ -moz-transition: text-shadow 0.6s, color 1s;
+ -o-transition: text-shadow 0.6s, color 1s;
+ transition: text-shadow 0.6s, color 1s;
+
+}
+.sharp {
+ color: inherit;
+ text-shadow: 0 0 5px rgba(0,0,0,0);
+ -webkit-transition: text-shadow 0.6s, color 1s;
+ -moz-transition: text-shadow 0.6s, color 1s;
+ -o-transition: text-shadow 0.6s, color 1s;
+ transition: text-shadow 0.6s, color 1s;
+}
+body{
+  background-color:#eee;
+}
+h1,h2,h3,svg{
+
+ font-family: 'Source Sans Pro', serif;
+}
+
