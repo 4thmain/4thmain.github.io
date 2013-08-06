@@ -43,3 +43,33 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+/* From http://zurb.com/playground/foundation-icons */
+@import "foundicons";
+@font-face {
+  font-family: 'generalFoundicons';
+  src: url('../fonts/general_foundicons.eot');
+  src: url('fonts/general_foundicons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/general_foundicons.woff') format('woff'),
+       url('fonts/general_foundicons.ttf') format('truetype'),
+       url('fonts/general_foundicons.svg#generalFoundicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+ 
+[class*="foundicon-"]:before {
+  font-family: "generalFoundicons";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}

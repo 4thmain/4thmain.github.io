@@ -1,0 +1,123 @@
+$theme-base:#222;
+$theme-neutral:#eee;
+$theme-tedx:red;
+
+
+$body-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+body{
+	background-color:$theme-base;
+	color:$theme-neutral;
+}
+header{
+	background-color:$theme-neutral;
+}
+h2,h3,h4{
+	color:$theme-tedx;
+	font-weight: normal;
+}
+
+header{
+
+	img{
+		padding:10px 0;
+	}	
+}
+
+article{
+	padding:70px;
+}
+aside{
+	margin-top: 10px;
+	background-color: $theme-neutral;
+	padding:20px;
+}
+
+#page-links{
+	position: relative;
+	nav{
+		position:absolute;
+
+	}
+	input{
+		background-color: transparent;
+		border-color: transparent;
+		border-bottom:1px solid $theme-tedx;
+	}
+	i{
+		position:absolute;
+		right:6px;
+		top:7px;
+		font-size: 110%;
+		color:$theme-base;
+		opacity:0.6;
+	}
+	a.button{
+		background-color: $theme-base;
+		border-color: $theme-base;
+	}
+}
+
+#banner{
+	display:none;
+}
+
+#theme{
+	h1{
+		color:$theme-neutral;
+		font-weight: normal;
+		font-size: 400%;
+		font-family: "Helvetica";
+		position:relative;
+		span{
+			position:absolute;
+			right:0;
+			top:-58%;
+			font-size: 200%;
+			color:$theme-tedx;
+			font-weight: normal;
+		}
+	}
+	p{
+		font-size: 70%;
+	}
+}
+h2{
+	font-size:120%;
+	line-height:90%;
+	position:relative;
+	font-weight: normal;
+	i{
+		float:left;
+		padding:5px 10px 5px;
+		font-size: 110%;
+		color:$theme-neutral;
+	}
+	small{
+	}
+}
+#schedule{
+	list-style: none;
+	li{
+padding-bottom:10px;
+background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1) 7%,rgba(134,143,154,0) 8%,rgba(229,229,229,0) 100%); /* W3C */
+
+	}
+	.label{
+		opacity:0.9;
+		padding:10px;
+		background-color: $theme-neutral;
+		color:$theme-base;
+		margin-right: 10px;
+		&:after{
+			content:" hrs";
+			opacity:0.8;
+		}
+	}
+	}
+	#register.tedx{
+		width:100%;
+		background-color:$theme-tedx;
+		border-color:transparent;
+		color:$theme-neutral;
+	}

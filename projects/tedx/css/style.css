@@ -1,0 +1,136 @@
+/* line 8, ../_sass/style.scss */
+body {
+  background-color: #222222;
+  color: #eeeeee;
+}
+
+/* line 12, ../_sass/style.scss */
+header {
+  background-color: #eeeeee;
+}
+
+/* line 15, ../_sass/style.scss */
+h2, h3, h4 {
+  color: red;
+  font-weight: normal;
+}
+
+/* line 22, ../_sass/style.scss */
+header img {
+  padding: 10px 0;
+}
+
+/* line 27, ../_sass/style.scss */
+article {
+  padding: 70px;
+}
+
+/* line 30, ../_sass/style.scss */
+aside {
+  margin-top: 10px;
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+/* line 36, ../_sass/style.scss */
+#page-links {
+  position: relative;
+}
+/* line 38, ../_sass/style.scss */
+#page-links nav {
+  position: absolute;
+}
+/* line 42, ../_sass/style.scss */
+#page-links input {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 1px solid red;
+}
+/* line 47, ../_sass/style.scss */
+#page-links i {
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  font-size: 110%;
+  color: #222222;
+  opacity: 0.6;
+}
+/* line 55, ../_sass/style.scss */
+#page-links a.button {
+  background-color: #222222;
+  border-color: #222222;
+}
+
+/* line 61, ../_sass/style.scss */
+#banner {
+  display: none;
+}
+
+/* line 66, ../_sass/style.scss */
+#theme h1 {
+  color: #eeeeee;
+  font-weight: normal;
+  font-size: 400%;
+  font-family: "Helvetica";
+  position: relative;
+}
+/* line 72, ../_sass/style.scss */
+#theme h1 span {
+  position: absolute;
+  right: 0;
+  top: -58%;
+  font-size: 200%;
+  color: red;
+  font-weight: normal;
+}
+/* line 81, ../_sass/style.scss */
+#theme p {
+  font-size: 70%;
+}
+
+/* line 85, ../_sass/style.scss */
+h2 {
+  font-size: 120%;
+  line-height: 90%;
+  position: relative;
+  font-weight: normal;
+}
+/* line 90, ../_sass/style.scss */
+h2 i {
+  float: left;
+  padding: 5px 10px 5px;
+  font-size: 110%;
+  color: #eeeeee;
+}
+
+/* line 99, ../_sass/style.scss */
+#schedule {
+  list-style: none;
+}
+/* line 101, ../_sass/style.scss */
+#schedule li {
+  padding-bottom: 10px;
+  background: linear-gradient(to right, rgba(133, 142, 153, 0) 6%, #858e99 7%, rgba(134, 143, 154, 0) 8%, rgba(229, 229, 229, 0) 100%);
+  /* W3C */
+}
+/* line 106, ../_sass/style.scss */
+#schedule .label {
+  opacity: 0.9;
+  padding: 10px;
+  background-color: #eeeeee;
+  color: #222222;
+  margin-right: 10px;
+}
+/* line 112, ../_sass/style.scss */
+#schedule .label:after {
+  content: " hrs";
+  opacity: 0.8;
+}
+
+/* line 118, ../_sass/style.scss */
+#register.tedx {
+  width: 100%;
+  background-color: red;
+  border-color: transparent;
+  color: #eeeeee;
+}

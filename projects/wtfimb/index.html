@@ -6,138 +6,93 @@
   <title>
     Bus routes in India
   </title>
+  <!--Shim-->
+  <script src="vendor/foundation-4.3.1/js/vendor/custom.modernizr.js"></script>
+  <!-- Stylesheets-->
   <link href="vendor/foundation-4.3.1/css/foundation.css" media="all" rel="stylesheet"
   type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <!--Webfonts-->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Slab' rel='stylesheet'
   type='text/css'>
-    <script src="vendor/foundation-4.3.1/js/vendor/custom.modernizr.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
 
-  <div class="container">
-    
-    <nav class="top-bar">
-  <ul class="title-area">
-    <!-- Title Area -->
-    <li class="name">
-      <h1><a href="#">Top Bar Title </a></h1>
-    </li>
-    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li class="divider"></li>
-      <li class="active"><a href="#">Main Item 1</a></li>
-      <li class="divider"></li>
-      <li><a href="#">Main Item 2</a></li>
-      <li class="divider"></li>
-      <li class="has-dropdown"><a href="#">Main Item 3</a>
-
-        <ul class="dropdown">
-          <li class="has-dropdown"><a href="#">Dropdown Level 1a</a>
-
-            <ul class="dropdown">
-              <li><label>Dropdown Level 2 Label</label></li>
-              <li><a href="#">Dropdown Level 2a</a></li>
-              <li><a href="#">Dropdown Level 2b</a></li>
-              <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
-
-                <ul class="dropdown">
-                  <li><label>Dropdown Level 3 Label</label></li>
-                  <li><a href="#">Dropdown Level 3a</a></li>
-                  <li><a href="#">Dropdown Level 3b</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Dropdown Level 3c</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown Level 2d</a></li>
-              <li><a href="#">Dropdown Level 2e</a></li>
-              <li><a href="#">Dropdown Level 2f</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Dropdown Level 1b</a></li>
-          <li><a href="#">Dropdown Level 1c</a></li>
-          <li class="divider"></li>
-          <li><a href="#">Dropdown Level 1d</a></li>
-          <li><a href="#">Dropdown Level 1e</a></li>
-          <li><a href="#">Dropdown Level 1f</a></li>
-          <li class="divider"></li>
-          <li><a href="#">See all &rarr;</a></li>
-        </ul>
+  <nav class="top-bar">
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <h1><a href="#">PublicTransit.in</a></h1>
       </li>
-      <li class="divider"></li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="divider hide-for-small"></li>
-      <li class="has-dropdown"><a href="#">Main Item 4</a>
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="divider"></li>
+        <li class="active has-dropdown"><a href="#">Chennai</a>
+          <ul class="dropdown">
+            <li><label>Cities</label></li>
+            <li><a href="#">Bangalore</a></li>
+            <li class="active"><a href="#">Chennai</a></li>
+            <li><a href="#">Hyderabad</a></li>
+            <li><a href="#">New Delhi</a></li>
+            <li class="divider"></li>
+            <li><label>State Transport</label></li>
+            <li><a href="#">Himachal Pradesh</a></li>
+            <li><a href="#">Karnataka</a></li>
+            <li><a href="#">Tamil Nadu</a></li>
+            <li class="divider"></li>
+            <li class=""><a href="#">View all →</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="divider hide-for-small"></li>
+        <li><a href="#"></a>
 
-        <ul class="dropdown">
-          <li><label>Dropdown Level 1 Label</label></li>
-          <li class="has-dropdown"><a href="#" class="">Dropdown Level 1a</a>
-
-            <ul class="dropdown">
-              <li><a href="#">Dropdown Level 2a</a></li>
-              <li><a href="#">Dropdown Level 2b</a></li>
-              <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
-
-                <ul class="dropdown">
-                  <li><a href="#">Dropdown Level 3a</a></li>
-                  <li><a href="#">Dropdown Level 3b</a></li>
-                  <li><a href="#">Dropdown Level 3c</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown Level 2d</a></li>
-              <li><a href="#">Dropdown Level 2e</a></li>
-              <li><a href="#">Dropdown Level 2f</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Dropdown Level 1b</a></li>
-          <li><a href="#">Dropdown Level 1c</a></li>
-          <li class="divider"></li>
-          <li><label>Dropdown Level 1 Label</label></li>
-          <li><a href="#">Dropdown Level 1d</a></li>
-          <li><a href="#">Dropdown Level 1e</a></li>
-          <li><a href="#">Dropdown Level 1f</a></li>
-          <li class="divider"></li>
-          <li><a href="#">See all &rarr;</a></li>
-        </ul>
-      </li>
-      <li class="divider"></li>
-      <li class="has-form">
-        <form>
-          <div class="row collapse">
-            <div class="small-8 columns">
-              <input type="text">
+        </li>
+        <li class="divider"></li>
+        <li class="has-form">
+          <form>
+            <div class="row collapse">
+              <div class="small-8 columns">
+                <input type="text">
+              </div>
+              <div class="small-4 columns">create view place as select * from planet_osm_point where place != 'NULL';
+                <a href="#" class="alert button">Search</a>
+              </div>
             </div>
-            <div class="small-4 columns">
-              <a href="#" class="alert button">Search</a>
-            </div>
-          </div>
-        </form>
-      </li>
-      <li class="divider show-for-small"></li>
-      <li class="has-form">
-        <a class="button" href="#">Button!</a>
-      </li>
-    </ul>
-  </section>
-</nav>
-
-  </div>
-<!-- Scripts -->
+          </form>
+        </li>
+        <li class="divider show-for-small"></li>
+        <li class="has-form">
+          <a class="button" href="#">Button!</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+<!-- Content-->
+<article>
+</article>
+  <!-- Scripts -->
   <script src="vendor/foundation-4.3.1/js/foundation.min.js"></script>
-<!-- Check for Zepto support, load jQuery if necessary -->
+  <!-- Check for Zepto support, load jQuery if necessary -->
   <script>
-    document.write('<script src=vendor/foundation-4.3.1/js/vendor/' + ('__proto__' in {} ?
-      'zepto' : 'jquery') + '.js><\/script>');
+    document.write('<script src=vendor/foundation-4.3.1/js/vendor/'
+      + ('__proto__' in {} ? 'zepto' : 'jquery')
+      + '.js><\/script>');
   </script>
-<!-- End Scripts -->
+  <!--Inititalize foundation-->
+  <script>
+    $(document).foundation();
+  </script>
+  <!-- End Scripts -->
+
 </body>
 
 </html>
