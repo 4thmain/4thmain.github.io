@@ -22,7 +22,7 @@ header img {
 
 /* line 27, ../_sass/style.scss */
 article {
-  padding: 70px;
+  padding: 0 70px;
 }
 
 /* line 30, ../_sass/style.scss */
@@ -59,11 +59,6 @@ aside {
 #page-links a.button {
   background-color: #222222;
   border-color: #222222;
-}
-
-/* line 61, ../_sass/style.scss */
-#banner {
-  display: none;
 }
 
 /* line 66, ../_sass/style.scss */
@@ -113,8 +108,9 @@ h2 i {
   background: linear-gradient(to right, rgba(133, 142, 153, 0) 6%, #858e99 7%, rgba(134, 143, 154, 0) 8%, rgba(229, 229, 229, 0) 100%);
   /* W3C */
 }
+
 /* line 106, ../_sass/style.scss */
-#schedule .label {
+.label {
   opacity: 0.9;
   padding: 10px;
   background-color: #eeeeee;
@@ -122,15 +118,83 @@ h2 i {
   margin-right: 10px;
 }
 /* line 112, ../_sass/style.scss */
-#schedule .label:after {
+.label:after {
   content: " hrs";
   opacity: 0.8;
 }
 
-/* line 118, ../_sass/style.scss */
+/* line 117, ../_sass/style.scss */
 #register.tedx {
   width: 100%;
   background-color: red;
   border-color: transparent;
   color: #eeeeee;
+}
+
+/* Carousel */
+/* line 126, ../_sass/style.scss */
+.ca-container {
+  height: 340px;
+}
+
+/* line 129, ../_sass/style.scss */
+.ca-item-main {
+  background-color: black;
+  position: relative;
+}
+/* line 132, ../_sass/style.scss */
+.ca-item-main h2 {
+  color: #eeeeee;
+  text-align: left;
+}
+/* line 136, ../_sass/style.scss */
+.ca-item-main p {
+  text-align: left;
+  font-size: 70%;
+  margin: 0;
+}
+
+/* line 142, ../_sass/style.scss */
+.ca-content-wrapper {
+  background-color: #222222;
+}
+
+/* line 145, ../_sass/style.scss */
+.ca-content {
+  color: #eeeeee;
+  padding: 15px;
+}
+/* line 148, ../_sass/style.scss */
+.ca-content h3 {
+  color: red;
+}
+/* line 151, ../_sass/style.scss */
+.ca-content ul {
+  list-style: none;
+}
+/* line 154, ../_sass/style.scss */
+.ca-content .ca-content-text, .ca-content ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 158, ../_sass/style.scss */
+.ca-content .ca-close {
+  background-color: red;
+}
+
+/* line 162, ../_sass/style.scss */
+a.ca-more {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 167, ../_sass/style.scss */
+a.ca-more:hover {
+  color: inherit;
+}
+/* line 170, ../_sass/style.scss */
+a.ca-more span {
+  color: red;
+  float: right;
 }
