@@ -1,9 +1,12 @@
 $theme-base:#222;
 $theme-neutral:#eee;
 $theme-tedx:red;
-
-
 $body-font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+
+$small-screen: emCalc(768);
+$medium-screen: emCalc(1280);
+$large-screen: emCalc(1440);
+$small: "only screen and (min-width:"#{$small-screen}")";
 
 body{
 	background-color:$theme-base;
@@ -18,42 +21,79 @@ h2,h3,h4{
 }
 
 header{
-.row{
-	position:relative;
-}
+	padding:10px 10px 0 10px;
+	&>.row{
+		position:relative;
+		@media all and (max-width: 1500px) and (min-width: 768px){
+		&>div:nth-child(2) {
+			position:absolute;
+			right:0;
+			bottom: 0;
+		}
+	}
+	}
 	img{
-		padding:10px 0;
+		float:left;
+		margin:10px 0;
 	}	
+	a.tedx{
+		font-size: 150%;
+		padding: 10px 0;
+		color:$theme-base;
+		float:left;
+		b{
+			color:$theme-tedx;
+		}
+		&:hover{
+		}
+	}
 }
 
 article{
 	padding:0 70px;
 }
-aside{
-	margin-top: 10px;
+
+aside>div{
+	margin: 10px 0;
 	background-color: $theme-neutral;
 	padding:20px;
 }
 
-#page-links{
-	position: absolute;
-	bottom:30px;
-	right:0;
-	nav{
-		position:absolute;
-li{
+nav{
+	float:right;
+	li{
 		padding:0 2px;
 	}
+	a.button{
+		background-color: $theme-base;
+		border-color: $theme-base;
+		margin:0;
+		font-weight: normal;
+		&:hover,&.active{
+			background-color: $theme-tedx;
+		}
 	}
+
+}
+
+
+
+#search{
+	position:relative;
+	width:200px;
+	float:right;
+right:0;
+	margin-bottom: 10px;
 	input{
 		background-color: transparent;
 		border-color: transparent;
 		box-shadow:none;
 		-webkit-box-shadow:none;
 		margin:0;
+		padding-left: 15px;
 	}
 	.input-line{
-		height:2px;
+		height:3px;
 		border-bottom:1px solid $theme-tedx;
 		border-left:1px solid $theme-tedx;
 		position:relative;
@@ -66,19 +106,6 @@ li{
 		font-size: 110%;
 		color:$theme-base;
 		opacity:0.6;
-	}
-
-	a.button{
-		background-color: $theme-base;
-		border-color: $theme-base;
-		margin:0;
-		font-weight: normal;
-		&:hover,&.active{
-			background-color: $theme-tedx;
-		}
-	}
-	.tedx{
-		background-color: $theme-base;
 	}
 }
 
@@ -106,11 +133,10 @@ li{
 		font-size: 70%;
 	}
 }
-h2{
+h4{
 	font-size:120%;
 	line-height:90%;
 	position:relative;
-	font-weight: normal;
 	i{
 		float:left;
 		padding:5px 10px 5px;
@@ -120,13 +146,15 @@ h2{
 	small{
 	}
 }
+
 #schedule{
 	list-style: none;
 	li{
 		padding-bottom:10px;
-background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1) 7%,rgba(134,143,154,0) 8%,rgba(229,229,229,0) 100%); /* W3C */
+		background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1) 7%,rgba(134,143,154,0) 8%,rgba(229,229,229,0) 100%); /* W3C */
+	}
 }
-}
+
 .label{
 	opacity:0.9;
 	padding:10px;
@@ -138,13 +166,13 @@ background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1)
 		opacity:0.8;
 	}
 }
+
 #register.tedx{
 	width:100%;
 	background-color:$theme-tedx;
 	border-color:transparent;
 	color:$theme-neutral;
 }
-
 
 /* Carousel */
 .ca-container{
@@ -176,7 +204,7 @@ background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1)
 		list-style: none;
 	}
 	.ca-content-text,ul{
-		padding:0;
+		padding:5px;
 		margin:0;
 	}
 	.ca-close{
@@ -185,14 +213,14 @@ background: linear-gradient(to right, rgba(133,142,153,0) 6%,rgba(133,142,153,1)
 }
 a.ca-more{
 	position: absolute;
-		bottom:0;
-		padding:10px;
-		background-color: rgba(0,0,0,0.5);
-		&:hover{
-			color:inherit;
-		}
- span{
-	color: $theme-tedx;
-	float: right;
-}
+	bottom:0;
+	padding:10px;
+	background-color: rgba(0,0,0,0.5);
+	&:hover{
+		color:inherit;
+	}
+	span{
+		color: $theme-tedx;
+		float: right;
+	}
 }
