@@ -15,38 +15,58 @@ h2, h3, h4 {
   font-weight: normal;
 }
 
-/* line 22, ../_sass/style.scss */
+/* line 21, ../_sass/style.scss */
+header .row {
+  position: relative;
+}
+/* line 24, ../_sass/style.scss */
 header img {
   padding: 10px 0;
 }
 
-/* line 27, ../_sass/style.scss */
+/* line 29, ../_sass/style.scss */
 article {
   padding: 0 70px;
 }
 
-/* line 30, ../_sass/style.scss */
+/* line 32, ../_sass/style.scss */
 aside {
   margin-top: 10px;
   background-color: #eeeeee;
   padding: 20px;
 }
 
-/* line 36, ../_sass/style.scss */
-#page-links {
-  position: relative;
-}
 /* line 38, ../_sass/style.scss */
+#page-links {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+/* line 42, ../_sass/style.scss */
 #page-links nav {
   position: absolute;
 }
-/* line 42, ../_sass/style.scss */
+/* line 44, ../_sass/style.scss */
+#page-links nav li {
+  padding: 0 2px;
+}
+/* line 48, ../_sass/style.scss */
 #page-links input {
   background-color: transparent;
   border-color: transparent;
-  border-bottom: 1px solid red;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0;
 }
-/* line 47, ../_sass/style.scss */
+/* line 55, ../_sass/style.scss */
+#page-links .input-line {
+  height: 2px;
+  border-bottom: 1px solid red;
+  border-left: 1px solid red;
+  position: relative;
+  bottom: 0;
+}
+/* line 62, ../_sass/style.scss */
 #page-links i {
   position: absolute;
   right: 6px;
@@ -55,13 +75,23 @@ aside {
   color: #222222;
   opacity: 0.6;
 }
-/* line 55, ../_sass/style.scss */
+/* line 71, ../_sass/style.scss */
 #page-links a.button {
   background-color: #222222;
   border-color: #222222;
+  margin: 0;
+  font-weight: normal;
+}
+/* line 76, ../_sass/style.scss */
+#page-links a.button:hover, #page-links a.button.active {
+  background-color: red;
+}
+/* line 80, ../_sass/style.scss */
+#page-links .tedx {
+  background-color: #222222;
 }
 
-/* line 66, ../_sass/style.scss */
+/* line 90, ../_sass/style.scss */
 #theme h1 {
   color: #eeeeee;
   font-weight: normal;
@@ -69,7 +99,7 @@ aside {
   font-family: "Helvetica";
   position: relative;
 }
-/* line 72, ../_sass/style.scss */
+/* line 96, ../_sass/style.scss */
 #theme h1 span {
   position: absolute;
   right: 0;
@@ -78,19 +108,19 @@ aside {
   color: red;
   font-weight: normal;
 }
-/* line 81, ../_sass/style.scss */
+/* line 105, ../_sass/style.scss */
 #theme p {
   font-size: 70%;
 }
 
-/* line 85, ../_sass/style.scss */
+/* line 109, ../_sass/style.scss */
 h2 {
   font-size: 120%;
   line-height: 90%;
   position: relative;
   font-weight: normal;
 }
-/* line 90, ../_sass/style.scss */
+/* line 114, ../_sass/style.scss */
 h2 i {
   float: left;
   padding: 5px 10px 5px;
@@ -98,18 +128,18 @@ h2 i {
   color: #eeeeee;
 }
 
-/* line 99, ../_sass/style.scss */
+/* line 123, ../_sass/style.scss */
 #schedule {
   list-style: none;
 }
-/* line 101, ../_sass/style.scss */
+/* line 125, ../_sass/style.scss */
 #schedule li {
   padding-bottom: 10px;
   background: linear-gradient(to right, rgba(133, 142, 153, 0) 6%, #858e99 7%, rgba(134, 143, 154, 0) 8%, rgba(229, 229, 229, 0) 100%);
   /* W3C */
 }
 
-/* line 106, ../_sass/style.scss */
+/* line 130, ../_sass/style.scss */
 .label {
   opacity: 0.9;
   padding: 10px;
@@ -117,13 +147,13 @@ h2 i {
   color: #222222;
   margin-right: 10px;
 }
-/* line 112, ../_sass/style.scss */
+/* line 136, ../_sass/style.scss */
 .label:after {
   content: " hrs";
   opacity: 0.8;
 }
 
-/* line 117, ../_sass/style.scss */
+/* line 141, ../_sass/style.scss */
 #register.tedx {
   width: 100%;
   background-color: red;
@@ -132,68 +162,68 @@ h2 i {
 }
 
 /* Carousel */
-/* line 126, ../_sass/style.scss */
+/* line 150, ../_sass/style.scss */
 .ca-container {
   height: 340px;
 }
 
-/* line 129, ../_sass/style.scss */
+/* line 153, ../_sass/style.scss */
 .ca-item-main {
   background-color: black;
   position: relative;
 }
-/* line 132, ../_sass/style.scss */
+/* line 156, ../_sass/style.scss */
 .ca-item-main h2 {
   color: #eeeeee;
   text-align: left;
 }
-/* line 136, ../_sass/style.scss */
+/* line 160, ../_sass/style.scss */
 .ca-item-main p {
   text-align: left;
   font-size: 70%;
   margin: 0;
 }
 
-/* line 142, ../_sass/style.scss */
+/* line 166, ../_sass/style.scss */
 .ca-content-wrapper {
   background-color: #222222;
 }
 
-/* line 145, ../_sass/style.scss */
+/* line 169, ../_sass/style.scss */
 .ca-content {
   color: #eeeeee;
   padding: 15px;
 }
-/* line 148, ../_sass/style.scss */
+/* line 172, ../_sass/style.scss */
 .ca-content h3 {
   color: red;
 }
-/* line 151, ../_sass/style.scss */
+/* line 175, ../_sass/style.scss */
 .ca-content ul {
   list-style: none;
 }
-/* line 154, ../_sass/style.scss */
+/* line 178, ../_sass/style.scss */
 .ca-content .ca-content-text, .ca-content ul {
   padding: 0;
   margin: 0;
 }
-/* line 158, ../_sass/style.scss */
+/* line 182, ../_sass/style.scss */
 .ca-content .ca-close {
   background-color: red;
 }
 
-/* line 162, ../_sass/style.scss */
+/* line 186, ../_sass/style.scss */
 a.ca-more {
   position: absolute;
   bottom: 0;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 167, ../_sass/style.scss */
+/* line 191, ../_sass/style.scss */
 a.ca-more:hover {
   color: inherit;
 }
-/* line 170, ../_sass/style.scss */
+/* line 194, ../_sass/style.scss */
 a.ca-more span {
   color: red;
   float: right;

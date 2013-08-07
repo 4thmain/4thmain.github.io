@@ -18,7 +18,9 @@ h2,h3,h4{
 }
 
 header{
-
+.row{
+	position:relative;
+}
 	img{
 		padding:10px 0;
 	}	
@@ -34,15 +36,28 @@ aside{
 }
 
 #page-links{
-	position: relative;
+	position: absolute;
+	bottom:30px;
+	right:0;
 	nav{
 		position:absolute;
-
+li{
+		padding:0 2px;
+	}
 	}
 	input{
 		background-color: transparent;
 		border-color: transparent;
+		box-shadow:none;
+		-webkit-box-shadow:none;
+		margin:0;
+	}
+	.input-line{
+		height:2px;
 		border-bottom:1px solid $theme-tedx;
+		border-left:1px solid $theme-tedx;
+		position:relative;
+		bottom:0;
 	}
 	i{
 		position:absolute;
@@ -52,9 +67,18 @@ aside{
 		color:$theme-base;
 		opacity:0.6;
 	}
+
 	a.button{
 		background-color: $theme-base;
 		border-color: $theme-base;
+		margin:0;
+		font-weight: normal;
+		&:hover,&.active{
+			background-color: $theme-tedx;
+		}
+	}
+	.tedx{
+		background-color: $theme-base;
 	}
 }
 
