@@ -11,7 +11,7 @@ header {
 
 /* line 18, ../_sass/style.scss */
 h2, h3, h4 {
-  color: red;
+  color: #e40000;
   font-weight: normal;
 }
 
@@ -45,42 +45,78 @@ header a.tedx {
 }
 /* line 44, ../_sass/style.scss */
 header a.tedx b {
-  color: red;
+  color: #e40000;
 }
 
 /* line 52, ../_sass/style.scss */
 article {
-  padding: 0 70px;
+  padding: 0 70px 70px 70px;
 }
 
 /* line 56, ../_sass/style.scss */
-aside > div {
-  margin: 10px 0;
+#venue-details {
+  margin: 20px 0;
   background-color: #eeeeee;
-  padding: 20px;
+  padding: 30px 20px;
+}
+/* line 60, ../_sass/style.scss */
+#venue-details h5:first-child {
+  margin: 0;
+}
+/* line 62, ../_sass/style.scss */
+#venue-details h5:first-child small {
+  color: #e40000;
+}
+/* line 66, ../_sass/style.scss */
+#venue-details h5.subheader {
+  color: #e40000;
+  margin-top: 30px;
+}
+/* line 70, ../_sass/style.scss */
+#venue-details p {
+  color: #222222;
+  font-size: 80%;
+  margin-bottom: 5px;
+}
+/* line 75, ../_sass/style.scss */
+#venue-details img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 79, ../_sass/style.scss */
+#venue-details > a {
+  font-size: 70%;
+  padding: 5px;
+  background-color: #222222;
+  color: #eeeeee;
+  opacity: 0.8;
+}
+/* line 85, ../_sass/style.scss */
+#venue-details > a:hover {
+  opacity: 1;
 }
 
-/* line 62, ../_sass/style.scss */
+/* line 91, ../_sass/style.scss */
 nav {
   float: right;
 }
-/* line 64, ../_sass/style.scss */
+/* line 93, ../_sass/style.scss */
 nav li {
   padding: 0 2px;
 }
-/* line 67, ../_sass/style.scss */
+/* line 96, ../_sass/style.scss */
 nav a.button {
   background-color: #222222;
   border-color: #222222;
   margin: 0;
   font-weight: normal;
 }
-/* line 72, ../_sass/style.scss */
+/* line 101, ../_sass/style.scss */
 nav a.button:hover, nav a.button.active {
-  background-color: red;
+  background-color: #e40000;
 }
 
-/* line 81, ../_sass/style.scss */
+/* line 110, ../_sass/style.scss */
 #search {
   position: relative;
   width: 200px;
@@ -88,7 +124,7 @@ nav a.button:hover, nav a.button.active {
   right: 0;
   margin-bottom: 10px;
 }
-/* line 87, ../_sass/style.scss */
+/* line 116, ../_sass/style.scss */
 #search input {
   background-color: transparent;
   border-color: transparent;
@@ -97,15 +133,15 @@ nav a.button:hover, nav a.button.active {
   margin: 0;
   padding-left: 15px;
 }
-/* line 95, ../_sass/style.scss */
+/* line 124, ../_sass/style.scss */
 #search .input-line {
   height: 3px;
-  border-bottom: 1px solid red;
-  border-left: 1px solid red;
+  border-bottom: 1px solid #e40000;
+  border-left: 1px solid #e40000;
   position: relative;
   bottom: 0;
 }
-/* line 102, ../_sass/style.scss */
+/* line 131, ../_sass/style.scss */
 #search i {
   position: absolute;
   right: 6px;
@@ -115,7 +151,7 @@ nav a.button:hover, nav a.button.active {
   opacity: 0.6;
 }
 
-/* line 117, ../_sass/style.scss */
+/* line 146, ../_sass/style.scss */
 #theme h1 {
   color: #eeeeee;
   font-weight: normal;
@@ -123,27 +159,27 @@ nav a.button:hover, nav a.button.active {
   font-family: "Helvetica";
   position: relative;
 }
-/* line 123, ../_sass/style.scss */
+/* line 152, ../_sass/style.scss */
 #theme h1 span {
   position: absolute;
   right: 0;
   top: -58%;
   font-size: 200%;
-  color: red;
+  color: #e40000;
   font-weight: normal;
 }
-/* line 132, ../_sass/style.scss */
+/* line 161, ../_sass/style.scss */
 #theme p {
   font-size: 70%;
 }
 
-/* line 136, ../_sass/style.scss */
+/* line 165, ../_sass/style.scss */
 h4 {
   font-size: 120%;
   line-height: 90%;
   position: relative;
 }
-/* line 140, ../_sass/style.scss */
+/* line 169, ../_sass/style.scss */
 h4 i {
   float: left;
   padding: 5px 10px 5px;
@@ -151,103 +187,124 @@ h4 i {
   color: #eeeeee;
 }
 
-/* line 150, ../_sass/style.scss */
+/* line 179, ../_sass/style.scss */
 #schedule {
   list-style: none;
 }
-/* line 152, ../_sass/style.scss */
-#schedule li {
+/* line 181, ../_sass/style.scss */
+#schedule li:not(:last-child) {
   padding-bottom: 10px;
   background: linear-gradient(to right, rgba(133, 142, 153, 0) 6%, #858e99 7%, rgba(134, 143, 154, 0) 8%, rgba(229, 229, 229, 0) 100%);
   /* W3C */
 }
+/* line 185, ../_sass/style.scss */
+#schedule small {
+  color: #e40000;
+  margin-left: 10px;
+}
 
-/* line 158, ../_sass/style.scss */
+/* line 191, ../_sass/style.scss */
 .label {
   opacity: 0.9;
   padding: 10px;
   background-color: #eeeeee;
   color: #222222;
-  margin-right: 10px;
+  margin-right: 15px;
+  border-radius: 5px;
 }
-/* line 164, ../_sass/style.scss */
+/* line 198, ../_sass/style.scss */
 .label:after {
   content: " hrs";
   opacity: 0.8;
 }
 
-/* line 170, ../_sass/style.scss */
+/* line 204, ../_sass/style.scss */
 #register.tedx {
   width: 100%;
-  background-color: red;
+  background-color: #e40000;
   border-color: transparent;
   color: #eeeeee;
 }
 
+/* line 211, ../_sass/style.scss */
+footer {
+  background-color: #ccc;
+  padding: 10px 0;
+  border-top: 2px solid #e40000;
+}
+/* line 215, ../_sass/style.scss */
+footer h6 {
+  color: #e40000;
+}
+/* line 218, ../_sass/style.scss */
+footer p {
+  color: inherit;
+}
+
 /* Carousel */
-/* line 178, ../_sass/style.scss */
+/* line 224, ../_sass/style.scss */
 .ca-container {
   height: 340px;
 }
 
-/* line 181, ../_sass/style.scss */
+/* line 227, ../_sass/style.scss */
 .ca-item-main {
   background-color: black;
   position: relative;
 }
-/* line 184, ../_sass/style.scss */
+/* line 230, ../_sass/style.scss */
 .ca-item-main h2 {
   color: #eeeeee;
   text-align: left;
 }
-/* line 188, ../_sass/style.scss */
+/* line 234, ../_sass/style.scss */
 .ca-item-main p {
   text-align: left;
   font-size: 70%;
   margin: 0;
 }
 
-/* line 194, ../_sass/style.scss */
+/* line 240, ../_sass/style.scss */
 .ca-content-wrapper {
   background-color: #222222;
 }
 
-/* line 197, ../_sass/style.scss */
+/* line 243, ../_sass/style.scss */
 .ca-content {
   color: #eeeeee;
   padding: 15px;
 }
-/* line 200, ../_sass/style.scss */
+/* line 246, ../_sass/style.scss */
 .ca-content h3 {
-  color: red;
+  color: #e40000;
 }
-/* line 203, ../_sass/style.scss */
+/* line 249, ../_sass/style.scss */
 .ca-content ul {
   list-style: none;
 }
-/* line 206, ../_sass/style.scss */
+/* line 252, ../_sass/style.scss */
 .ca-content .ca-content-text, .ca-content ul {
   padding: 5px;
   margin: 0;
 }
-/* line 210, ../_sass/style.scss */
+/* line 256, ../_sass/style.scss */
 .ca-content .ca-close {
-  background-color: red;
+  background-color: #e40000;
 }
 
-/* line 214, ../_sass/style.scss */
+/* line 260, ../_sass/style.scss */
 a.ca-more {
   position: absolute;
   bottom: 0;
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 219, ../_sass/style.scss */
+/* line 265, ../_sass/style.scss */
 a.ca-more:hover {
   color: inherit;
 }
-/* line 222, ../_sass/style.scss */
+/* line 268, ../_sass/style.scss */
 a.ca-more span {
-  color: red;
+  color: #e40000;
   float: right;
 }
