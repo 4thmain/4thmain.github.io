@@ -52,8 +52,8 @@
 <script src="vendor/d3/topojson.js"></script>
 <script>
 
-$(document).ready(function() {
-  $(document).foundation(); 
+  $(document).ready(function() {
+    $(document).foundation(); 
 
 //Query wikidata to update language 0.5s after typing a language code
 var timerid;
@@ -64,16 +64,26 @@ jQuery("#lang").keyup(function() {
     wd("labels",lang);
     $("#lang").addClass("disabled");
   }, 500);
+
+  //Bind this keypress function to all of the input tags
+  $("input").keypress(function (evt) {
+//Deterime where our character code is coming from within the event
+var charCode = evt.charCode || evt.keyCode;
+if (charCode  == 13) { //Enter key's keycode
+  return false;
+}
+});
+
 });
 
 
 
 });
 
-<!-- Check for Zepto support, load jQuery if necessary -->
-document.write('<script src=vendor/foundation-4/js/vendor/'
-  + ('__proto__' in {} ? 'zepto' : 'jquery')
-  + '.js><\/script>');
+  <!-- Check for Zepto support, load jQuery if necessary -->
+  document.write('<script src=vendor/foundation-4/js/vendor/'
+    + ('__proto__' in {} ? 'zepto' : 'jquery')
+    + '.js><\/script>');
 
 //Load the map data
 var width = 500,
