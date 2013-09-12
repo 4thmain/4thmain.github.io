@@ -4,8 +4,64 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"th",
+				"theme-tedx"
+			],
+			[
+				"the",
+				"theme-neutral"
+			],
+			[
 				"font",
-				"font-family"
+				"font-size"
+			],
+			[
+				"them",
+				"theme-base"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"theme",
+				"theme-base"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-image"
+			],
+			[
+				"back",
+				"background-color"
 			],
 			[
 				"padding",
@@ -20,20 +76,12 @@
 				"nowrap"
 			],
 			[
-				"border",
-				"border-top"
-			],
-			[
 				"in",
 				"inline-block"
 			],
 			[
 				"h",
 				"h2	Tag"
-			],
-			[
-				"backgr",
-				"background"
 			],
 			[
 				"bloc",
@@ -48,10 +96,6 @@
 				"stateName"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"map",
 				"map-overlay"
 			],
@@ -60,20 +104,12 @@
 				"z-index"
 			],
 			[
-				"tex",
-				"text-decoration"
-			],
-			[
 				"i",
 				"italic"
 			],
 			[
 				"font-s",
 				"font-style"
-			],
-			[
-				"fon",
-				"font-weight"
 			],
 			[
 				"mou",
@@ -120,10 +156,6 @@
 				"inline"
 			],
 			[
-				"paddin",
-				"padding-bottom"
-			],
-			[
 				"font-",
 				"font-weight"
 			],
@@ -152,20 +184,35 @@
 	"buffers":
 	[
 		{
-			"file": "projects/cis/css/style.scss",
+			"file": "projects/tedx/index.html",
 			"settings":
 			{
-				"buffer_size": 4296,
+				"buffer_size": 13443,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Already the privileged were becoming shameless with their progress in information and reasoning (but being ignorant towards knowledge)! Facebook made it so much more easier for you in being pimps and prostitutes (In what you share with each other and how you like it)!\nStop fooling around in making each other feel good in your small boxes!",
+			"file": "projects/tedx/_sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 340,
-				"line_ending": "Unix",
-				"name": "Already the privileged were becoming shameless wit"
+				"buffer_size": 3914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Me/Downloads/reveal.js-2.4.0/index.html",
+			"settings":
+			{
+				"buffer_size": 12945,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects/tedx/js/jquery-carousel/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3404,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -177,6 +224,18 @@
 		[
 			[
 				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
 				"Indentation: Reindent Lines"
 			],
 			[
@@ -192,20 +251,12 @@
 				"Preferences: Browse Packages"
 			],
 			[
-				"rein",
-				"Indentation: Reindent Lines"
-			],
-			[
 				"html",
 				"HTMLPrettify"
 			],
 			[
 				"ht",
 				"HTMLPrettify"
-			],
-			[
-				"rei",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"htm",
@@ -260,15 +311,11 @@
 				"FTPSync: Upload current file"
 			],
 			[
-				"",
-				"FTPSync: Upload current file"
-			],
-			[
 				"h",
 				"HTMLPrettify: Prettify"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -289,6 +336,20 @@
 	},
 	"file_history":
 	[
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/_sass/app.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/_sass/_settings.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx_old/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx_dharamshala/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/sass/app.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/_sass/config.rb",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx_dharamshala/index.html",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/tedx_dharamshala/vendor/jquery-carousel/css/style.css",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/wtfimb/css/style.scss",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/wtfimb/index.html",
+		"/Users/Me/Documents/GIS/Tools/psql views",
+		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/cis/css/style.scss",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/cis/readme.md",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/cis/updates.html",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/cis/india-privacy-monitor.html",
@@ -302,7 +363,6 @@
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/index.html",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/css/style.scss",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/_posts/2011-12-23-ahmedabad-brts-network-map.md",
-		"/Users/Me/Documents/Work/Www/4thmain.github.io/projects/cis/css/style.scss",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/stylesheets/style.scss",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/_posts/2013-04-23-simple-and-powerful-cms-using-jekyll.md",
 		"/Users/Me/Documents/Work/Www/4thmain.github.io/_config.yml",
@@ -386,6 +446,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"regis",
+			"shad",
 			"focu",
 			"<span\nspan",
 			"<span class=\"c16 c20\">",
@@ -491,56 +553,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "projects/cis/css/style.scss",
+					"file": "projects/tedx/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4296,
+						"buffer_size": 13443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3855,
-								3855
+								12233,
+								12233
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2819.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 340,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								340,
-								340
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Already the privileged were becoming shameless wit",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 163.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -548,8 +583,91 @@
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "projects/tedx/_sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1370,
+								1370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 948.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Me/Downloads/reveal.js-2.4.0/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11899,
+								11917
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6914.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "projects/tedx/js/jquery-carousel/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1966.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -581,7 +699,7 @@
 		"cols":
 		[
 			0.0,
-			0.435493489019,
+			0.494238938048,
 			1.0
 		],
 		"rows":

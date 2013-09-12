@@ -108,7 +108,7 @@ d3.json("img/indiamapjk.json", function(error, india) {
   };
     //return wikidata key from shape
     wikidata=function(d){
-      return d.properties.wiki;
+      return d.properties.wiki.toUpperCase();
     };
     //add wikidata id to data attribute from existing labels
     wdGet=function(lang){
