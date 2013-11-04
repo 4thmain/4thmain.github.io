@@ -22,20 +22,15 @@
   </head>
 
   <body>
-
-    <div id="map">
-      <div id="overlay">
-        <div class="row">
-        <div id="service" class="large-8 columns">
-          <h1>Hyderabad <small>to</small> Nagpur<div class="subheader">Neeta Volvo</div></h1> 
-          <h2>Next Stop: <div class="subheader">Highway Restaurant</div></h2>
-          </div>
-          <div id="info" class="large-4 columns">
+    <div id="info">
+    <div id="status">
           <h3>Speed: 60 kmph</h3>
           <h4>Scheduled Arrival: 06:30</h4>
-          </div>
         </div>
-      </div>
+        <h1>Hyderabad <small>to</small> Nagpur<div class="subheader">Neeta Volvo</div></h1>
+        
+    </div>
+    <div id="map">
     </div>
     <script src="vendor/jquery.js"></script>
     <script src="vendor/foundation-4/js/foundation.min.js"></script>
@@ -51,13 +46,30 @@
           maxZoom: 13
         }).addTo(map);
 
+        var bus;
+
+        function update_position() {
+          $.getJSON('img/live-bus-tracker-route1.geojson', function(data) {
+            console.log(data);
+            var latitude = data["features"]["iss_position"]["latitude"];
+            var longitude = data["features"]["iss_position"]["longitude"];
+            if (!bus) {
+              bus = L.marker([latitude,longitude]).bindPopup("Speed: 60kmph").addTo(map);
+            }
+            bus.setLatLng([latitude,longitude]).update();
+            setTimeout(update_position, 1000);
+          });
+        }
+
+        update_position();
+
 
       });
 
 
 
-    </script>
+</script>
 
-  </body>
+</body>
 
-  </html>
+</html>

@@ -33,7 +33,7 @@ $best-route:#111;
 }
 
 body{
-  background-color:#444;
+  background-color:#eee;
 }
 
 
@@ -45,15 +45,13 @@ h1,h2,h3,svg,body{
 #map{
   height:900px;
 }
-#overlay{
-  position:absolute;
-  z-index:2000;
-  background-color: #eee;
-  border:1px solid #ddd;
-  margin:50px;
-  padding:20px;
-  width:80%%;
-}
 #info{
+  border:1px solid #ddd;
+  padding:10px 30px;
+}
+#status{
   background-color: #fff;
+  float:right;
+  margin:10px;
+  padding:10px;
 }
