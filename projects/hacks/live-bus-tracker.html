@@ -24,11 +24,18 @@
   <body>
 
     <div id="map">
-    <div id="overlay">
-      <div class="row">
-<h1>Hyderabad <small>to</small> Nagpur<div class="subheader">Neeta Volvo</div></h1> 
+      <div id="overlay">
+        <div class="row">
+        <div id="service" class="large-8 columns">
+          <h1>Hyderabad <small>to</small> Nagpur<div class="subheader">Neeta Volvo</div></h1> 
+          <h2>Next Stop: <div class="subheader">Highway Restaurant</div></h2>
+          </div>
+          <div id="info" class="large-4 columns">
+          <h3>Speed: 60 kmph</h3>
+          <h4>Scheduled Arrival: 06:30</h4>
+          </div>
+        </div>
       </div>
-</div>
     </div>
     <script src="vendor/jquery.js"></script>
     <script src="vendor/foundation-4/js/foundation.min.js"></script>
@@ -39,18 +46,18 @@
 
         var map = L.map('map').setView([17.36, 78.47], 9);
 
-L.tileLayer('img/osm-india-clear-map/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
-    maxZoom: 13
-}).addTo(map);
+        L.tileLayer('img/osm-india-clear-map/{z}/{x}/{y}.png', {
+          attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
+          maxZoom: 13
+        }).addTo(map);
 
 
-    });
+      });
 
 
 
-</script>
+    </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
