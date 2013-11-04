@@ -1,0 +1,12 @@
+{
+    "attribution": "Arun Ganesh, 4th Main", 
+    "description": "Touring Talkies", 
+    "center": "78.5178,17.4864,7", 
+    "bounds": "74.821,12.2321,81.1271,21.759", 
+    "minzoom": "2", 
+    "version": "0.1.0", 
+    "template": "", 
+    "maxzoom": "10", 
+    "legend": "", 
+    "name": "Touring Talkies Live Map"
+}
