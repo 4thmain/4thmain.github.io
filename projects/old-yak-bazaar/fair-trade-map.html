@@ -37,8 +37,7 @@
     <script>
       $(document).ready(function() {
 
-        var map = L.mapbox.map('map', 'planemad.pirate-map')
-
+        var map = L.mapbox.map('map', 'planemad.pirate-map');
 
         $.getJSON('img/bazaar-locations.geojson', function(places) {
           map.markerLayer.setGeoJSON(places);
