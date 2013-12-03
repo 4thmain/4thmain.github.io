@@ -4,6 +4,9 @@ body{
 	background-color:#eaeaea;
 }
 
+h2{
+	margin-bottom:0;
+}
 #company-list{
 	list-style: none;
 }
