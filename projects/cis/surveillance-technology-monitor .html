@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		Ranking of Surveillance products and solutions - CIS
+	</title>
+	<link href="vendor/foundation-4/css/foundation.css" media="all" rel="stylesheet"
+	type="text/css" />
+	<link href="css/style.css" media="all" rel="stylesheet" type="text/css"
+	/>
+	<script src="vendor/foundation-4/js/vendor/custom.modernizr.js"></script>
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.3/leaflet.ie.css" />
+    <![endif]-->
+
+</head>
+
+<body>
+	<script src="vendor/d3/d3.v3.min.js"></script>
+
+	<div class="container">
+		<h2>Ranking a sample of Surveillance Technology Companies in India</h1>
+		<div class="row">
+			<div class="large-12 columns">
+				<ul id="company-list">
+					
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script src="vendor/jquery.js"></script>
+	<script src="vendor/jquery.csv-0.71.min.js"></script>
+	<script src="vendor/foundation-4/js/foundation.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+
+			$(document).foundation(); 
+
+		});
+
+		$.get("img/data.csv", function(csv){
+			var data= $.csv.toObjects(csv);
+			
+
+			for (var i in data){
+
+				/*	Calculate data values for each company */
+
+				var computeThreat = function(threat,weight){
+					/*	Add threat weights	*/
+
+					var threatScore = 0;
+
+					for ( var i in threat ){
+						threatScore += weight(threat[i]);
+					}
+
+					return threatScore;
+
+				};
+
+				var clientThreatFactor = function(d){
+					/*	Return threat weights for Clients	*/
+					switch (d){
+
+						case '1':
+						return 5;
+						break;
+
+						case '2':
+						return 10;
+						break;
+
+						case '4':
+						return 15;
+						break;
+
+						case '8':
+						return 20;
+						break;
+
+						default:
+						return 1;
+					}
+
+				};
+
+				var productThreatFactor = function(d){
+					/*	Return threat weights for surveillance products	*/
+					switch (d){
+
+						case '1':
+						return 1;
+						break;
+
+						case '2':
+						return 2;
+						break;
+
+						case '3':
+						return 3;
+						break;
+
+						case '4':
+						return 4;
+						break;
+
+						case '5':
+						return 5;
+						break;
+
+						case '6':
+						return 6;
+						break;
+
+						case '7':
+						return 7;
+						break;
+
+						case '8':
+						return 8;
+						break;
+
+						case '9':
+						return 9;
+						break;
+
+						default:
+						return 1;
+					}
+
+				};
+
+				/*	Compute data values	*/
+				data[i].productClass = data[i].productThreat.replace(/\s/g,'').split(',');
+				data[i].productThreat = computeThreat(data[i].productClass,productThreatFactor);
+
+				data[i].clientClass = data[i].clientThreat.replace(/\s/g,'').split(',');
+				data[i].clientThreat = computeThreat(data[i].clientClass,clientThreatFactor);
+				data[i].companyThreat = data[i].clientThreat * data[i].productThreat;
+
+				console.log(data[i]);
+
+			}
+
+			function compare(a,b) {
+				/* Sort companies by threat	*/
+				if (a.companyThreat < b.companyThreat)
+					return -1;
+				if (a.companyThreat > b.companyThreat)
+					return 1;
+				return 0;
+			}
+
+			/*	Sort	*/
+			data.sort(compare);
+
+			/*	Create list from object */
+			for (var i in data){
+
+				console.log(data[i]);
+				
+				var companyDetails = "<div></div>"
+
+				var companyThreatBar = "<span data-company="+data[i].companyThreat+" data-client="+data[i].clientThreat+" data-product="+data[i].productThreat+"></span>";
+
+				var companyUrl = "<a href='"+data[i].url+"'>url</a>"
+
+				var companyItem = "<li><h5>"+companyThreatBar+data[i].company+"<small>"+companyUrl+"</small></h5></li>";
+
+				$("#company-list").append(companyItem);
+				
+			}
+
+			$("#company-list span[data-company]").css("width",function(i){
+				/*	Set bar width	*/
+				return $(this).attr("data-company");
+			});
+			
+			/*	End of load CSV callback	*/
+		});
+
+
+
+
+</script>
+
+</body>
+
+</html>

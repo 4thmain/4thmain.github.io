@@ -1,0 +1,132 @@
+/*	Reset	*/
+
+body{
+	background-color:#eaeaea;
+}
+
+/*	Compnents	*/
+/************************************/
+/*	Map List : CSS					*/
+/*	github.com/4thmain/map-list		*/
+/* 	GPL Arun Ganesh					*/
+/************************************/
+/*	Map	*/
+#map{
+	position:relative;
+	display: inline-block;
+	font-size: 90%;
+}
+/*	Map	Image*/
+#map img{
+
+}
+/*	Map Tooltip	*/
+#map li{
+	position:absolute;
+	list-style: none;
+	display: inline-block;
+	cursor:default;
+	background-color:rgba(255,255,255,0.9);
+	box-shadow:         3px 3px 10px -6px #111;
+}
+#map li:hover{
+	z-index:1000;
+}
+/*	Map Tooltip heading	*/
+#map h5, #map h6{
+	margin:0;
+	padding:0 3px;
+	opacity:0.8;
+	border:1px solid transparent;
+}
+#map h6{
+	opacity:0.7;
+}
+#map :hover>h5, #map :hover>h6{
+	opacity:1;
+	border-bottom:1px solid #690505;
+}
+/*	Map Tooltip heading alignment	*/
+#map [geo-label-placement="SW"] h5, #map [geo-label-placement="SW"] h6{
+	text-align: right;
+}
+/*	Map Marker arrow	*/
+#map .marker{
+	position:absolute;
+	top:0;
+	width: 0px;
+height: 0px;
+border-style: solid;
+opacity: 0.9;
+}
+#map :hover>.marker{
+	opacity:1;
+}
+/*	Map Marker arrow directions	*/
+#map [geo-label-placement="NE"] .marker{
+left:0;
+top:inherit;
+bottom:0;
+border-width: 6px 0 0 6px;
+border-color: transparent transparent transparent #690505;
+}
+#map [geo-label-placement="NE"] h6 .marker{
+	border-width: 4px  0 0 4px;
+}
+#map [geo-label-placement="NW"] .marker{
+right:0;
+top:inherit;
+bottom:0;
+border-width: 0 0 6px 6px;
+border-color: transparent transparent #690505 transparent;
+}
+#map [geo-label-placement="NW"] h6 .marker{
+	border-width: 0 0 4px 4px;
+}
+#map [geo-label-placement="SE"] .marker{
+left:0;
+border-width: 6px 6px 0 0;
+border-color: #690505 transparent transparent transparent;
+}
+#map [geo-label-placement="SE"] h6 .marker{
+	border-width: 4px 4px 0 0;
+}
+#map [geo-label-placement="SW"] .marker{
+right:0;
+border-width: 0 6px 6px 0;
+border-color: transparent  #690505  transparent transparent;
+}
+#map [geo-label-placement="SW"] h6 .marker{
+	border-width: 0 5px 5px 0;
+}
+/*	Map Tooltip text */
+#map li p{
+	width:0px;
+	height:0px;
+	opacity:0;
+	position: absolute;
+	clip: rect(0 0 0 0); 
+}
+#map li:hover p{
+	clip:inherit;
+	left:0;
+	opacity:1;
+    transition: opacity 0.1s ease-out;
+	width:300px;
+	height:auto;
+	font-size:80%;
+	padding:5px;
+	background-color: whitesmoke;
+	border:1px solid #ccc;
+	z-index:1000;
+	background-image: url('../img/old-yak.svg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	box-shadow:         3px 3px 10px -3px #111;
+}
+/*	Elements	*/
+#map a{
+	color: #690505;
+}
+/************************************/
+/************************************/

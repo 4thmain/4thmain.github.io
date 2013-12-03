@@ -1,0 +1,830 @@
+Company;Website;Date company was founded;Founder;CEO;Headquarter;International address;Indian address;e-mail;Contact number;Twitter Handle;ISS World;Surveillance products and solutions;Internet monitoring;Data mining and profiling;Phone monitoring;Speech analysis/Voice recognition;Face recognition;Location monitoring;Analytics;Visual surveillance;Aerial surveillance;Biometric (access control) systems;Customers;Compliance with lawful interception standards and regulations;Certification;Ranking companies (least harmful - most harmful);News coverage;Interesting note 
+ClearTrail Technologies;http://www.clear-trail.com/;Over 10 years ago;;MIKE SOENEN;Indore, India;;"UPPER GROUND FLOOR
+INDUSTRY HOUSE
+15 PALASIA
+A. B. ROAD
+INDORE
+INDIA";info@clear-trail.com;00 91 731 4269100;;ISS WORLD 2008 EUROPE, ISS World 2013;Internet Monitoring Suite: ComTrail, xTrail, QuickTrail, mTrail, Astra;"(1) ComTrail: Mass Monitoring of IP and Voice Networks: ComTrail is deployed within a service provider network and its 
+monitoring function correlates voice and data intercepts across diverse 
+networks to provide a comprehensive intelligence picture. ComTrail 
+supports the capture, record and replay of a variety of Voice and IP 
+communications in pretty much any type of communication, including - but not limited to- Gmail, Yahoo, Hotmail, BlackBerry, ICQ and GSM voice calls. ComTrail intercepts data from any type of network 
+-whether Wireless, packet data, Wire line or VoIP networks- and can 
+decode hundreds of protocols and P2P applications, including HTTP, 
+Instant Messengers, Web-mails, VoIP Calls and MMS. Doubles up as Targeted Monitoring System. (2) xTrail: Targeted IP Monitoring: xTrail
+ is a solution for interception, decoding and analysis of high speed 
+data traffic over IP networks and independently monitors ISPs/GPRS and 
+3G networks. xTrail has been designed in such a way that it can be 
+deployed within minutes and enables law enforcement agencies to 
+intercept and monitor targeted communications without degrading the 
+service quality of the IP network. This product is capable of 
+intercepting all types of networks -including wireline, wireless, cable,
+ VoIP and VSAT networks- and acts as a black box for “record and replay”
+ targeted Internet communications.
+Interestingly enough, xTrail can filter based on a 
+“pure keyword”, a URL/Domain with a keyword, an IP address, a mobile 
+number or even with just a user identity, such as an email ID, chat ID 
+or VoIP ID. Furthermore, xTrail can be integrated with link analysis 
+tools and can export data in a digital format which can allegedly be 
+presented in court as evidence.Stand-alone solution for interception, decoding and analysis of multi Gigabit IP traffic. Easily integrates with any existing centralized monitoring system for extended coverage. (3) QuickTrail: Tactical Wi-Fi Monitoring: QuickTrail
+ is a device which is designed to gather intelligence from public 
+Internet networks, when a target is operating from a cyber cafe, a 
+hotel, a university campus or a free Wi-Fi zone. In particular, 
+QuickTrail is equipped with multiple monitoring tools and techniques 
+that can help intercept almost any wired, Wi-Fi or hybrid Internet 
+network so that a target communication can be monitored. QuickTrail can 
+be deployed within fractions of seconds to intercept, reconstruct, 
+replay and analyze email, chat, VoIP and other Internet activities of a 
+target. This device supports real time monitoring and wiretapping of 
+Ethernet LANs.
+According to ClearTrail’s brochure, QuickTrail is a 
+“all-in-one” device which can intercept secured communications, know 
+passwords with c-Jack attack, alert on activities of a target, support 
+active and passive interception of Wi-Fi and wired LAN and capture, 
+reconstruct and replay. It is noteworthy that QuickTrail can identify a 
+target machine on the basis of an IP address, MAC ID, machine name, 
+activity status and several other parameters. In addition, QuickTrail 
+supports protocol decoding, including HTTP, SMTP, POP3 and HTTPS. This 
+device also enables the remote and central management of field 
+operations at geographically different locations. Hightlights: QuickTrail (1) Intercepts Wi-Fi and wired LANs in five different ways, (2) Breaks WEP, WPA/WPA2 to rip-off secured Wi-Fi networks, (3) Deploys spyware into a target’s machine, (4) Monitor’s Gmail, Yahoo and all other HTTPS-based communications, (5) Reconstructs webmails, chats, VoIP calls, news groups and social networks. (4) Astra: Remote Monitoring and Infection framework: Astra can push bot to any targeted machine sharing the same
+ LAN (wired, wi-fi or hybrid). The SEED is a generic bot which can 
+identify a target’s location, log keystrokes, capture screen-shots, 
+capture Mic, listen to Skype calls, capture webcams and search the 
+target’s browsing history. Additionally, the SEED bot can also be 
+remotely activated, deactivated or terminated, as and when required. 
+Astra allegedly provides an un-traceable reporting mechanism that 
+operates without using any proxies, which overrules the possibility of 
+getting traced by the target. Highlights: Astra (1) Proactive intelligence gathering, (2) End-to-end remote infection and monitoring framework, (3) Follow the target, beat encryption, listen to in-room conversations, capture keystrokes and screen shots, (4) Designed for centralized management of thousands of targets, (5) A wide range of deployment mechanisms to optimize success ration, (6) Non-traceable, non-detectable delivery mechanism, (7) Intrusive yet stealthy, (8) Easy interface for handling most complex tasks, (9) Successfully tested over the current top 10 anti-virus available in the market, (10) No third party dependencies, (11) Free from any back-door intervention (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf)  ";ComTrail: Instant Analysis across thousands of Terabyte, Equipped to handle millions of communications per day intercepted over high speed STM & Ethernet Links & Correlates Identities across multiple networks (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf);"(1) ComTrail: Mass Monitoring of IP and Voice Networks: ComTrail is deployed within a service provider network and its 
+monitoring function correlates voice and data intercepts across diverse 
+networks to provide a comprehensive intelligence picture. ComTrail 
+supports the capture, record and replay of a variety of Voice and IP 
+communications
+ in pretty much any type of communication, including - but not limited 
+to- Gmail, Yahoo, Hotmail, BlackBerry, ICQ and GSM voice calls. ComTrail intercepts data from any type of network 
+-whether Wireless, packet data, Wire line or VoIP networks- and can 
+decode hundreds of protocols and P2P applications, including HTTP, 
+Instant Messengers, Web-mails, VoIP Calls and MMS. Doubles up as Targeted Monitoring System. (2) mTrail: Off-The-Air Interception: mTrail
+ offers active and passive ‘off-the-air’ interception of GSM 
+900/1800/1900 Mhz phone calls and data to meet law enforcement 
+surveillance and investigation requirements. The mTrail passive 
+interception system works in the stealth mode so that there is no 
+dependence on the network operator and so that the target is unaware of 
+the interception of its communications.
+The mTrail system has the capability to scale from 
+interception of 2 channels (carrier frequencies) to 32 channels. mTrail 
+can be deployed either in a mobile or fixed mode: in the mobile mode the
+ system is able to fit into a briefcase, while in the fixed mode the 
+system fits in a rack-mount industrial grade chassis.
+Target location identification is supported by using 
+signal strength, target numbers, such as IMSI, TIMSI, IMEI or MSI SDN, 
+which makes it possible to listen to the conversation on so-called 
+“lawfully intercepted” calls in near real-time, as well as to store all 
+calls. Additionally, mTrail supports the interception of targeted calls 
+from pre-defined suspect lists and the monitoring of SMS and protocol 
+information. Highlights: mTrail (1) Designed for passive interception of GSM communications, (2) Intercepts Voice and SMS “off-the-air”, (3)  Detects the location of the target, (4) Can be deployed as a fixed unit or mounted in a surveillance van, (5) No support required from GSM operator (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf)";ComTrail: Speaker Recognition (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf);;ComTrail: Target Location (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf);"ComTrail: Instant Analysis across thousands of Terabytes. xTrail can be integrated with link analysis tools and can export data in
+ a digital format which can allegedly be presented in court as evidence. (http://www.wikileaks.org/spyfiles/docs/CLEARTRAIL-2011-Intemonisuit-en.pdf)";;;"
+";Law enforcement agencies, intelligence agencies, police stations;ETSI & CALEA regulations;;9, 8, 10, 4, 5, 7, C;;ClearTrail deploys spyware into target´s machine and possibly aids the Central Monitoring System (CMS) and/or state Internet Monitoring Systems (based on its solutions). 
+Kommlabs Dezign;http://www.kommlabs.com/index.asp;1995 (as Voxtron Dezign Lab Pvt. Ltd.);;Mr Karanvir Singh;Noida, India;"371 Beach Road
+#02-01C 
+Keypoint
+Singapore (199597)";"A - 46, Sector - 4
+NOIDA - 201301
+India.";"info@kommlabs.com
+
+";" 
+
+00 91 120 409 00 00";@kommlabs;"ISS World Asia Pacific, Malaysia 
+December 8-10, 2010, ISS World, Singapore 
+December 9-11, 2009, ISS World, Prague 
+June 3-5, 2009, ISS World, Prague 
+October1-3, 2008, ISS World APAC, Singapore 
+June 9-11, 2008, ISS World EMEA, Dubai, UAE 
+February 26-28, 2008, ISS World Asia 2013";VerbaPROBE, VerbaNET, ReveaLinx (for Intelligence Agencies), Tactical (for Intelligence Agencies), VerbaCENTRE, ReveaLinx (for LEAs), Tactical (for LEAs), VerbaGATE, VerbaNET (for service providers), Tactical (for service providers).  ;VerbaPROBE: Mass intercept solution (http://www.kommlabs.com/products-verbaprobe.asp), VerbaNET (for intelligence agencies): Internet Interception Solution (http://www.kommlabs.com/products-verbanet.asp), VerbaCENTRE: Unified Monitoring Centre (http://www.kommlabs.com/products-verbacentre.asp), VerbaGATE: Lawful Interception Gateway and Data Retention Solution (http://www.kommlabs.com/products-verbagate.asp), VerbaNET (for service providers): Internet Interception Solution (http://www.kommlabs.com/company.asp) ;"ReveaLinx: Data Mining (http://www.kommlabs.com/company.asp), VerbaCENTRE: Seamless integration with ReveaLINX for data mining and interactive visual link analysis (http://www.kommlabs.com/products-verbacentre.asp) A data mining tool that focuses on relationships between
+                      entities in very large data spaces and exposes hidden
+                      links and networks. Looks at ‘real-world’ relationships such as
+                      individuals, addresses, phone numbers, bank accounts and
+                      their transactions (e.g. makes a phone call, transfers
+                      funds between accounts, sends an E-mail); in fact anything
+                      that connects two things within the data set. Lightning fast analytical algorithms with unique
+                      visualization to enable an analyst to interactively
+                      discover and explore networks of relationships. Scales from single source data sets to very large (20 million plus), multi-source database systems. There is no prescribed data format. Data can be in Text,
+                      CSV, SQL, Oracle or any other readable format. (http://www.kommlabs.com/products-revealinx.asp)";"VerbaCENTRE: Unique Vocal Risk Classification detects cognitive and emotional stress in voice calls and flags them! (http://www.kommlabs.com/products-verbacentre.asp)
+VerbaGATE: Unified platform to fulfill Communication Service
+                      Providers’ compliance for Lawful Interception and Data
+                      Retention. Centralized target provisioning and warrant
+                      administration for all LEAs. Unified platform to support heterogeneous networks (http://www.kommlabs.com/products-verbagate.asp)";ReveaLinx (for intelligence agencies and law enforcement agencies): Speaker ID (http://www.kommlabs.com/company.asp), VerbaCENTRE: Advanced Speech capability, such as Speaker ID, Language Recognition and Gender Identification (http://www.kommlabs.com/products-verbacentre.asp);;ReveaLinx (for intelligence agencies and LEAs): GIS location (http://www.kommlabs.com/company.asp), VerbaCENTRE: GIS location tracking displays real time location of targets and geo-fencing etc. (http://www.kommlabs.com/products-verbacentre.asp);ReveaLinx: Visual Analytics (http://www.kommlabs.com/company.asp);;Y;VerbaCENTRE: Biometric Fingerprint Identification for system users (https://www.documentcloud.org/documents/810562-908-kommlabs-dezign-product-description-verba.html);Law enforcement agencies, Intelligence Agencies, Communications Service Providers, Indian police;Compliant to Global Standards like ETSI, CALEA, SORM and country specific standards;"ISO 9001:2008 & ISO 27001:2005 Certified
+";9, 8, 10, 4, 7, 1, C, D;Kommlabs news: http://www.kommlabs.com/news.asp;Kommlabs possibly aids the Central Monitoring System (CMS) and/or state Internet Monitoring Systems in India (VerbaCENTRE: Scalable distributed architecture provides Central Monitoring Centres and Remote Monitoring Centres for countrywide deployment, http://www.kommlabs.com/products-verbacentre.asp). VerbaCENTRE brochure: https://www.documentcloud.org/documents/810562-908-kommlabs-dezign-product-description-verba.html
+Shield Security;http://shieldsecurity.org/flash.php, http://www.justdial.com/Hyderabad/Shield-Security-Services-%3Cnear%3E-North-Lalaguda-Lalaguda/040PXX40-XX40-090731171812-M7N6_TmF0aW9uYWwgU2VhcmNoIFNoaWVsZCBTZWN1cml0eSBTZXJ2aWNlcw==_BZDET;;;ADIL HADI;London, UK;2nd floor, 145-157, St. John Street, London, UK;H:no 10-5-79/4/3,Ground Floor, North Lalaguda, Tukaram Gate, Lalaguda, Hyderabad - 500017;p.adams@shieldsecurity.org;00 91 9848474847/ 9010863009;;;Covert Counter Terrorist Equipment, Interception and Monitoring, Broadband and Cellular Jamming, Covert Video and Audio Systems, Body Wires, Remote Monitoring and Surveillance, Hard Wired Listening Devices, Tracking Transmitters, GPS Tracking Systems: http://shieldsecurity.org/flash.php;Interception and Monitoring solutions, Broadband Jamming, Remote Monitoring and Surveillance;;Interception and Monitoring solutions, Cellular Jamming, Remote monitoring and surveillance, Telephone transmitters;;;GPS Tracking Systems;;;;;National intelligence, national security agencies, federal police, drug enforcement agencies, SWAT, SAR, HRT, revenue agents, internal affairs, criminal investigation departments, diplomatic security, defense departments, justice departments, state and federal insurance investigators, immigration agencies, postal inspectors, border patrol, ministries of interior, police departments, sheriffs departments, organized crime units, district attorney and and prosecutors, treasury departments, embassies and consulates, government research facilities, and all branches of military organisations. ;;;9, 10, 5, C;;
+Shoghi Communications;http://www.shoghicom.com/;2008;;;Shimla, India;;"74, Electronic Complex, Industrial Area, Shoghi, 
+Shimla - 173219 (HP)";" sales@shoghicom.com 
+
+";;https://twitter.com/Aprodex/status/117198138762211328;;Passive A5/1 GSM Monitoring System, Semi Active GSM Monitoring, CDMA Monitoring, A5/1 Decryptor, Switch Based E1 Monitoring, Voice & Fax Logging and Analysis, Wi-Fi Interception, GSM Backhaul Monitoring Systems, Microwave Monitoring Systems, HF-VHF-UHF Monitoring System, Signal Classification and Analysis System, Satellite Geo-location, Satellite Carrier Monitoring, DCME Analysis, Inmarsat Monitoring, ISAT Monitoring, Iridium Monitoring, C/Ku-Band Satellite Link Monitoring, VSAT Monitoring, Thuraya Monitoring, Fixed Wing UAV, Rotary Wing UAV, Aerostat, ISAT Monitoring System (SCL-5032),  Passive A5/1 GSM Monitoring System (SCL-5020), A5/1 Decryptor (SCL-5021): http://www.shoghicom.com/products.php   ;;;"(1) Passive A5/1 GSM Monitoring System: The SCL-5020 is a multi-channel off the air 
+passive GSM Monitoring system intended for Intelligence and Government 
+Organizations to ensure interception and deciphering of voice & SMS 
+communications from GSM-850/900/1800/1900 cellular network standards. 
+The system can be either operated as stationary or in movable scenarios (http://www.shoghicom.com/passive-gsm-monitoring.php), (2) Semi Active GSM Monitoring: The system is designed and developed as a Semi Active OFF-THE-AIR GSM 
+Monitoring System. The SCL 5020SE has universal operating capability. 
+This system can be used to intercept communications from any GSM service
+ providers in the world irrespective of the type of encryption being 
+used. System supports decryption of both A5/1 and A5/2 encryption 
+algorithms in real time (http://www.shoghicom.com/semi-active-gsm-monitor.php), (3) CDMA Monitoring system (SCL-5020C): The SCL-5020C is a Passive multi-channel tunable CDMA Monitoring system 
+designed to  Monitor the voice conversation, Sort Text Message and 
+service channel information automatically form the CDMA (IS-95А, IS-95B 
+and CDMA 2000-1x) network. System  operates in 450MHz, 850MHz & 
+1900MHz CDMA band (http://www.shoghicom.com/cdma-monitoring.php), (4) A5/1 Decryptor: The A5.1 decryptor is used to decrypt GSM communications which are 
+encrypted using the GSM A5.1 encryption standard. This equipment is used
+ in conjunction with the Semi-Active  or the Passive GSM monitoring 
+system. The system is capable of real-time decryption of A5.1 encrypted 
+GSM communications.(5) Voice and Fax Logging and Analysis: Digital Voice Logger / Fax Logger (SCL-2050) is a PC based Multi- 
+Channel Digital Recorder designed to automatically monitor and record 
+Telephonic conversation from analog lines, forwarded mobile 
+conversations & SMS over mobile phones and speech from HF/VHF/UHF 
+radios in different scenario along with CRI (http://www.shoghicom.com/voice-logging-analysis.php), (6)  Switch Based E1 Monitoring: The Lawful Interception System offered from Shoghi Communication
+ is designed for  law enforcement and  intelligence agencies . The 
+offered system is a turnkey solution for the monitoring, processing, 
+decoding, distribution and presentation of intercepted data of targets 
+from circuit switched networks. (E.g. GSM/CDMA/PSTN) as well as for 
+packet switched networks (e.g. GPRS, EDGE, UMTS and High Speed IP 
+backbones) - http://www.shoghicom.com/e1-monitoring.php, (7)  ISAT Monitoring System (SCL-5032): ISAT Monitoring System is designed for Intelligence and Government 
+Organizations to monitor Voice, SMS, Fax and DATA from Isat phone 
+network. System is capable of Demodulating, Decoding and Deciphering 
+ISAT Phone traffic to provide decoded communication sessions along with 
+Call Related Information (http://www.shoghicom.com/isat-monitoring.php)";;;;;;"Fixed Wing UAV: Remote surveillance system ""SCL-RSS"" is fixed wing UAV designed for 
+monitoring ground objects from air. SCL-RSS can do detection and 
+tracking of buildings and other objects like transportation means, 
+military equipments, roads, bridges, individuals or groups of people (http://www.shoghicom.com/fixed-wing-uav.php), Rotary Wing UAV (SCL-RWU): SCL-RWU is rotary wing UAV designed for monitoring ground objects from 
+air. SCL-RWU can be deployed in military operations for various 
+scenarios such as detection and tracking of objects like transportation 
+means, military equipment, roads, bridges, individuals or groups of 
+people, surveillance and reconnaissance mission etc (http://www.shoghicom.com/unmanned-air-vehicle.php)";;Indian Government, Ministry of Defense and related agencies (not for private or commercial usage). ;;ISO 9001: 2008 certified;10, 2, C;Shoghi media coverage: http://www.shoghicom.com/Media-Coverage.php;Shoghi produces and sells satellite and radio monitoring solutions, as well as signal analysis solutions: http://www.shoghicom.com/ISR.php. Semi-active GSM Monitoring System brochure: http://wikileaks.org/spyfiles/files/0/160_SHOGI-2006-semiactive_gsm_monitoring.pdf
+Amsan Technology;http://amsantechnology.com/;2005;;;Bangalore, India;;"#215A,  1st Main Road  
+S.R. Nagar, Bangalore -560027";amsantechnology@gmail.com;080 41316409,  9900601788 (Contact person: Santhosh Mishra);;;CCTV Cameras, Wireless Systems Camera, IP Cameras, Access Control Systems, Biometric Machines: http://amsantechnology.com/?page_id=15;;;;;;;;CCTV Cameras, Wireless Systems Camera, IP Cameras: http://amsantechnology.com/?page_id=15;;" Access Control 
+Systems, Biometric Machines: http://amsantechnology.com/?page_id=15";15000+ customers addressed worldwide and across varied industries (http://amsantechnology.com/);;;6, 1, B;;
+Sterling Cctv Solutions;http://sterlingcctvsolutions.com/;;;;Bangalore, India;;"Rajaji Nagar
+Bangalore , India";"info@sterlingcctvsolutions.com, vinod@sterlingcctvsolutions.com,
+sterlingcctvsolutions@gmail.com"; 0091 7411222222, 08067935861;;;Wide range of (CCTV) cameras and access control systems: http://sterlingcctvsolutions.com/product.html;"
+";;;;;;;Wide range of CCTV cameras: http://sterlingcctvsolutions.com/product.html;;Biomatrix Systems (biometric access control system): http://sterlingcctvsolutions.com/product.html;List of clients: http://sterlingcctvsolutions.com/clients-projects.html;;;6, 1, B;;
+Aimansys Technologies;http://www.aimansystechnologies.in/;;;;Bangalore, India;;"No.2, 2nd Floor, Jayswal Business Center,
+R.R.Chambers, 11th Main,
+Vasanthnagar,
+Bangalore - 560052";info@aimansystechnologies.in;0091 (080) 22202131 / 32, 0091 9620108175;;;CCTV cameras & Biometric Access Control Systems: http://www.aimansystechnologies.in/cctv--surveillance.html;;;;;;;;CCTV cameras: http://www.aimansystechnologies.in/cctv--surveillance.html;;Biometric Access Control Systems: http://www.aimansystechnologies.in/cctv--surveillance.html;List of clients: http://www.aimansystechnologies.in/clients.html;;;6, 1, B;;
+Alliance Security Systems;http://www.alliancesystems.co.in/;;;;Bangalore, India;;No.105, Nr Srs Kalyana Mantapa, 4th F Crs, East Of Ngef, Kasturi Nagar, Bangalore - 560043;alliancesecuritysystems@gmail.com;00 91 80 66495027;;;CCTV cameras, Biometric Access Control Systems, Video Surveillance Systems: http://www.alliancesystems.co.in/products.html;;;;;;;;CCTV cameras and Video Surveillance System: http://www.alliancesystems.co.in/products.html;;Biometric Access Control Systems: http://www.alliancesystems.co.in/products.html;"Banking industry, Police department of                               
+various states, Airports, DMRC, Petroleum Companies & various Power Projects. ";;ISO 9001:2000 certified company;6, 1, B, C;;
+R R Infotech;http://www.rrinfotech.org/;;;;Bangalore, India;;"#750/1, 4TH MAIN,
+         9TH CROSS,
+         M.C LAYOUT, VIJAYANAGAR
+         Bangalore - 560 040";rr.infotech89@gmail.com;9738881097, 9886606086;;;CCTV cameras & Biometric Access Control Systems: http://www.rrinfotech.org/product.html;;;;;;;;CCTV cameras: http://www.rrinfotech.org/cctv.html;;Biometric Access Control Systems: http://www.rrinfotech.org/securitysystem.html;;;;6, 1, -;;
+Navtel Tech Inc;http://www.navtel.in/;;;;Bangalore, India;;"#55/16, 3rd Main, 5th Cross,
+Basaveshwara Layout,
+Vijaynagar, Bangalore - 560 040, # 6/25-O, Fatima’s Building,
+1st Floor, Thottumugham (PO)
+Aluva - 683105, Kerala";contact@navtel.in;00 91 98456 63707, 00 91 80 2274 8257;;;Access management solutions, Asset & Vehicle Tracking,  Video Surveillance solutions: http://www.navtel.in/services.html;;;;;;"Global Positioning Systems (GPS), Personnel Tracking: http://www.navtel.in/asset-vehicle-tracking.html, RFID Asset Tracking, Fleet & Vehicle Tracking, 
+Vehicle Tracking: http://www.navtel.in/asset-vehicle-tracking.html";;Wireless Cameras, IP Cameras, PTZ Cameras, Underbody Vehicle Scanners, Integrated Spy Cameras, Thermal Imaging: http://www.navtel.in/video-surveillance.html;;;List of clients: http://www.navtel.in/our-clientele.html;;;5, 6, B;;
+Utimaco (a member of the Sophos Group);http://www.utimaco.com/;1985;(India contact person: Mr. Altaf Halde);STEVE MUNFORD;Aachen, Germany;"Germanusstraße 4 
+52080 Aachen 
+Germany";Plot No. A/7, Office No. 303 & 305, Dilkap Chambers, Veera Deasi Road, Near Fun Republic, Andheri West Mumbai 400053;li-contact@utimaco.com, hsm@utimaco.de; 00 91 2265278548 (India), 00 49 241 16960 (Germany) ;@Utimaco;ISS World Europe, 4-6 June 2013, Prague, CZ (Associate Sponsor), Upcoming trade shows and conferences: Milipol 2013 & ISS World Asia 2013: http://lims.utimaco.com/company/newsevents/;"Lawful Interception Management System (LIMS): Integrates seamlessly with 250+ network nodes (switches, routers, gateways, application servers) by leading infrastructure vendors. Seamless integration with: GSM, GPRS, UMTS, LTE, PSTN, DSL, Cable, WLAN, WiMAX. Seamless integration with: GSM, GPRS, UMTS, LTE, PSTN, DSL, Cable, WLAN, WiMAX. Role-based user management, together with capability to serve different 
+networks and law enforcement agencies concurrently, allows multiple 
+deployment models. Components include: LIMS Management Server, LIMS Mediation Devices, LIMS Access Points, LIMS Decoder, LIMS Gateway (http://lims.utimaco.com/products/lawful-interception-management-system/) -- LIMS Brochures: http://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_LIMS_DATASHEET_EN.pdf & http://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_LIMS_BROCHURE_EN.pdf Utimaco Data Retention Suite for Telecommunications Service Providers --- Brochure: http://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_DRS_BROCHURE_EN.pdf (http://lims.utimaco.com/solutions/data-retention-suite/)";;;"Lawful Interception Management System (LIMS): Integrates seamlessly with
+ 250+ network nodes (switches, routers, gateways, application servers) 
+by leading infrastructure vendors. Seamless integration with: GSM, GPRS,
+ UMTS, LTE, PSTN, DSL, Cable, WLAN, WiMAX. Seamless integration with: 
+GSM, GPRS, UMTS, LTE, PSTN, DSL, Cable, WLAN, WiMAX. Role-based user 
+management, together with capability to serve different 
+networks and law enforcement agencies concurrently, allows multiple 
+deployment
+ models. Components include: LIMS Management Server, LIMS Mediation 
+Devices, LIMS Access Points, LIMS Decoder, LIMS Gateway 
+(http://lims.utimaco.com/products/lawful-interception-management-system/)
+ -- LIMS Brochures: 
+http://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_LIMS_DATASHEET_EN.pdf
+ & 
+http://lims.utimaco.com/fileadmin/assets/brochures_datasheets_whitepapers/UTIMACO_LIMS_BROCHURE_EN.pdf
+ ";;;;;;;;Telecommunications service providers, Governments, Law Enforcement Agencies;Compliant with ETSI, 3GPP, ANSI/ATIS, CALEA, Cablelabs LI standards;;10, C, D;http://www.darkreading.com/authentication/utimaco-launches-new-high-end-hsm-series/240161345;How lawful interception activities help LEAs: http://lims.utimaco.com/products/lawful-interception-management-system/how-lawful-interception-activities-support-leas/ 
+Data Outsourcing India;http://www.dataoutsourcingindia.com/data-mining.html;2006;;Mr Sunil Kumar;New Delhi, India;;"T-2, 3rd Floor, HL Plaza
+Plot 9, Sector 12, Dwarka,
+New Delhi - 110075 (INDIA)";"
+info@dataoutsourcingindia.com";"
+ 
+ 
+ 
+0091 11 4353 3874,
+0091 11 4353 3875,
+0091 11 4353 3876,
+0091 11 4353 3877";@DOINDIA;;;;Data mining services: http://www.dataoutsourcingindia.com/data-mining.html;;;;;;;;;Organisations and businesses;;;10, B;;
+Vehere;http://www.veheretech.com/;2006;Founded by a handful of computer scientists (http://www.linkedin.com/company/vehere-interactive-p-ltd);"Director of Business Development = Jitender Sachdeva (http://in.linkedin.com/pub/jitender-sachdeva/20/584/6bb)
+      
+    
+    
+      ";Offices in Dubai (UAE), in Saudi Arabia, in the U.S, in the UK and in India. ;Offices in Dubai (UAE), in Saudi Arabia, in the U.S and UK: http://www.veheretech.com/my-vehere/contact-us/;"(1) R&D Lab & Regd. Office
+
+32/7 Sahapur(West)
+
+New Alipore, Block J
+
+Kolkata, WB 700053 India, (2) New Delhi
+
+401, 4th Floor Rectangle No.1
+
+Commercial Complex D4, Saket
+
+New Delhi 110017, India";sales@veheretech.com;00 91 33 24008700;;Lead Sponsor of ISS MEA 2013 (http://www.veheretech.com/lead-sponsor-of-iss-world-mea-2013/), ISS World MEA 2012 (http://www.veheretech.com/iss-world-mea-2012-dubaiuae/) ;CommuLIM, VEHO DPI Probe, VEHO Replay, vCRIMES, vCRIMES DRS, GSMSense (portable IMSI catcher), VSIS, Dial-Log;"VEHO DPI Probe: provides a highly advanced, data-filtering mechanism based on Deep Packet
+ Inspection (DPI) technology to perform in-depth packet search across 
+all seven network layers. VEHO DPI engine uses layer-7 pattern matching 
+and behavior analysis technology for detection & filtration. 
+Usually, this packet search involves superior algorithms to conduct 
+complex, parametric searches meeting exact user requirements. In case of session-wise monitoring, if a single packet contains its 
+payload data in Gzip or any other compressed format, VEHO DPI decodes 
+the payload data before performing a search. VEHO DPI intercepts packets
+ at multiples of  10 Gbps data transfer rate in a small form factor 
+servers. A wide variety of interception criteria are supported for the 
+interception of IPDR & CmC data, such as multiple-keyword, 
+special-character, wild card, case-sensitivity, keyword within 
+attachments, keywords within mails to name a few. VEHO DPI Probe has the
+ capability of configuring thousands of complex keywords without 
+degradation in performance (http://www.veheretech.com/products/veho-dpi/). VEHO Replay: a subsystem of CommuLIM Monitoring Centre. VEHO Replay is an advanced IP
+ Packet reconstruction product consisting of the Reconstruction Engine 
+& Analytics Engine. It is VEHO Replay which ensures that you see the
+ data in the same format as seen by your target/suspect. With web 2.0 
+and Ajax technologies messing the reconstruction, VEHO RE is advanced 
+enough to correlate data so that “You see what they See”. The RE’s role 
+is to receive the captured packets and convert them into a readable data
+ format, which can be comprehended and processed further by the advanced
+ Analytics Engine. VEHO Replay supports a wide range of protocols including IP, TCP, UDP, 
+RTMP, HTTP, SMTP, IMAP, POP3, FTP, FTP-Control, FTP-Data, Jabber, YMSG, 
+AIM, MSN, ICQ, AOL, NNTP, RADIUS, VOIP (TPAD), SIP/RTP, PRS (SMS 
+Protocol) --- http://www.veheretech.com/products/veho-replay/ . Dial-Log: perfect for organizations with multiple locations and cloud deployment. 
+The solutions may be configured to record, live monitor, and archive 
+customer interactions from any branch and then provide search-and-replay
+ either locally, via LAN, through intranets or over the Internet. The 
+system uses a distributed recording mode to connect multiple recording 
+platforms, departments or locations, and it automatically transfers the 
+data to a central interaction platform for online access (http://www.veheretech.com/products/dial-log/)";CommuLIM Monitoring Centre: includes Pattern Analysis & Social Link Analysis (http://www.veheretech.com/products/commulim/);"CommuLIM Monitoring Centre: a flexible switch based turnkey solution for monitoring, processing, 
+distributing and centralized tap provisioning for all voice and data 
+communication (PSTN, GSM, GPRS, UMTS, CDMA, E-mail, VOIP, xDSL, etc.). CommuLIM operates from a global and centralized management platform, 
+interfacing with the IIF/ External Interception Function (Probes) EIF 
+attached to the network (http://www.veheretech.com/products/commulim/). vCRIMES: a high performance CDR Analysis System. vCRIMES processes 
+billions of multi-format & complex Call Detail Records, Subscribers 
+Data Records, Tower Data, Passport, and PDS data to name a few. It is 
+used to analyze & gather intelligence and unveil relations and 
+interconnections via graphical and intelligent outputs. vCRIMES provides necessary tools to enable the LENS Agencies to collect 
+high volumes of CDR data from the mobile network operators and service 
+providers, perform complex analysis at a superfast speed. The results 
+can be viewed with sophisticated visualization tools to resolve pending 
+cases and gather intelligence.  vCRIMES has the potential to examine and expose hidden relationships 
+between different numbers in a mobile network or uncover recurrent 
+structures or patterns in suspect caller networks. vCRIMES includes 
+tools for detecting Sleeper Cells , conducting Probability Layer Analysis, advanced Social Network Analysis for six degree of separation 
+to name a few . It uses advanced statistical analysis like kalman’s 
+filter, neural network analysis to name a few. vCRIMES increases the speed of decision-making and effectiveness of case
+ execution through multiple one-click analysis. Its can analyses more 
+than 40Billion CRI records in less than 3sec. Its architecture is based 
+on Vehere’s proprietary Distributed Mass Data Processing (DMDP) Engine (http://www.veheretech.com/products/vcrimes/). GSMSense: Portable IMSI/IMEI Catcher & GSM Mobile Tracer & Locator System (MTLS). GSMSense is an advanced system utilized for extracting IMSI/IMEI numbers
+ from mobile handsets. The product has built-in functionality to 
+accurately pinpoint the geographical locations of suspect callers to an 
+accuracy of 1 meter. An entire group of target mobile handsets can be 
+located with the help of link and data pattern analyses. The product is currently available in two models: (1) GSMSense TM31: Collect basic GSM information (IMSI, IMEI) about handsets
+ in the area of interests (airport terminals, prisons etc), (2) GSMSense TM15: This model supports mobile Tracer & Locator System for pinpointing GSM handsets (http://www.veheretech.com/products/gsm-sense/) ";"VSIS:  a biometric Speech Intelligence Framework uses an individual’s voice 
+for identification & recognition purposes. It is a language 
+independent system used to perform the daunting task of identifying an 
+unknown voice using the characteristics extracted from the sample voice.
+ VSIS has a framework to classify and manage masses of electronically 
+available voices from various sources including all types of 
+communications interceptions. It helps prioritizing voice calls that 
+needs attention by the LENS Agencies with traditional interception 
+systems. The speaker recognition features are used by Science Forensic 
+Labs. VSIS has Cross Channel Capability (C3) to compare voices across any 
+medium including UHF, VHF, HF, Satellite Phones, GSM, CDMA & VOIP. 
+VSIS has the Multi Speaker Separation capability to split the 
+conversation to extract individual communications for comparison. It 
+uses an advanced noise reduction technology to reduce the background 
+noises. Some of the VSIS features include speaker, gender, and language 
+identification. VSIS’s scalable system topology ensures that VSIS runs 
+over a Cluster of Servers for Mass Interception and also provide 
+Real-time Identification Solution (http://www.veheretech.com/products/vsis/)";;;"CommuLIM Monitoring Centre: CommuLIM advanced analytics engine organizes and manages communication 
+content in the most expedient manner; performs complex analyses to 
+uncover hitherto unknown connections and recurrent patterns in suspect 
+caller behavior; discovers hidden targets and their networks (http://www.veheretech.com/products/commulim/). VEHO Replay: Once the reconstructed data packets seamlessly flow to the AE for 
+advanced analysis, the VEHO Replay Client enables the users to interact 
+with the system through a friendly, graphical user interface with a host
+ of analytics features (http://www.veheretech.com/products/veho-replay/). vCRIMES: a high performance CDR Analysis System. vCRIMES processes 
+billions of multi-format & complex Call Detail Records, Subscribers 
+Data Records, Tower Data, Passport, and PDS data to name a few. It is 
+used to analyze & gather intelligence and unveil relations and 
+interconnections via graphical and intelligent outputs. vCRIMES provides necessary tools to enable the LENS Agencies to collect 
+high volumes of CDR data from the mobile network operators and service 
+providers, perform complex analysis at a superfast speed. The results 
+can be viewed with sophisticated visualization tools to resolve pending 
+cases and gather intelligence.  vCRIMES has the potential to examine and expose hidden relationships 
+between different numbers in a mobile network or uncover recurrent 
+structures or patterns in suspect caller networks. vCRIMES includes 
+tools for detecting Sleeper Cells , conducting Probability Layer 
+Analysis, advanced Social Network Analysis for six degree of separation 
+to name a few . It uses advanced statistical analysis like kalman’s 
+filter, neural network analysis to name a few. vCRIMES increases the speed of decision-making and effectiveness of case
+ execution through multiple one-click analysis. Its can analyses more 
+than 40Billion CRI records in less than 3sec. Its architecture is based 
+on Vehere’s proprietary Distributed Mass Data Processing (DMDP) Engine (http://www.veheretech.com/products/vcrimes/). VSIS: VSIS has an advanced Visual Link Analysis System built into it for analysis of output (http://www.veheretech.com/products/vsis/)";;;;Law enforcement agencies, security agencies, telecommunications service providers, defense agencies, International Private Leased Circuit (IPLC), GSM, CDMA & Packet Data Service Providers, Disaster Response Management Team, Governments;Compliant with ETSI, CALEA and SORM regulations;ISO 9001:2008 and ISO 27001:2005 certified company;9, 8, 10, 4, 7, C, D;Vehere News: http://www.veheretech.com/research-news/news/;"Many of Vehere's products have been conceived, designed, and
+ developed with inputs from the Law Enforcement & National Agencies 
+(LENS) --- http://www.veheretech.com/my-vehere/about-us/. Vehere has been ranked as the 30th Fastest growing Technology Firm 2012 by Deloitte (http://www.veheretech.com/investors/). vCRIMES can analyses more than 40Billion CRI records in less than 3sec! (http://www.veheretech.com/products/vcrimes/)"
+4Gid Solutions;http://4gid.com/contactus.html;2001;;Dr. Sreeni Tripuraneni;Hyderabad, India;"PO Box No. 500417,
+G09, Building No. 10,
+Dubai Internet City, Dubai, UAE";"Plot No.: 330 & 331, 
+Road No. 79, Jubilee Hills
+Hyderabad – 500 034, India, Plot No.: 241, Prashasan Nagar,
+Road No. 72, Jubilee Hills
+Hyderabad – 500 034, India, B348-D, Sushant Lok-1
+Gurgaon - 122001";info@4Gid.com;00 91 40 23558789 / 32913939, 00 91 40 23558799, 00 91 124 4214747;@4gid;;4G Multi Modal ID Platform, eAccess, Enrollment devices, Authentication devices, Smart cards: http://4gid.com/products.html;;;;;;;;;;4G Multi Modal ID Platform, eAccess, Enrollment devices, Authentication devices, Smart cards: http://4gid.com/products.html;Governments, law enforcement agencies, enterprise, banks;;ISO 9001-2008 -  International Standards Organization (ISO) Quality Management System Standard, SEI CMM Level 3 -  Software Engineering Institute (SEI) Capability Maturity Model for Software  (CMM) Level 3 in Compliance, STQC / UIDAI  Certification for Biometric Enrollment Devices, SCOSTA Certification for Smart Cards - 32k certification, 64k certification, FBI Certification  for fingerprint scanners, NIST Compliant  open standards;1, C, B;List of News Coverage: http://4gid.com/news.html;"4Gid  deployed a web-based online enrollment application for the world’s
+ first Unique  Citizen ID database for 90 million citizens of Andhra Pradesh, India (http://4gid.com/citizenachievements.html) - 4Gid aids the UID scheme. "
+ADISYS Technologies Pvt. Ltd. ;http://www.adisysonline.com/contact_us.php;;;;Bangalore, India;686D, #15-264, Choa Chu Kang Crescent, Singapore - 684 686;# 516, 1st Floor, 2nd Main, ‘A’ Block, 2nd Stage, Rajajinagar, Bangalore - 560 055;sales@adisysonline.com;00 91 80 23578476 /  9916912672;;;CCTV cameras, CCTV DVR, IP cameras, Access Control Systems;;;;;;;;CCTV cameras, CCTV DVR, IP cameras: http://www.adisysonline.com/#nogo2;"
+";Access control systems: Biometric, RFID, Fingerprint Door Locks, Access Readers;List of clients: http://www.adisysonline.com/clients.php#Manufacturing;;;1, 6, B;;
+BioEnable Technology Pvt. Ltd. ;http://www.bioenabletech.com/;2001;Pradeep Bhatia (http://www.linkedin.com/in/pksden & http://www.bioenabletech.com/about-us);Pradeep Bhatia (http://www.linkedin.com/in/pksden & http://www.bioenabletech.com/about-us);Pune, India;;"Office No. 203, 2nd Level,Cyber City Tower S4
+Magarpatta City, Hadapsar,Pune-411013, MH, India, E-204, 3rd floor,
+Railway Station Complex, CBD Belapur
+Navi Mumbai, MH, India, UG-11,Shivlok House 2,
+Karampura Complex (Moti Nagar),
+New Delhi – 110015, KRIATIONZ , #8, 6th Main, HVR Layout
+Magadi Main Road, Bangalore-560079.MCS, 2nd Floor, Plot – 41,
+Fatima Ahmed Manzil,
+D.V.Colony, Near KIMS Hospital,
+Minister Road,
+Secunderabad – 500 003";sales@bioenabletech.com;"00 91 20 66813622, 00 91 20 66813623, 
+
+";@Bioenable;;Biometric systems and products, Fingerprint recognition products, Access control systems and software, Face recognition systems, Iris recognition systems, GPS Tracking and Fleet Management Systems, RFID & Auto ID products and services: http://www.bioenabletech.com/products. Solutions specifically for Law Enforcement Agencies: (1) Crimianal Identification biometric solutions, (2) Biometric Mobile ID solutions, (3) Law Enforcement Solution - Automated Fingerprint Identification Solutions, Automated Biometric Identification Systems, Live Scan Solution, Mobile ID Solution, ID Management Prisons, ID Management for Courts, (4) Crime and Criminal Tracking Networks System (CCTNS), (5) Common Integrated Police Application (CIPA), (6) Biometric Passports, (7) Biometric Security: http://www.bioenabletech.com/biometric/biometric-id-solutions/law-enforcement;;;;;Face Recognition Systems: Cloud Face Recognition Services, Face Recognition Identity Management System, Face Recognition Software, Face Recognition Login, Face Recognizer, Face Recogniton Database, Face Recognition Security, Face Detection Software: http://www.bioenabletech.com/face-recognition-system;"GPSintegrated.com
+ is a Web & Mobile based GPS Location Tracking System . It allow you
+ to offer GPS Tracking, Emergency Assistance & Fleet management 
+services in your city. It allow your customers to track mobile vehicles,
+ assets, people and even animals. Technology: GPS Integrated is based on GPS (Global 
+Position System), GSM (Global System of Mobile) & Web Technologies. 
+This service require you to purchase a GPS Tracking device, a Mobile SIM
+ card and Web/Mobile based service subscription. (http://www.bioenabletech.com/gps-tracking)";;;;"Biometric systems and products, Fingerprint recognition products, Access
+ control systems and software, Iris 
+recognition systems: 
+http://www.bioenabletech.com/products. Solutions specifically for Law 
+Enforcement Agencies: (1) Crimianal Identification biometric solutions, 
+(2) Biometric Mobile ID solutions, (3) Law Enforcement Solution - 
+Automated Fingerprint Identification Solutions, Automated Biometric 
+Identification Systems, Live Scan Solution, Mobile ID Solution, ID 
+Management Prisons, ID Management for Courts, (4) Crime and Criminal 
+Tracking Networks System (CCTNS), (5) Common Integrated Police 
+Application (CIPA), (6) Biometric Passports, (7) Biometric Security: 
+http://www.bioenabletech.com/biometric/biometric-id-solutions/law-enforcement";Law Enforcement Agencies, the UIDAI, Governments, NGOs, Banking, Finance, Healthcare;;"2005 – ISO9001:2000 Certified Quality Management processes. 2012- BioEnable is certified with ISO 9001 : 2008 for “Supply, 
+Support, Service, Manufacturing & Development of Biometrics,AutoID 
+& Wireless Electronic Products & Software.” 2012 – BioEnable receives STQC certificate for Single Finger Scanner 
+used for large scale Government, Banking & Aadhaar project in India. ";1, 3, 5, C, B;List of (UID related) news: http://www.bioenabletech.com/biometric/news;"Bioenable is considered to be ""India´s leading Biometric company"". Bioenable aids the UIDAI biometric technology for the UID scheme. More then 8 States use BioEnable Slap Fingerprint Scanner for the UID Aadhaar project (http://www.bioenabletech.com/about-us). In addition, Bioenable aids Indian law enforcement agencies with biometric technology to carry out the Crime and Criminal Tracking Network System (CCTNS): http://www.bioenabletech.com/crime-and-criminal-tracking-network-system-cctns.html. Furthermore, Bioenable have supplied Products & Developed software for Nearly 500 projects worldwide in over 50 countries in the last 10 years. They have also supplied products & technology for Defense & national ID in Africa (http://www.bioenabletech.com/about-us). 
+
+
+
+
+
+
+
+"
+"
+Cynosure Technologies Pvt Ltd (Timelabs)";http://www.timelabs.in/;;;;New Delhi, India;;"164, Shyam Path, Chitrakoot Marg 
+Behind Bharat Apartments,
+Vidyut nagar - C,
+Vaishali Nagar, Jaipur - 302 021, 308, Hemkunt Chambers 
+89, Nehru Place 
+New Delhi - 110 019 
+INDIA  ";info@timelabs.in, info@cynosuretech.com  ;00 91 141 517 9760, 00 91 11 2644 0144 ;@TimelabsPro;;Biometric devices: http://www.timelabs.in/product-tour.html, Face Recognition System: http://www.timelabs.in/face-recognition-machine.html;;;;;Face Recognition System: http://www.timelabs.in/face-recognition-machine.html;;;;;Biometric System, Biometric Attendance, Biopmetric Attendance System, Biometric Time Attendance, Iris Reader, Fingerprint reader, Biometric Access Control, RFID Card Reader: http://www.timelabs.in/biometric-devices.html;List of clients: http://www.timelabs.in/clients.html;;;3, 1, B;;
+Fulcrum Biometrics;http://www.fulcrumbiometrics.com/;2002;Mr. Ken Nosker;Mr. Ken Nosker;San Antonio, USA;"1862 W. Bitters Road #100
+San Antonio, TX 78248";"661, Udyog Vihar, Phase - V
+Gurgaon - Haryana, INDIA 122016";;00 91124 4145414;;;Biometric devices and solutions. Biometric Product Index: http://www.fulcrumbiometrics.com/pindex.asp;;;;;;;;;;Biometric Devices: FbF mobileOne, Fingerprint Scanners, Eye/Iris Cameras, Palm Vein Scanners, Live Scan devices. Biometric Solutions: Mobile Apps, Live Scan Systems, Access Control Units;"Micro Finance, E-Government, Retail
+Point-of-Sale, Healthcare, Travel, Benefits Management and Banking. ";;;1, B, C;Fulcrum Biometrics news: http://www.fulcrumbiometrics.com/Articles.asp?ID=241;"Fulcrum Biometrics Wins Award for Best Biometric Identification
+Solution in GSN's 4th Annual Homeland Security Awards (http://www.fulcrumbiometrics.com/Articles.asp?ID=310)"
+Incept;http://www.inceptonline.com/location-addresses;2008;;;Mumbai, India;Office No 401, 4th Floor, Al Rustumani Building, Opp. Alfardan Exchange, Khaild Bin Walid Street, Computer Street, Bur Dubai, PO Box 113578, Dubai, UAE.;202,205, Shivam Chambers, Next to Sahara, S. V. Road, Goregoan (W), Mumbai 400104; info@inceptonline.com;00 91 22 6769 6666 ;@inceptonline;;CCTV cameras and biometric access control systems. ;;;;;;;;CCTV cameras: (1) Vandal-secure Dome Camera: 480 TVL and sturdily designed enclosure (2) Good Quality resolution Dome Camera with Night vision and Weather protection (3) Bullet Camera with Night Vision and 600 TVL resolution (http://www.inceptonline.com/content/cctv & http://www.inceptonline.com/products?term_node_tid_depth_1=225&term_node_tid_depth=All);;iFace402-I, F709-I, MA300-I, C3400-I: http://www.inceptonline.com/products?term_node_tid_depth_1=224&term_node_tid_depth=All;Banks, House owners, Casinos, Airports, Retail Stores, Small Sized Companies, Factories;;ISO 9001:2008 Certified & Verisign certification for Website;6, 1, B;;Widely recognized as one of the leaders and  the no 1 brand of Biometrics in India in the business of serving SMEs with office automation products (http://www.inceptonline.com/content/about-us)
+IriTech Inc. ;http://www.iritech.com/office-locations;2000;;Dr. Dae-hoon Kim;Fairfax, VA, USA;"3951 Pender Dr., Suite 120A
+Fairfax, VA 22030, USA, Suite 701, Cheongdong Bldg.,
+1922, Nambusunhwan-Ro
+Gwanak-Gu, Seoul, 151-832, Korea, The Second Nakata-Bldg. 2F,
+1-2-15 AkasakaMinatoku Tokyo 107-0052, 4th Floor, 400/3 Ung Van Khiem St.,
+Ward 25, BInh Thanh District, Ho Chi Minh City, Vietnam.";Bangalore, India (sales);info@iritech.com; 00 1 703 877 2135;@IriTechInc;;Biometric hardware and software products, as well as biometric solutions: http://www.iritech.com/products ;;;;;;;;;;Hardware: IriTech's assortment of iris camera hardware offers flexible and simplified integration for creating iris recognition solutions (IriShield Series, IriMagic Series, IriHerald): http://www.iritech.com/products/hardware, Software: IriTech's iris recognition software offers the accuracy and power you need to capture and manage large numbers of iris images (IriCore, IriMaster, IriMatchEnhancer, IriTemplateGenerator, IriVerifier, IrisSDK, IriTracker, ForYouIrisOnly): http://www.iritech.com/products/software, Biometric Solutions: IriTech's assortment of iris camera hardware offers flexible and simplified integration for creating iris recognition solutions (Cloud-based iris recognition solution & Iris on a Mobile solution): http://www.iritech.com/products/solutions;Mobile, health care, education, military and law enforcement.;;STQC certification;1, B, C;IriTech news: http://www.iritech.com/news-events/news;
+Legend Systems Private Limited (Precision Biometric);http://precisionbiometric.co.in/;2001;Mathew Chacko;Mathew Chacko;Chennai, India;;"No.22, Habibullah Road
+Thyagaraya Nagar
+Chennai,  600 017
+India";;00 91 44 4219 9524;;;Fingerprint Devices, Iris, BioNIX, InnaIT-CBS, UID Kit, InnaIT-SDK, FI Kit, Attendance and Access Control Systems;;;;;;;;;;"Fingerprint Devices: (1) PB100e: PB100e is a Radio Frequency (RF) based fingerprint scanner with a USB 
+interface widely used for civilian use like Financial Inclusion, two 
+factor authorization, identification, authentication, enrollment, 
+security etc. (2) CSD200: The CSD200, 3M Cogent’s single-digit optical fingerprint scanner, is 
+housed in a durable and compact casing and captures high quality flat 
+impressions in a fast, reliable, and easy-to-learn way. Its advanced 
+optical system enhances ambient light rejection. (3) CS500: The Cogent CS500e LiveScan solution, featuring the CS500e scanner, is  
+an  easy-to-learn,  user-friendly system that captures rolled and flat 
+fingerprints. The software guides the  operator  through  the  capture 
+process   with   on-screen   prompts   and   graphical displays. 
+Real-time image quality check, sequence verification, auto-center, and 
+auto-contrast functions ensure the capture of high-quality prints. Iris: (1) CIS202: CIS202 is the latest Iris Scanner from 3M Cogent. This rugged dual iris 
+capture scanner offers a robust yet low cost solution for rapid and 
+simultaneous iris capture in less than two seconds. This USB-powered 
+scanner enables users to safely capture high resolution iris images, 
+while eliminating intrusive capture position or user discomfort. (2) CS101: CS101 is the latest Multi-function biometric Scanner and is considered 
+as the most accurate iris scanner for authentication which detects the 
+person’s identity with mathematical analysis of the random patterns that
+ are visible within the iris of an eye from some distance. The iris 
+remains stable over time as long as there are no injuries and a single 
+enrolment scan can last a lifetime. Solutions: (1) BioNIX: A solution to manage the identity of your organisation’s privileged 
+accounts. This is a robust solution using our advanced Radio Frequency 
+based fingerprint scanner. A login control application that strengthens 
+the login security by using biometric instead of password. (2) InnaIT-CBS: InnaIT-CBS is the most mature biometric technology, in which 
+authentication would remove loopholes in security in applications, 
+facilitate faster, simplified, accurate, and non-intrusive 
+authentication procedures, which also increases productivity, and 
+provides an audit trail that cannot be repudiated. (3) UID Kit: Precision Infomatic (M) Pvt Ltd provides the AADHAAR/UID Enrolment Kit for the Registrars, Enrolment 
+agencies and Outsourcing agencies who have taken the work order from 
+UIDAI for enrolling the residents of respective regions. (4) InnaIT-SDK: InnaIT-SDK is intended for the development of fingerprint based applications and solutions. (5) FI Kit: Financial Inclusion is the delivery of banking services at affordable 
+costs to vast sections of disadvantaged and low income groups including 
+households, enterprises, SMEs, traders. (6) Attendance and Access Control: http://precisionbiometric.co.in/attendance-access.php. Generally, all this information is found through the ""products"" and ""solutions"" sections in the website: http://precisionbiometric.co.in/";;;;1;;Precision Infomatic (M) Pvt Ltd have supplied around 25,000 UID/AADHAAR kits across India for the enrolment phase of the project (http://precisionbiometric.co.in/uid.php) 
+Raviraj Technologies;http://www.ravirajtech.com/index.html;;Mr. Raviraj Padwal ;Mr. Raviraj Padwal ;Pune, India;;319 Narayan peth, Pune, Maharashtra, India, Zip/Postal : 411030; info@ravirajtech.com;00 91 20 24475992;;;Biometric access control products, Biometric time attendance recorders, Biometrics Identification Authentication, USB Fingerprint Scanner, Fingerprint Car Lock, Fingerprint Modules, Fingerprint Software products, Fingerprint Scanners: http://www.ravirajtech.com/product.html;;;;;;;;;;"Biometric access control products, Biometric time attendance recorders, 
+Biometrics Identification Authentication, USB Fingerprint Scanner, 
+Fingerprint Car Lock, Fingerprint Modules, Fingerprint Software 
+products, Fingerprint Scanners: http://www.ravirajtech.com/product.html";"India, 
+                                                        USA (New York, California), UK, Dubai, UAE, Oman, 
+                                                        Bahrain, Saudi Arabia, Australia, south Africa, 
+                                                        Canada, America, middle east, Europe, Asia, 
+                                                        Argentina, Austria, Azerbaijan, Bahamas,  
+                                                        Bangladesh, Belgium, Bhutan, Brazil, Brunei, 
+                                                        Bulgaria, Burma, Cameroon, Canada, Chile, China, 
+                                                        Colombia. Congo, Costa Rica, Croatia, Cuba, Cyprus, 
+                                                        Czech Republic, Denmark, East west north south, 
+                                                        Ecuador, Egypt,  England, c Laos, Malaysia, 
+                                                        Maldives, Islands, Mauritius, Mexico, Myanmar, 
+                                                        Nepal, The Netherlands, New Zealand, Nigeria, 
+                                                        Ireland, Norway, Oman, Pakistan, Philippines, 
+                                                        Poland, Portugal, Qatar, Romania, Russia, Saudi 
+                                                        Arabia, Scotland, Seychelles, Sierra, Property Singapore, South 
+                                                        Africa, Spain, Sri Lanka, Sudan Sweden, Switzerland, 
+                                                        Syria, Taiwan, Tanzania, impact 
+                                                        components Thailand, Trinidad, Tunisia, 
+                                                        Turkey, United Arab Emirates, United Kingdom, Britain, United States of 
+                                                        America,  Vatican, Venezuela, Vietnam, Wales, 
+                                                        Zimbabwe Karnataka, Biometric Madhya Pradesh, 
+                                                        Biometrics Maharashtra, Orissa, Punjab";;enBioScan-C1 product: USB Optical FBI PIV certified fingerprint  scanner enBioScan-C1 -STQC Aadhaar Certified Live Scan fingerprinting. (1) FBI PIV certified, (2) STQC certified, (3) CE certification for Fingerprint Reader, (4) FCC certification for Fingerprint Reader: http://www.ravirajtech.com/FBI-PIV-certified-fingerprint-scanner-enBioScan-C1.html;1, C;;Raviraj Technologies is an Indian company which supplies multiple countries all around the world: http://www.ravirajtech.com/ Additionally, Raviraj Technologies sells Aadhaar certified products (UID): http://www.ravirajtech.com/FBI-PIV-certified-fingerprint-scanner-enBioScan-C1.html
+Smartmatic;http://www.smartmatic.com/contact/offices-contacts/;2000;Antonio Mugica;Antonio Mugica;London, UK;http://www.smartmatic.com/contact/offices-contacts/ (worldwide);"505-A 5th Floor D-4, Rectangle 1
+District Centre, Sacket
+New Delhi 110017";india@smartmatic.com;00 91 9 999769498;@smartmatic;;(Biometric) Election Solutions and ID Management Solutions, ;;;;;;;;;;Biometric Election Solutions (http://www.smartmatic.com/solutions/electoral-solutions/view/article/next-generation-voting-technology/#.UoYPa85_W8Y), Biometric Identity Management Solutions (http://www.smartmatic.com/solutions/id-management-solutions/view/article/comprehensive-biometric-identity-management/#.UoYPns5_W8Y);CIDLIS (Colombia), Commission on Elections (Philippines), Electoral Commission of Zambia, Electoral Superior Court (Bolivia), Electoral Superior Court (Brazil), Federal Electoral Institute (Mexico), Federal Public Service Interior (Belgium), La Punta University (Argentina), National Electoral Council (Ecuador), National Electoral Council (Venezuela), National Electoral Office (Argentina), National Identity Office (Haiti), National Registry (Colombia), Secretariat of the Interior (Mexico), TransCaribe (Colombia), United Nations Development Programme (http://www.smartmatic.com/customers/). Additionally, Smartmatic has offices across the globe and is possibly supplying biometric technology to other countries as well. ;;;1, C;http://www.smartmatic.org/en/newsroom/;Smartmatic is the world's leading electoral automation company, having run more large-scale automated elections around the globe than anyone else.Smartmatic people and technology have helped register more than 2.2 billion votes in over 3,500 elections (http://www.smartmatic.com/about-us/history/)
+Spy Impex;http://www.tradedir.in/company/spy-impex-69292;2008;;Mr. Suresh Savaliya;Gujarat, India;;66, DHRUVTARAK SOCIETY, OPP. HARIOM MILL, VED ROAD, Surat - 395004, Gujarat, India;;00 91 261 2510073;;;Huge variety of spy cameras, phone monitoring software and GPS vehicle tracking systems: http://www.tradedir.in/company/spy-impex-69292 ;;;Cell phones with spy wireless cameras, Cell phone spy software, Blackberry Spy Phone Software, Windows Mobile Spy Phone Software, Spy Phone Generator 3rd Edition S60v3, All in One Spy Phone, Mobile Phone Interceptor, Smartphone Spy Software, Spy Mobile Phone Software, Mobile Call Interceptor Software: http://www.tradedir.in/company/spy-impex-69292;;;GPS Vehicle Tracking System: http://www.tradedir.in/company/spy-impex-69292;;Coca Cola Tin Camera, Hidden Pen Camera, Spy Watch Camera, Spy mini CCTV camera with transmitter, Car key camera, Hidden camera sunglasses and much more spy cameras: http://www.tradedir.in/company/spy-impex-69292;;;The public, companies, hotels, and possibly law enforcement;;;6, 5, 10, A, B;;Spy Impex sells a wide range of spy products, including coca cola tin cameras...!
+Aryabhatta Infosys;http://www.aryainfo.com/;;;;Gujarat, India;;A/ 61, Vishranti Estate, Near Narayan Gardens, Off Yash Complex, Gotri Road, Vadodara - 390 021, Gujarat, India;response@aryainfo.com;00 91 265 2370173;;;Biometric devices, RFID, Access Control Systems, Voice Recognition, Face Recognition Systems;;;;Voice Recognition Systems: http://www.aryainfo.com/index.php/biometrics/biometricdevices/voicerecognitionsystems;Face Recognition Systems: http://www.aryainfo.com/index.php/biometrics/biometricdevices/facerecognition;"RFID Card based Attendance Recorders & Access Controllers: http://www.aryainfo.com/index.php/biometrics/rfid
+";;;;Fingerprint recorders (http://www.aryainfo.com/index.php/biometrics/biometricdevices/fingerprintar), Hand Geometry (http://www.aryainfo.com/index.php/biometrics/biometricdevices/handgeometry), Palm Vein (http://www.aryainfo.com/index.php/biometrics/biometricdevices/palmvein), Retina Scanner (http://www.aryainfo.com/index.php/biometrics/biometricdevices/retinascanner), Iris Scanner (http://www.aryainfo.com/index.php/biometrics/biometricdevices/irisscanner);Corporations: http://www.aryainfo.com/index.php/clients;;;1, 4, 3, 5, B;;
+Savant Automation;http://www.indiamart.com/savant-automation/;;;Mr. Srinivasan;Chennai, India;;No. 2/2, Kumaran Avenue, Valasarawakkam, Chennai - 600 087, Tamil Nadu, India;;00 91 9176265999;;;CCTV cameras, Access control systems, RFID solutions;;;;;;RFID solutions: http://www.indiamart.com/savant-automation/products.html;;"Solutions based on the range in IR or Night Vision or Day / Night 
+Cameras, CCD or Dome Camera, High Speed Dome Camera, IP Camera, GSM 
+Camera, PTZ Cameras, Vari Focal Dome, Flexi Dome Camera, Bullet camera, 
+Vandal Proof Cameras, Hidden Cameras, Motion Detection Cameras and more (http://www.indiamart.com/savant-automation/products.html)";;Access Control Systems (RFID,Smart Card, Proximity Card, Biometric, Voice Recognition, Iris): http://www.indiamart.com/savant-automation/products.html;Companies, hotels, public;;;5, 6, 1, A, B;;
+"
+Icon Infosystems";http://www.indiamart.com/icon-infosystems/, http://www.iconinfosystems.co.in/;;;;Bangalore, India;;No. 572,17th A Main, 6th F Cross, 6th Block, Kormangala, Bengaluru - 560095, Karnataka, India;;00 91 80 41627823;@Iconinfosystems;;Voice Recognition software, Call recording and monitoring solutions;;;Call recording and monitoring solutions: http://www.indiamart.com/icon-infosystems/products.html#cti-software;Voice Recognition software: http://www.indiamart.com/icon-infosystems/products.html#cti-software;;;;;;;The public, businesses, organizations and possibly law enforcement agencies;;;10, 4, A, B;;
+Mobile Spy India (Retina-X Studios);http://www.mobilespy.co.in/;1997;;James Johns;Jacksonville, USA;"13453 North Main Street
+Suite 201
+Jacksonville, FL 32218
+United States of America";502,Pink Tower, Malviya Nagar, J.l.n. Marg, Jaipur Gpo, Jaipur - 302001;sales@acespy.com,          media@acespy.com;00 1 888 475 5345;@retinaxstudios;;Mobile Spy Software for Mobile Phones;"
+
+";;"Mobile Spy Software features: (1) Records activity from Facebook, WhatsApp and Twitter messaging services used on the mobile phone. (2) Each incoming and outgoing number is logged along with duration and time stamp. (3) Every text message is logged even if the phone's logs are deleted. Includes full text. (4) All inbound and outbound email activity from the primary email account is recorded. (5) GPS postions are uploaded every thirty minutes with a link to a map. (6) ID information on all cell towers that the device enters into range of is recorded. (7) Every contact on the phone is logged. New contacts added are also recorded. (8) All URL website addresses visited using the phone's browser are logged. (9) All personal tasks that are created are recorded. (10) Every calendar event is logged. Date, time, and locations are recorded. (11) 
+All photos and videos taken by the phone are recorded and viewable. (12) Log YouTube videos watched on the phone with link to each video. (13) View the Gmail messages made on the phone with date, to/from addresses, subject and full text. (14) Lets you see what Apps are installed on the phone. (15) Records messenger logs from BlackBerry Messenger, Yahoo, Gtalk, Windows Live, and AOL. (16) Records all iMessages on the iPhone. (17) BlackBerry PIN messages. (18) Block the phone user's access to certain applications. (19) The remote uninstall feature lets you finish and tidy up your monitoring setup without being at the monitored phone. (20) Send SMS commands to the phone.And many more... View: http://www.mobilespy.co.in/spy_features.html 
+
+                                                                                                                                                                                                     
+                
+                                                                                                                                                                                                          
+                                                                                                                                                                
+                                                                                                                                                                                                        
+
+                                                                                                                                                                                                ";;;;;;;;The public;User Legal Agreement: http://www.mobilespy.co.in/user_legal_agreement.html, Mobile Spy Policies: http://www.mobilespy.co.in/legal.html ;;10, A;;Mobile spying features: http://www.mobilespy.co.in/spy_features.html
+SPY Action India Home Products ;http://www.spydelhi.in/;17 years ago;;Contact persons: PARMINDER SINGH, ARJUN SINGH;New Delhi, India;"42/A, Jephson Road,
+Near Green Street,
+East London,
+London - E7 8LZ.";"H.0.2162/29 GURU ARJUN NAGAR OPP.
+METRO PILLER NUMBER 230 MAIN PATEL NAGAR ROAD
+NEW DELHI-110008";actionindiadelhi@gmail.com;00 91 9811251277/ 9811601716;@spyproductdelhi;;Spy Cameras, Spy Wireless Cameras, GPS trackers, Spy software, CCTV cameras, Spy gadgets, Spy Keylogger Software, Computer Spy software;"Spy Keylogger software: There is the PS/2 model, which has the same fittings as a standard PS/2 
+keyboard. There is also the USB model, which is compatible with all 
+modern keyboards. The third type of keylogger is one concealed within 
+the computer keyboard itself (http://www.spydelhi.in/Spy-Keylogger-In-Delhi-India.html). Computer Spy Software is a stealthy monitoring tool which allows you to 
+secretly track all activities of computer users, to automatically check systems, including all areas of the system such as email sent, Web sites visited, files operations, every keystroke, username and password, 
+online conversation (ICQ, MSN, AIM), and take screen snapshots at set intervals just like a surveillance camera directly pointed at the computer monitor (http://www.spydelhi.in/Spy-Keylogger-Software-In-Delhi-India.html).  ";;"Spy Software for Nokia Mobile: Spyphone - Listen in to surrounding sounds and conversations
+
+Text Interception - Receive duplicate copies of all sent and received text messages
+
+Text Alert - Receive 'Real Time notifications of all calls made and received including the number
+
+Boot/SIM change - Receive Real Time notifications when the target phone is switched on and when the SIM card is changed (http://www.spydelhi.in/Spy-Software-For-Nokia-Mobiles-In-Delhi-India.html), Spy Software Blackberry Mobile: lackberry Spyware for Blackberry phone is the latest BB Messenger Spy 
+application designed specifically for Blackberry users. Blackberry 
+Spyware allows complete monitoring and tracking of Blackberry phone. 
+Blackberry Spyware can be used to reveal truth about your family. 
+Moreover, Spy can also be used to monitor the usage of employees by the 
+company. blackberry spyware for Blackberry phone enables monitoring of 
+calls, text messages and location of Blackberry.
+Spy for Blackberry 
+phone is a service which can be used by any person for monitoring any 
+Blackberry device. Once Blackberry Spyware is installed on the phone, it
+ enters into stealth mode hence software Spy is totally undetectable by 
+another user (http://www.spydelhi.in/Spy-Software-For-BlackBerry-Mobiles-In-Delhi-India.html), Spy Software for i-Phone (http://www.spydelhi.in/Spy-Software-For-I-Phone-In-Delhi-India.html), Spy Software for Android Mobile Phones (http://www.spydelhi.in/Spy-Software-For-Android-Phone-In-Delhi-India.html), Spy Phone Spftware: a program that you install on a mobile phone which after installation 
+secretly records events that happen on the phone and delivers this 
+information to your mobile phone via SMS. SPYPHONE also allows you to 
+listen to the surroundings of the target mobile, listen to a live phone 
+conversation and lets you know the location of the device (http://www.spydelhi.in/Spy-Mobile-Phone-Software-In-Delhi-India.html) ";;;;;"Spy CCTV Camera with micro SD Card: The weatherproof surveillance camera is designed for day / night, indoor
+ / outdoor applications with the support of infrared illuminators and 
+vandal proof die-cast Plastic housing. The outdoor camera is powered by 
+high resolution color 1/3 inch Sony Super HAD CCD image sensor and IR 
+lens with the construction of vandal-proof housing. The day / night 
+security camera provides color images in bright lighting conditions, and
+ in low light or night situations the IR sensor automatically switches 
+images to black-and-white (http://www.spydelhi.in/Spy-Cctv-Camera-With-Micro-Sd-Card-In-Delhi-India.html), Spy Camera gadgets: http://www.spydelhi.in/Spy-Camera-In-Delhi-India.html ";;;All Top and Leading News Channels, Corporate   Sectors, Private Detective Agencies, Investigation Agencies, the public.;;;9, 10, 6, A, B, C;;
+Nerve Centrex (NC);http://www.nervecentrex.com/;2005;;;Bangalore, India;;No.122, Soudhamini, 3rd Main Road, Gruhalakshmi Layout, 2nd Stage, Kamalanagar, Bangalore - 560079; helpdesk@nervecentrex.com;00 91 80 2323 1228;@nervecentrex;;"Nerve Centrex is partnered with the world leader in network video surveillance – AXIS Communications,
+ a company headquartered in Sweden with a 25 year track record of 
+delivering state-of-the-art network video surveillance products & 
+solutions. Axis products use Axis core technology – the ETRAX and ARTPEC chips. 
+With unrivalled network video experience, Axis delivers powerful 
+networking functionality and results-enhancing features like motion 
+detection, power-over-ethernet, megapixel, HDTV, two-way audio, alarm 
+inputs/outputs, active tampering alarm and thermal detection. As their channel partner Nerve Centrex offers network video surveillance
+ from standalone sites to large scale enterprise installation with 
+wireless connectivity. We offer end-to-end services like network 
+cameras, integration, video management software and wireless video 
+networks. ";;;;;;;;"Nerve Centrex offers network video surveillance
+ from standalone sites to large scale enterprise installation with 
+wireless connectivity. We offer end-to-end services like network 
+cameras, integration, video management software and wireless video 
+networks.";;;Businesses and Governments;;An ISO 9001:2008 Certified Company;6, B, C;;
+Aurora Integrated Systems (AIS);http://www.aurora-is.com/index.php?pg=company&comId=aboutus;;Team of seven graduates from IIT Kanpur;;Bangalore, India;;"60/4, Srirampura Cross
+Opp. JNC ASR, Jakkur Post
+Bangalore – 560064
+Karnakata, India";contact@aurora-is.com;00 91 80 65836508;;;UAVs: Urban View and Altius Mk-II, Aerostat systems: SkyView 50, SkyView 100 HD and SkyView 200;;;;;;;;;"Urban View is an Unmanned Aerial Vehicle that enables you to conduct reconnaissance in remote or arduous terrain (http://www.aurora-is.com/index.php?pg=uav&uavId=urbanview). Altius Mk-II is a medium altitude (< 15,000 ft), 
+medium range (up to 150 kms LOS), fully autonomous, mission programmable
+ fixed wing UAV. The Altius Mk-II system offers ISTAR (Intelligence, 
+Surveillance, Target Acquisition & Reconnaissance) capabilities (http://www.aurora-is.com/index.php?pg=uav&uavId=altiusmk2). The SkyView aerostat systems are airborne 
+persistent surveillance systems. Their flexibility in deployment and 
+scalability ensures that they can meet most mission requirements (http://www.aurora-is.com/index.php?pg=aerostat&aerostatId=skyview50).  ";;"Military and Police (law enforcement agencies)
+";;;2, C;http://www.thehindu.com/news/cities/Coimbatore/article454391.ece, http://www.hindu.com/2010/10/13/stories/2010101351080200.htm, http://hindu.com/2010/02/04/stories/2010020458460200.htm;
+Speck Systems Limited;http://www.specksystems.com/sub-links/Strengths/core-strengths-UAV.htm;;Mr. VS Rao;Mr. Kamichetty Chittaranjan Muni Kumar (KCM Kumar);Hyderabad, India;;"Electronics Complex
+Kushaiguda, Hyderabad – 500062.
+Andhra Pradesh, India (and other offices in Delhi, Jammu, Guwahati, Kolkata and Bangalore: http://www.specksystems.com/sub-links/contact-us/offices.htm)";;00 91 040 27125305 / 27125306.;;;UAVs and micro-UAVs;;;;;;;;;"UAVs: Speck has specialized in mini and micro UAVs, mounted with a variety of sensors designed for tactical applications for real-time situational awareness. Speck’s UAV offerings are in strategic partnership with IAI-Malat, 
+Israel, along with home-based support and maintenance. The company is 
+also working on a defined roadmap for continued R & D in the areas 
+of Data Processing, Exploitation and Transfer in the areas of UAV 
+technologies (http://www.specksystems.com/sub-links/Strengths/core-strengths-UAV.htm)";;Military;;An ISO 9001 & 27001 Certified Company;2, C;;Speck was the first Indian company to design, manufacture and fly a micro UAV, indigenously.
+Aeron Systems Pvt. Ltd.;http://aeronsystems.en.ec21.com/;2008;;Ashvani Shukla ;Pune, India;;S. no. 3/10, Anand Colony, Opp Barate Bung, River Side, Karve Nagar, Pune Maharashtra 411052 India;;00 91 020 65607770;;;UAVs;;;;;;;;;UAVs: http://aeronsystems.en.ec21.com/;;Military;;;2, C;;
+Smart Avionics Co Pvt Ltd.;http://smartavi.en.ec21.com/;1996;;Rajendra Kshirasagar;Pune, India;;anil Co-op. hos. society, 775, Shivaji nagar, opp,K.N.P., Erandwane Pune Maharashtra 411004 India;;00 91 20 25671980;;;UAVs;;;;;;;;;UAVs: http://smartavi.en.ec21.com/;;Military;;;2, C;;
+Aerobot;http://aerobot.en.ec21.com/;;;Arjun Naik;Bangalore, India;;Num 71, Sy.num. 27, CMC Katha 135-136, Marthalli - KR Puram Ring Road Bangalore 560037 India;;00 91 91 9900106582;;;UAVs;;;;;;;;;UAVs: http://aerobot.en.ec21.com/;;Military;;;2, C;;
+Infoserve India Private Limited;http://www.infoserveindia.com/products/26/Internet-Monitoring-System.html;1997;;;New Delhi, India;;402, World Trade Centre, Babar Road, New Delhi: 110001;info@infoserveindia.com, infoserve@groupsinha.com;011- 23709016, 23709017;;;Call Data Record (CDR) Miner application, Deep Eye Network Surveillance System, Internet Monitoring System;"Deep Eye Network Surveillance System: DeepEye system uses service based targeting which only targets and intercepts data on the following parameters namely: E-mail ID (the mail is sent from), E-Mail ID (the mail is sent to), IP address of a Sub ISP to intercept all traffic from a suspicious network and the keyword content in the mail or attachment. DeepEye uses new interception standards and methods for advanced deep packet inspection IP probing solutions, to extract relevant data and deliver it to IT 
+Security teams of the organization. The organization has the option to 
+use other packets of the system including Data Mining and Artificial 
+Intelligence to provide a comprehensive package. Ability to decode wide range of protocols and applications in Packet switched data which includes: Webmail (includes yahoo, hotmail etc) packets, Outlook express and other such Clients, Chats and other instant messenger, All FTP and TFTP Transfers, All visited websites, Peer to Peer networks, All browsed images, Audio and Video over IP, Voice over Internet Protocol (VOIP). Monitors all mails sent and received. Tracks Yahoo, Hotmail, rediffmail etc., POP and SMTP mails,
+all get and post requests, chats and instant messages, all blogs and websites visited, all audio and video over IP Network, all files transfers (FTP and TFTP), all printed documents, all suspect IPs, identify all compromised systems and the attacking servers (http://infoserveindia.com/products/25/Network-Surveillance-System.html). Internet Monitoring System: 1. Service based targeting system that decodes 100% of traffic before filtering.
+2. Analyze Data flowing at 10 G/sec with less than 2% packet loss
+3. A single system is responsible for delivery to different Law Enforcement Monitoring Facilities.
+4. Deep Packet Inspection technology
+5. Privacy concerns are met by ensuring that only targets relevant 
+data is intercepted. The interception is done on the following 
+parameters namely –
+E-mail ID, the mail is sent fromE-Mail ID, the mail is sent toIP address of a Sub ISP to intercept all traffic from a suspicious networkThe keyword content in the mail.Landline Numbers of suspects
+6. User Privileges and escalations attached to each officer and administrator
+7. Link Analysis and Pattern matching on all captured data. Advantages: Intelligence gathering for an entire state or a region, Completely indigenous developed with scalable architecture and Infrastructure, Data loss of less than 2%, Build a chain of suspect from a single start point, 2nd Generation interception System, All privacy concerns are met and maintained by the product automatically, Advanced link analysis and pattern matching algorithms, Completely Automated system, Data processing of up to 10 G /s, Automated alerts on capture of suspicious data (http://infoserveindia.com/products/26/Internet-Monitoring-System.html). ";Call Data Record (CDR) Miner application: View link for features: http://infoserveindia.com/products/24/CDR-Mining.html. Internet Monitoring System: Link Analysis and Pattern matching on all captured data, Build a chain of suspect from a single start point, Advanced link analysis and pattern matching algorithms, Data processing of up to 10 G /s, Automated alerts on capture of suspicious data (infoserveindia.com/products/26/Internet-Monitoring-System.html);;;;;;;;;Law enforcement agencies, intelligence agencies, police, governments;;An ISO 9001:2008 Certified Company and a NASSCOM member;9, 8, C;;Website Privacy Policy: http://infoserveindia.com/privacy_policy.html
+SilverStar Tracking Solutions;http://www.sstracking.com/;2008;;;Mumbai, India;;"Plexitech Technologies Pvt Ltd.
+511 Vardhaman Chambers
+17G Cawasji Patel St 
+Fort, Mumbai 400 001
+India "; sales@sstracking.com; 00 91 22 42129000 ;@SSTracking;;Vehicle Trackers;;;;;;Compact Tracker SS70: http://www.sstracking.com/Common/Products/CompactTrackerSS70.aspx;;;;;The public;;;5, A;;
+Convexicon Software Solutions India Pvt. Ltd.;http://www.convexiconindia.com/;More than 2 years ago;;;Gurgaon, India;;"38-Dakshin Marg, DLF Phase-II, Opposite Sahara Mall,
+Gurgaon-122002 (Hr.)";info@convexiconindia.com, ask.hr@convexiconindia.com ;00 91 9958620044, 00 91 9911340044 ;@convexiconindia;;Vehicle Tracking Systems (software and hardware), Biometric Access Control Systems, CCTV cameras;;;;;;Smart Vehicle Tracker (SVT-22): http://www.convexiconindia.com/hardware/vehicle.html, ;;CCTV surveillance systems: http://www.convexiconindia.com/hardware/surveillance.html;;"Biometric Access Control System: The System is also known for   giving a professional fingerprint access 
+as well as time attendance   control system. It also uses fingerprint 
+rather than card system for the   access. This can also be extensively 
+used in the Confidential Places   due to its easy installation as well 
+as high security (http://www.convexiconindia.com/hardware/biometric.html)";Hotels and companies: http://www.convexiconindia.com/clients.html;;An ISO 9001: 2008 Certified Company;1, 5, 6, B;;
+ WSS Security Solutions Pvt Ltd;www.wssgroup.in;;;Mr. Harminder Singh;Gurgaon, India;;NH 8, Gurgaon, Haryana, India;wssharminder@gmail.com  ;00 91 9871373333;;;CCTV cameras;;;;;;;;"CCTV cameras: http://www.wssgroup.in/cctvcamera.html
+";;;Haryana Police and companies: http://www.wssgroup.in/client.html;;;6, B, C;;North India’s first CCTV zone
+Nice Deal;http://www.indiamart.com/nicedeal/spy-mobile-softwares.html;2010;;Ms. Paramjeet Kaur (Proprietor);Haryana, India;;"No. 189 A, Sector 16
+Panchkula - 134 109, Haryana, India";; 00 91 172 2586765;;;Spy Hidden Cameras, GPS Trackers and Navigators, Call Monitoring Devices, Spy Wall Listening Devices, Spy Bluetooth Watches, Pen Drive Voice Recorders, 3G Wireless Cameras, Hidden Security Cameras, Spy Mobile Software;;;"Spy Cell Phone Interceptor Software: With the help of latest technology, we are able to offer Spy Cell Phone 
+Interceptor software that is helps in managing calls by sending SMS on 
+the pre-defined number to a cellular phone if a call is in progress on 
+the target phone (incoming or outgoing). When the user calls the target 
+phone, he will hear the conversation taking place on the target phone. 
+To execute this application, call conferencing and call display is 
+required. This software offered by us, transforms the mobile phone into a
+ sophisticated surveillance device and spy phone thus, is highly 
+demanded in the market (http://www.indiamart.com/nicedeal/spy-mobile-softwares.html)";;;"GPS Trackers code VT-001: Working Based on existing GSM/GPRS network and GPS satellites, this 
+product can locate and monitor any remote targets by SMS or internet. 
+this item include Latest GPS Tracker Software (http://www.indiamart.com/nicedeal/gps-trackers-navigators.html), GPS Tracking Device: Track exactly, track secretly. This GPS tracker can be used to determine
+ the precise location of a vehicle, person, or other asset to which it 
+is attached and to record the position of the asset at certain 
+intervals (http://www.indiamart.com/nicedeal/gps-trackers-navigators.html)";;"Spy Pen Cameras: These spy cameras are widely appreciated for its unique feature such as 
+very high resolution video recording, in built microphone, compact 
+design, long duration recording and long service life. They are mainly 
+used by reporters, journalists and researchers to cover deceptive 
+operations for public awareness (http://www.indiamart.com/nicedeal/spy-hidden-cameras.html), Lighter Video Cameras: Made in Taiwan, includes PC camera function and records video with audio (http://www.indiamart.com/nicedeal/spy-hidden-cameras.html), Spy Coca-Cola Can Camera: These cameras are built-in Coca-Cola cans, which is a very casual type 
+of camera used as a protection tool in daily life or as surveillance 
+equipment especially (http://www.indiamart.com/nicedeal/spy-hidden-cameras.html), Wrist Watch Cameras: The Spy Wrist Watch Video Cameras are widely used for carrying out 
+various sting operations by newspapers, television news channels, 
+research based projects and many other organizations (http://www.indiamart.com/nicedeal/spy-hidden-cameras.html)";;;The public - including journalists, researchers, organizations, etc. ;;;10, 5, 6, A;;Some of the products include hidden security products (in wrist watches and spectacles)
+Action India;http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/index.html;;;;New Delhi, India;;"H.0.2162/29 GURU ARJUN NAGAR OPP.
+METRO PILLER NUMBER 230 
+MAIN PATEL NAGAR ROAD
+NEW DELHI-110008
+NEAR SHADI PUR METRO STATION";actionindiadelhi@gmail.com;00 91 9811601716, 00 91 9811251277;;;Spy Cameras (including Spy Keychain Camera, Spy Glasses Camera, Spy Wrist Watch Camera, and many others), Spy Wireless Cameras (including Spy 3G Hidden Camera), 2-way GSM Audio Listening Device, Digital Voice Recorder, Spy USB Voice Recorder, Spy Wall Listening Device, Spy Voice Recorder Pen, Spy Hidden Mobile Battery GSM BUG, Spy Mobile Phone Software, Spy Key Logger, Spy GPS Tracker Watch Mobile, Spy Walky-talky Watches, Mobile Watch Phone, Spy Watch Mobile Phone, Spy GPS Vehicle Tracker, Spy GPS Personal Tracker, Spy GPS Mobile Tracker, Spy GPS Tracker Watch Mobile;"Spy Keylogger: This device is connected between the computer and the keyboard. As the 
+user types anything on the keyboard, such as emails, documents, 
+passwords, etc, they are stored on an internal memory storage device 
+within the keylogger. The owner of the keylogger can then retrieve the 
+data from the keylogger at any time.There are 3 main types of hardware keylogger available. There is the 
+PS/2 model, which has the same fittings as a standard PS/2 keyboard. 
+There is also the USB model, which is compatible with all modern 
+keyboards. The third type of keylogger is one concealed within the 
+computer keyboard itself. This is the ultimate in stealth as its very 
+unlikely that a user would regularly unscrew their keyboard to see if a 
+keylogger has been installed inside it. Keylogging devices can also work
+ with some wireless keyboards as long as the keylogger fits between the 
+computer and the USB keyboard receiver (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-KEY-LOGGER-CODE-066.html) 
+";;Spy Mobile Phone Software code-029: This mobile phone looks and operates like any other mobile phone. It can dial out and receive calls like any other mobile phone. However we have put in special program which once activated, the SPY-Phone will let you know all the phone activity of the Phone user (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-MOBILE-PHONE-SOFTWARE-CODE-029.html);;;"Spy GPS Vehicle Tracker code 137: Working Based on existing GSM/GPRS network and GPS satellites, this 
+product can locate and monitor 
+Any remote targets by SMS or internet. This item include Latest GPS 
+Tracker Software(Latest Ver ) 
+No Contract, No Activation Fee, No Software use Fee. 
+More safety and convenience, by (running on a personal computer) remote 
+control software can cut off the vehicle oil and the circuit, also can 
+be connections the original vehicle are vibration sensors and automotive
+ door control switch (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-GPS-VEHICLE-TRACKER-CODE-137.html), Spy GPS Mobile Tracker: This is a GPS high quality senior mobile phone.When the 
+elderly+girl+child using it,you can track him by SMS or GPS paltform.And
+ if in emergency,the elderly+girl+child can press SOS button to ask for 
+help.It is the elderly's safety device.And it can one-key call the 
+family members (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-GPS-MOBILE-TRACKER-CODE-139.html)";;"CCTV cameras (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/CCTV-FOR-SECURITY-CODE-014.html), Spy Wall Listening Device: Works on wooden walls, doors, windows, steel plates, etc. Spy Bug with earphones. Volume Dial to amplify sounds. 3.5mm Earphone Jack. USB included. ON/OFF Switch Button with volume Dial. Built In rechargeable battery (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-WALL-LISTENING-DEVICE-CODE-009.html), Spy Coca-Cola Can Camera: A Coca-Cola Can Wireless Hidden Video Camera system features the 
+smallest pinhole camera in the world. This unique video camera system 
+will operate indoors or outdoors and view clearly down a street or 
+throughout a room while recording all the action direct to its built-in 
+4GB DVR/Digital Video Recorder. Simply connect the Spy Can to any 
+PC/Computer via USB cable to review footage. No drivers or software 
+needed. This newly designed unit features built in video functions and 
+real time recordings with no motion blurs or time delay. The built-in 
+camera lens and audio microphone are virtually unnoticeable. Everything 
+is easy to set up and connect within seconds. Quickly recharge the 
+built-in lithium battery via USB cable (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-COCA-COLA-CAN-CAMERA-CODE-032.html), Spy Pen Camera: Made in Japan. Digital Spy Hidden pen camera cum pen drive 5.0 mega pixels camera 01 
+YEAR Guarantee.This Micro-Cam recorder is a super compact video audio 
+camcorder (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-PEN-CAMERA-CODE-034.html),Spy Reverse Gogles: Spy Glasses look like an ordinary pair of sun glasses.Yet they have a unique feature: you can see behind you. The lenses on these spy glasses have a special coating that allows you to look straight ahead and still see what is going on behind you (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/SPY-REVERSE-GOGGLES-CODE-048.html), Spy wireless cameras (http://www.spysystemsindia.co.in/HIMACHAL-PRADESH/WIRELESS-CAMERA.html)";;;The public (products sold online) - possibly law enforcement agencies as well;;;6, 9, 10, 5, A;;Action India imports products directly from Taiwan, Russia, Israel and China
+Verint Systems;http://verint.com/;1994;;Dan Bodner;Melville, NY;"Verint Systems Inc.
+ 330 South Service Road
+ Melville, NY 11747 USA";"Verint Systems India Pvt. Ltd, 58, 6th Floor, H M Tower, Brigade Road
+Bangalore, Karnataka, India, 560001
+";info@verint.com, marketing.apac@verint.com, HD_India@verint.com ;00 1 631 962 9600 (USA), 00 91 80 41993000 (India) ;@Verint;ISS World Europe 2014: http://www.issworldtraining.com/iss_europe/;Impact 360 Speech Analytics, Impact 360 Text Analytics, Nextiva Video Management Software (VMS), Nextiva Physical Security Information Management (PSIM), Nextiva Network Video Recorders (NVRs), Nextiva Video Business Intelligence (VBI), Nextiva Surveillance Analytics, Nextiva IP cameras,  CYBERVISION Network Security, ENGAGE suite, FOCAL-INFO (FOCAL-COLLECT & FOCAL-ANALYTICS), RELIANT, STAR-GATE, VANTAGE, Audiolog for Public Safety, Impact 360 for Public Safety;"CYBERVISION Network Security: The Verint CYBERVISION Network Security portfolio provides superior malware detection capabilities for high-speed networks, including national backbones, and is built on more 
+than two decades of Verint experience implementing large network monitoring projects for government organizations worldwide (http://www.verint.com/solutions/communications-cyber-intelligence/products/cybervision/index.html),  FOCAL-INFO: The end-to-end Verint FOCAL-INFO solution applies the latest open-source Web intelligence methodologies to continuously search a multitude of open Web sources, extract and analyze public information that they contain, and transform it into actionable intelligence.Usingthe most advanced technologies available today, Verint FOCAL-INFO streamlines the integration of vast amounts of open-source Web data, generates new leads, and tracks negative influencers, thus optimizing the investigation process. Verint FOCAL-COLLECT covertly collects large volumes of open-source data from virtually any public Web site. Verint FOCAL-ANALYTICS transforms volumes of open-source data into meaningful information and indicates new sources for intelligence gathering (http://www.verint.com/solutions/communications-cyber-intelligence/products/focal-info/index), RELIANT: RELIANT intercepts, filters, and analyzes target communications from voice, Internet, mobile  and fixed satellite, and cellular  communications in compliance with lawful interception mandates (http://www.verint.com/solutions/communications-cyber-intelligence/products/reliant/index), STAR-GATE: Designed to manage vast numbers of targets, concurrent sessions and networks, STAR-GATE transparently accesses targeted communications 
+without alerting subscribers or disrupting service.Using STAR-GATE, service providers can deploy a single, centralized solution to address a variety of technologies and compliance regulations in any number of countries. This eliminates the burden of deploying a different
+compliance solution in every country in which a provider offers communication services (http://www.verint.com/solutions/communications-cyber-intelligence/products/star-gate/index), VANTAGE: VANTAGE intercepts, filters, and analyzes mass and target communications from traditional voice, Internet, mobile and fixed satellite, and cellular communicationsin compliance with lawful interception mandates. This robust monitoring center helps intelligence, national security, and other government agencies generate high-quality intelligence from huge volumes of data to unearth threats and track targets. VANTAGE  monitoring centers provide real-time interception and retrospective analysis of huge volumes of mass or target communications (http://www.verint.com/solutions/communications-cyber-intelligence/products/vantage/index)";"Impact 360 for Public Safety: (1) Analyze captured audio to identify clues or surface trends that might otherwise go undetected, (2) Capture and retrieve audio, video, text, screen data, telematics, photos, maps, and related data, such as telephone numbers and locations,from a variety of sources, (http://www.verint.com/solutions/public-safety/products/Impact-360-for-Public-Safety/index), Nextiva Video Management Software (VMS): Nextiva Video Management Software (VMS) streamlines video security operations and helps you rapidly make sense of the vast volumes of video and data you capture (http://www.verint.com/solutions/video-situation-intelligence/products/video-management-software/index.html), Nextiva PSIM: Nextiva PSIM captures information from a variety of security, safety, and building management systems, enables the fusion of the information for a user to view, correlate, and analyze the information to identify situations quickly and efficiently, and initiate and manage response to the situations in collaboration with local agencies (http://www.verint.com/solutions/video-situation-intelligence/products/physical-security-management/index), Nextiva Video Business Intelligence (VBI): Nextiva Video Business Intelligence (VBI) is a comprehensive solution that helps forward-thinking retail organizations capture and analyze shopper movement patterns in order to increase conversion rates, improve operational efficiency and maximize customer satisfaction. Nextiva VBI expands the application of video security infrastructure by using video 
+from existing surveillance cameras to extract accurate and holistic data
+ about customer behavior patterns; more than what traditional 
+technologies produce (http://www.verint.com/solutions/video-situation-intelligence/products/video-business-intelligence/index)";"ENGAGE solutions: ENGAGE solutions intercept, decode, monitor, and analyze communications 
+in field operations. These covert, portable solutions target specific 
+networks and applications, with off-air interception and location 
+solutions for GSM, UMTS, and mobile satellite networks (http://www.verint.com/solutions/communications-cyber-intelligence/products/engage/index), RELIANT: RELIANT intercepts, filters, and analyzes target communications from voice, Internet, mobile  and fixed satellite, and cellular  communications in compliance with lawful interception mandates (http://www.verint.com/solutions/communications-cyber-intelligence/products/reliant/index), VANTAGE: VANTAGE intercepts, filters, and analyzes mass and target communications from traditional voice, Internet, mobile and fixed satellite, and cellular communications in compliance with lawful interception mandates. This robust monitoring center helps intelligence, national security, and other government agencies generate high-quality intelligence from huge volumes of data to unearth threats and track targets (http://www.verint.com/solutions/communications-cyber-intelligence/products/vantage/index), Audiolog for Public Safety: provides full-time recording, selective recording, recording on demand, and dial-in recording across digital and analog telephones, trunked and conventional radio systems, telephone lines and trunks, IP phones, short
+ message service (SMS), and PC screens. In addition to recording 
+interactions, Audiolog can tag them with information from radio, 
+ANI/ALI, CTI, ICCS, CAD, SMS, and GIS systems to facilitate incident 
+reconstruction (http://www.verint.com/solutions/public-safety/products/audiolog-for-public-safety/index)";"Impact 360 Speech Analytics: With Impact 360 Speech Analytics, you can glean valuable intelligence 
+from thousands—even millions—of customer calls quickly, so you can take 
+action quickly (http://www.verint.com/solutions/voice-of-the-customer-analytics/Products/speech-analytics/index)";;;Nextiva Surveillance Analytics: Nextiva Surveillance Analytics helps organizations make sense of vast amounts of security video and data, generating Actionable Intelligence for better decisions and faster, more effective action. This powerful suite of integrated analytic applications can automatically pinpoint potential breaches and significant events and send video alerts to the appropriate people, departments and agencies (http://www.verint.com/solutions/video-situation-intelligence/products/surveillance-analytics/index), Impact 360 Text Analytics: collects, analyzes, and acts on customer interactions from a variety of text-based communication channels, including Facebook and Twitter (http://www.verint.com/solutions/voice-of-the-customer-analytics/Products/text-analytics/index);Nextiva Network Video Recorders (NVRs): Nextiva network video recorders (NVRs) capture high-quality video images and adapt to evolving security needs.These NVRs include flexible storage and management options with Verint’s enterprise-class video viewing and automated monitoring software (http://www.verint.com/solutions/video-situation-intelligence/products/network-video-recorders/index), Nextiva IP cameras: Nextiva helps organizations address the challenges of indoor and outdoor video surveillance with a wide array of powerful IP cameras (http://www.verint.com/solutions/video-situation-intelligence/products/ip-cameras/index.html) ;;;Governments, military, law enforcement agencies, companies, organisations, intelligence agencies;RELIANT intercepts and delivers communication in compliance with ETSI, CALEA, and other worldwide lawful interception standards and regulations (http://www.verint.com/solutions/communications-cyber-intelligence/products/reliant/index), STAR-GATE is in compliance with lawful interception mandates worldwide, including ETSI, CALEA , 3GPP, CableLabs, and others.  ;ISO 9001:2008, ISO 27001:2007, ISO 14001:2004 (http://www.verint.com/about/corporate-responsibility/iso-certifications/index.html) ;9, 8, 10, 4, 7, 6, B, C;Verint to get government contract for interception tools: http://articles.economictimes.indiatimes.com/2013-07-27/news/40833490_1_interception-solution-cyber-security-interception-tools;Revenue FYE January 31, 2013: $848 million
+AGC Networks;http://www.agcnetworks.com/home/;Incepted as Tata Telecom Limited in 1986 (http://www.agcnetworks.com/home/agc-overview);;Mr. S. K. Jha;Mumbai, India;Global offices (in addition to Indian offices): Australia, Kenya, New Zealand, Philippines, Saudi Arabia, South Africa, UAE, USA: http://www.agcnetworks.com/home/geo-presence;"501, 5th Floor, Salarpuria Touchstone,
+Marathahalli-Sarjapur Outer Ring Road,
+Bangalore, Karnataka, 560103. And other Indian offices in Bhopal, Bilaspur, Chandigarh, Chennai, Mumbai, Delhi, etc. (http://www.agcnetworks.com/home/contact-us). ";info@agcnetworks.com;00 91 22 66617272, 00 91 80 66603000;@AGCNetworksLTD;ISS World 2012 (http://www.wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf);IP surveillance cameras, video analytics, access control systems, automatic vehicle number plate recognition system (http://www.agcnetworks.com/home/unified-communications);;;;;;Automatic vehicle number plate recognition system (http://www.agcnetworks.com/home/unified-communications);Video Analytics (http://www.agcnetworks.com/home/unified-communications);IP surveillance cameras (http://www.agcnetworks.com/home/unified-communications);;Access control systems (http://www.agcnetworks.com/home/unified-communications);"With global presence in 14 countries and 18 offices in India, AGC has 2500+
+ strong, diverse customer base including Fortune 500 companies. These 
+customers are spread across a broad spectrum of verticals such as  Banking, Financial Services and Insurance, Government, PSUs and Defence, Healthcare, Travel and Hospitality, IT / ITes, Manufacturing, Energy and Utilities and SMB Solutions. ";;ISO: 9001 certified solution integration company for IP based video surveillance systems. ISO 27001: 2005  (http://www.agcnetworks.com/public/uploads/downloaddocs/agc_27k_cc.pdf), ISO 9001:2008  (http://www.agcnetworks.com/public/uploads/downloaddocs/agc_cc.pdf);5, 7, 6, 1, B, C;;Global presence in 14 countries. 
+Aqsacom India;http://www.aqsacom.com/;1994;Mr. Gilles Blanc (http://www.insideview.com/directory/aqsacom-sa);Mr. Gilles Blanc;Les Ulis, France;"Les Conquerants
+                        Batiment B - Everest
+                        1 Avenue de l' Atlantique
+                        Courtaboeuf 2
+                        91940 Les Ulis";"5th Floor, A- Block, Q City 
+Gachibowli Hyderabad 500032 Andhra Pradesh";info@aqsacom.co;00 91 4067 330 100;;ISS World MEA 2012 (http://www.issworldtraining.com/iss_mea/sponsors2.html), ISS World Prague 2009 (http://wikileaks.org/spyfiles/files/0/42_200906-ISS-PRG-AQSACOM.pdf), ISS World MEA 2013 (http://www.issworldtraining.com/iss_mea/sponsors2.html), ISS World Latin America 2013 (http://www.issworldtraining.com/ISS_BRASILIA/sponsors.html) ;(1) AQSACOM Lawful Interception Management System: ALIS (2) AQSACOM's Data Retention Intelligence Solution: ADRIS (http://www.aqsacom.com/solutions.php);"ALIS Lawful Interception System that supports Multiple Networks (PSTN, GSM, GPRS, 3G, LTE, CDMA, WCDMA, 
+VoIP, xDSL, Satellite, etc.) and Multiple Vendors (Cisco, Ericsson, NSN, 
+Alcatel Lucent, Nortel, Motorola, Huawei, etc.): http://www.aqsacom.com/resources/pdf/ALIS_BROCHURE_2012.pdf Lawful Interception for IP networks: http://www.aqsacom.com/resources/pdf/LI-IP-NET-AQSA_WP_2012_01.pdf";;"ALIS Lawful Interception System that supports Multiple Networks (PSTN, GSM, GPRS, 3G, LTE, CDMA, WCDMA, 
+VoIP, xDSL, Satellite, etc.) and multiple vendors (Cisco, Ericsson, NSN, 
+Alcatel Lucent, Nortel, Motorola, Huawei, etc.) : http://www.aqsacom.com/resources/pdf/ALIS_BROCHURE_2012.pdf. Lawful Interception for 3G and 4G networks: http://www.aqsacom.com/resources/pdf/LI-3G-4G-AQSA_WP_2012_01.pdf ";;;;;;;;"Telecom Operators, Service Providers, and Law Enforcement Agencies around the world. Aqsacom's customer-centric platforms allow for the convergence of multiple 
+networks (e.g., PSTN, GSM, CDMA, GPRS, UTMS, VOIP, IP …), multiple 
+vendors (e.g., Cisco, Ericsson, Huawei, Nortel, NSN …) and multiple LI 
+standards (e.g., ETSI, CALEA, 3GPP, National Variants …). AQSACOM's diverse customer portfolio includes clients from more than 35 
+countries spanning Europe, Middle East, Africa, Asia, Australasia, Latin
+ America and North America. AQSACOM's diverse customer portfolio includes clients from more than 35 
+countries spanning Europe, Middle East, Africa, Asia, Australasia, Latin
+ America and North America. 
+AQSACOM's Communication Service Provider Clients include:
+
+                               (1) Mobile Network Operators (2) Fixed 
+Line Telephony Operators (3) Mobile Virtual Network Operators (4) 
+Internet Service Providers (5)Satellite Communication Providers. 
+AQSACOM's Law Enforcement Clients include:
+                          
+    (1) Police Departments (2) Homeland Security (3) Intelligence 
+Agencies (4) MilitaryJustice Departments (5) Ministries of Interior. 
+(http://www.aqsacom.com/customers.php)                                ";3GPP, ETSI, ANSI/ATIS, Inter-Standard Mediation and national variants. ;ISO 9001-2001;9, 10, D, C;;"AQSACOM's Data Retention Intelligence Solution, ADRIS, is a convergent 
+solution which can fulfill Data Retention (DR) requirements for all 
+voice and data networks (PSTN, GSM, GPRS, 3G, LTE, CDMA, WCDMA, VoIP, 
+IP, Satellite, etc.) from a centralized management platform. (http://www.aqsacom.com/solutions.php)
+                                                "
+Paladion Networks;http://www.paladion.net/;2000;Mr. Rajat Mohanty, Mr. Vinod Vasudevan, Mr. Firosh Ummer, Mr. Jose Varghese, Mr. Binu Thomas;Mr. Rajat Mohanty;Bangalore, India;UK, UAE, Qatar, Saudi Arabia, Oman, Kuwait, Canada, Malaysia, Indonesia, Thailand, USA, Germany (Partner Office): http://www.paladion.net/contact_us.html;(1) Shilpa Vidya, 49 1st Main, 3rd Phase JP Nagar, Bangalore- 560078, (2) 606, A Wing, 6th Floor, Technocity Mahapae, Navi Mumbai- 400 710, (3) E-801, Lagoon Apts, Ambience Isand, NH-8 Gurgaon- 122002;sales@paladion.net;00 91 80 42543444 (Bangalore), 00 91 22 33655151 / 00 91 22 41615151 (Mumbai), 00 91 9910301180 (Delhi);;ISS World 2012: http://www.wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf;(1) Internet Monitoring System, (2) Monitoring of Landline and Cellphone Networks, (3) Unified Monitoring Platform, (4) Portable Monitoring Device, (5) Cyber Cafe Monitoring, (6) SSL Interception and Decryption Systems, (7) Hand Held Wifi Monitoring, (8) Remote Desktop / Laptop Monitoring, (9) Granular Webpages Blocking, (10) Link Analysis, (11) Computer and Cellphone Forensics: http://wikileaks.org/spyfiles/files/0/277_PALADION-InterceptSolutions.pdf;Internet Monitoring System, SSL Interception and Decryption System, Remote Desktop / Laptop Monitoring, Computer Forensics: http://wikileaks.org/spyfiles/files/0/277_PALADION-InterceptSolutions.pdf;Unified Monitoring Platform: wikileaks.org/spyfiles/files/0/277_PALADION-InterceptSolutions.pdf;Monitoring of Landline and Cellphone Networks, Cellphone Forensics: http://wikileaks.org/spyfiles/files/0/277_PALADION-InterceptSolutions.pdf;Unified Monitoring Platform: http://wikileaks.org/spyfiles/files/0/277_PALADION-InterceptSolutions.pdf;;;;;;;"Standard Chartered Bank, ABN AMRO Bank,  HSBC, ING Vysya, State Bank of India, ICICI Bank Kotak Mahindra Bank, Commercial Bank of Kuwait, Riyad Bank,Principal Financials AMC, IDBI Bank, Medmarc Insurance, Kotak Mutual AMC+AMI Insurance, First Islamic Bank, OrbiTech Solutions, Prudential Singapore, Prudential ICICI AMC, Syndicate Bank, Infosys Technologies Ltd.,  ITS2, Digicert, Aditi, PWC, HCL Tech, Hewitt Associates, Tata Elxsi, Intel, Seva, CMC, Polaris, Keane, Fortuna,  Microsoft Consulting, SK-International, Hurix Systems, America To Go, Atcom, Titan, Reliance Industries, Pfizer, Pidilite, HLL, Asian Paints, DaimlerChrysler, Comsat Max, Tata ISP, Rolta Net, Nextel, Reliance Infocomm, Global Tele,  Satyam, BEL, ISRO, GE Tech Center, Department of Justice,USA, Ministry of IT, India
+ ";;"CISSP, CISA, SANS, BS7799, CBCP, ISO 20000 and ISO 27001.
+                
+";9, 8, 10, 4, 5, C, D;"Listed in ""Top 10 Enterprise IT Security"" (http://www.siliconindia.com/magazine-in/companies/enterprise-it-Security/)";"Paladion is a global full service managed security provider committed
+ to delivering technology solutions to ensure impenetrable security to 
+700 customers & 30 countries across Asia, US and Europe.
+Paladion is a partner with Symantec (among others): http://www.paladion.net/technology_partners.html"
+Polaris Wireless;http://www.polariswireless.com/;1999;Silicon Valley visionaries: Manlio Allegra & Anders Richardson;Manlio Allegra;Mountain View, CA USA;"301 North Whisman Road
+ Mountain View, CA 94043 USA, Ofﬁce 313, Building No. 3
+ Dubai Internet City, Dubai UAE";"Anjaneya Techno Park,
+ Ground Floor, No.147
+ Old Airport Road, Kodihalli
+ Bangalore, IN 560008";; 00 91 80 4257 6000;@polariswireless;ISS World 2012: https://www.wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf, ISS World MEA 2013: http://www.polariswireless.com/iss-world-mea-2013/, ISS World Asia 2013: http://www.issworldtraining.com/iss_ap/Brochure01.pdf;http://www.polariswireless.com/surveillance-and-analytics/;;;Altus Mobile: http://www.polariswireless.com/altus-mobile/;;;Altus: http://www.polariswireless.com/altus/;Altus: http://www.polariswireless.com/altus/;;;;Law enforcement agencies - intelligence agencies and police departments;;;10, 5, 7, C;Press coverage: http://www.polariswireless.com/press-coverage/;"Polaris Wireless continued its profitable growth and announced record 
+bookings for 2011, validated by the company’s first appearance on the 
+2012 Inc. 5000 list of fastest-growing private companies."
+Polixel Security Systems;http://www.polixel.in/;1991;;"Chandrashekar T V (http://www.linkedin.com/pub/chandrashekar-t-v/2/9b5/915)
+            
+
+          
+          
+          
+
+      
+        
+
+      ";Warsaw, Poland;"POLIXEL Sp. z.o.o.
+ 6 Zakopianska St. 03-934 Warsaw
+ Poland";"Polixel Security Systems Private Limited
+(Subsidiary of Polixel Sp. z.o.o., Poland)
+Plot No. 38, Institutional Area, Sector 32, 
+Gurgaon, Haryana - 122001, India. Other Indian offices in Mumbai, Chennai, Pune, Kolkata, Ahmedabad, Bangalore and Hyderabad, with the head office in Gurgaon (NCR).";info@polixel.in (India), polixel@polixel.pl (Poland);00 91 (0)124-4310000 (India), 00 48 22 511-19-99 (Poland);;ISS World 2012: https://www.wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf;http://www.polixel.in/index.php/solutions;;;;;Face recognition: http://www.polixel.in/index.php/solutions/solutions-overview/face-recognition;"Automatic Number Plate Recognition System: 
+http://www.polixel.in/index.php/solutions/solutions-overview/automatic-number-plate-recognition-system-anpr";Video Analytics: http://www.polixel.in/index.php/solutions/solutions-overview/video-analytics;Video Analytics: http://www.polixel.in/index.php/solutions/solutions-overview/video-analytics, VMS - Video Management System: http://www.polixel.in/index.php/solutions/solutions-overview/video-management-system-vms, IP cameras: http://www.polixel.in/index.php/products/ip-cameras, PTZ cameras: http://www.polixel.in/index.php/products/ip-cameras/ptz-cameras, Dome Cameras: http://www.polixel.in/index.php/products/ip-cameras/dome-cameras, Box Cameras: http://www.polixel.in/index.php/products/ip-cameras/box-cameras;;Voting Card: http://www.polixel.in/index.php/solutions/solutions-overview/m3s-applications;Law Enforcement Agencies (LEAs);; ISO 9001:2008;3, 5, 7, 6, 1, C;;
+Pyramid Cyber Security;http://pyramidcyber.com/pyramid/;;Alok and Samir Gupta;Alok Gupta: Founder & Managing Director;New Delhi, India;Overseas Offices and Partners in New York, Los Altos,,Boston,London,Dubai, Kenya,Doha, Colombo;"FB-05, NSIC Software Technology Park Extension,
+Okhla Industrial Estate,
+New Delhi-110020, India";contact@pyramidcyber.com;00 91 9650894671;@PyramidCyber;ISS World 2012: https://www.wikileaks.org/spyfiles/docs/ISS-2013-Sche2013-en.pdf;http://pyramidcyber.com/pyramid/?page_id=499;SIP based Video IP Phones and cameras;;SIP based Video IP Phones and cameras;;;;Video Analytics;CCTV Surveillance and Video Analytics, 360° Panoramic Cameras;;Access Control system;Law Enforcement Agencies (LEAs), governenments, defense and enterprises. Indian Defence, CBI, State Police Organisations, Directorate of Forensic Science, Intelligence Bureau, CERT, CDAC, RITES, NNE Pharma Plan, JK Group, Ford Motors, Punjab Police, Chandigarh Police, Uttarakhand Police, Delhi Police, Madhya Pradesh Police, Karnataka Police, Tamilnadu Police, Assam Police, Bihar Police, Forensic Science Laboratory - Mumbai, Delhi, Chennai, GEQD, KolkattaGEQD,Hyderabad Institute of Forensic Science - Mumbai (http://pyramidcyber.com/pyramid/?page_id=713);;ISO 9001-2008 and ISO 27001-2005 ;9, 10, 7, 6, 1, C;;
+XenArmor ;xenarmor.com;2012;"Nagareshwar Talekar (http://www.linkedin.com/in/nagareshwartalekar) 
+";Nagareshwar Talekar;Bangalore, India;;No 736 Gf Mahadeshwar Layout12 Cross,16th Main,2nd, Bangalore - 560076, Karnataka, India.;contact@xenarmor.com;;@XenArmor;;Network SSL Certificate Scanner, Advanced Keylogger Detector, Network Attack Detector, Universal Password Recovery Kit (http://www.xenarmor.com/products.php), Windows Password Recovery services & Cyber Crime Investigation services (http://www.xenarmor.com/services.php) ;"Network SSL Certificate Scanner, Advanced Keylogger Detector, Network 
+Attack Detector, Universal Password Recovery Kit 
+(http://www.xenarmor.com/products.php), Windows Password Recovery 
+services & Cyber Crime Investigation services 
+(http://www.xenarmor.com/services.php) ";;;;;;;;;;Utah State Government (USA), Accenture, Electronics and Telecommunications Research Institute (Korea), QuestDiagnostics (USA), Sybase Inc. (USA), Ticket Online (Germany), IT Knowledge & Expertise (South Africa), etc. (http://www.xenarmor.com/customers.php);;;9, B, C;"Included in the list of top 10 emerging enterprise IT security companies
+ in India: 
+http://www.siliconindia.com/magazine-in/companies/enterprise-it-Security/";Included in the list of top 10 emerging enterprise IT security companies in India: http://www.siliconindia.com/magazine-in/companies/enterprise-it-Security/
+Span Technologies;http://spantel.in/content.php?con=1&type=Content;1998;"
+";President: Mr. Lalit K Chandak (http://www.spantel.in/uploaddocuments/newspdf1_551.pdf);New Delhi, India;"
+
+";"W-141A, Anupam Gardens
+IGNOU Road,
+New Delhi-110068.India";span@spantel.in;00 91 11 41664278/29534973;"
+";ISS World 2009, ISS World 2010;"2002: VoIP for ILD operations in the carrier segment
+2003: Lawful Monitoring solutions among Indian ILD operators
+2004: Wimax
+2005: Web/email acceleration solutions & SIP telephony
+2006: Converged TDM and IP monitoring & Broadband over Power Lines
+2007: GSM backhaul optimization & QOS over IP networks
+2008: Introduction of IMS & Location Based Services Platform
+2009: Antispam for SMS and Email      
+2010: Digital Repeaters, Converged Multi-service Gateway and Internet Bandwidth Optimization, Broadband/ IP based Services/ VAS to TELCOS and ISPs in the SAARC region i.e. India, Bangladesh, Sri Lanka, Nepal and Bhutan (http://spantel.in/content.php?con=1&type=Content) 2011: Lawful Interception for 3G and 4G Networks, Hosted Audio and Video conferencing services and Office in a Box solution ";"1. Lawful Intercept solution: ""We have been instrumental in the 
+deployment of world’s first - converged monitoring platform for TDM and 
+IP networks to monitor PSTN, GSM, CDMA, WiMax, WiFi, xDSL, etc. Our 
+solution is highly scalable as we add multiple front-ends (mediation) on
+ the network keeping a single management platform; this leads to faster 
+integration capabilities and cost saving. This forms an ideal solution 
+for centralized monitoring across all forms of public communication 
+networks. We can provide solutions for: only TDM, only IP and converged 
+TDM and IP monitoring as per network’s requirements.Our 
+solution captures and renders all kind of traffic – providing key 
+intelligence from TDM networks – voice, SMS and also of web browsing, 
+email, chat, etc. to LEAs in real time. We can also render 3G video call
+ in near real time and simultaneously forward the 3G video call of a 
+target to a LEA agent’s handset"" (http://spantel.in/content.php?type=Solution&solID=2) 2. URL Filtering:Web Filtering solution provides support for category based URL filtering for more than 20 million URLs and billions of web pages (http://spantel.in/content.php?type=Solution&solID=4) 3. IP Traffic Analysis: Span’s IP traffic analysis solution gives 
+detailed information on network bandwidth usage pattern for traffic 
+analysis, application analysis, capacity planning, product planning and 
+making policy decisions. By drilling down into the specific 
+applications, users, ports or communication, network managers are able 
+to determine the exact source of spikes and bursts and therefore are 
+able to proactively monitor, control and take informed decisions. Key Features: Total network view across the world's 
+largest IP networks that includes both deep traffic inspection and full 
+correlation of Layer 2 and Layer7 information across all links and 
+elements   Industry-leading packet processing 
+performance that supports network speeds up to OC-192/10G off the wire 
+and uses a distributed architecture to scale so it can process 
+multi-petabytes of data   Carrier-class scalability and 
+reliability with over 2.7 petabytes of IP traffic processed at a single 
+customer, driving 100 billion packet records per day (greater than 7 
+terabytes) to upstream security applications   Full traffic correlation across every link and element on the network   Entropy-based security algorithms, 
+provide unprecedented early detection of sophisticated anomalies such as
+ low volume and polymorphic worms   Next generation traffic analysis with 
+advanced algorithms for real-time security, intercept and traffic 
+classification and mitigation   Total network view across the world's 
+largest IP networks that includes both deep traffic inspection and full 
+correlation of Layer 2 and Layer 7 information across all links and 
+elements , (http://spantel.in/content.php?type=Solution&solID=6), 4. Taps and msart filters: Network tap is a passive device that sits between two network devices (router, switch, firewall) and redirects 100% traffic to security and network management tools 
+without interrupting the actual traffic. The complete range of 
+network taps includes some smart devices, which do a lot more than just 
+redirecting the traffic to monitoring tools.Regeneration Taps allow 
+you to simultaneously examine all of the traffic on your links with a 
+variety of security and network monitoring tools. All data from one or 
+two network links is duplicated to a maximum of eight ports for 
+increased monitoring device flexibility.Aggregation Taps combine 
+traffic from multiple network links, delivering all data into either one
+ or up to four monitor ports. This benefit allows for leveraging 
+valuable monitoring devices throughout an organization.Bypass Switches provide a 
+fail-safe access port for in-line network security monitoring devices. 
+Link downtime prevention technology limits outages by switching traffic 
+around an IPS in the event of power outages, scheduled maintenance or 
+application failure. Director is a high-density data-monitoring 
+switch in a 1 U chassis featuring TapFlow, a wire-speed filtering engine
+ that directs traffic by protocol, IP address, and other packet header 
+information to specific monitoring tools (http://spantel.in/content.php?type=Solution&solID=7)
+";;"Lawful Intercept solution: ""Our solution captures and renders all kind of traffic – providing key 
+intelligence from TDM networks – voice, SMS and also of web browsing, 
+email, chat, etc. to LEAs in real time. We can also render 3G video call
+ in near real time and simultaneously forward the 3G video call of a 
+target to a LEA agent’s handset"" (http://spantel.in/content.php?type=Solution&solID=2) ";;;Location based services: http://spantel.in/content.php?type=Solution&solID=2 ;;;;;Tier 1 GSM, CDMA service providers, ISP’s, switch vendors and system integrators in India. Airtel, Vodafone, Reliance Communications, Idea, Aircel, Tata Communications, BSNL, MTNL, AT&T, SingTel, Cable & Wireless, Orange, Pacnet, Sify, EDS, Spice Telecom, Huawei, Alcatel-Lucent, Motorola, Septier, Starhome, Narus.;The Lawful Intercept solution complies with guidelines issued by Department of Telecommunication, (DOT): http://spantel.in/content.php?type=Solution&solID=3 ;"
+";9, 10, 5, D;Central Monitoring System: http://www.spantel.in/uploaddocuments/newspdf1_551.pdf;"2002: Outstanding Country Partner Award from VocalTec, Israel
+2004: Israel Trade Award
+2006: Israel Trade Award
+2007: Outstanding Performance from Septier, Israel (http://spantel.in/content.php?con=1&type=Content)"
