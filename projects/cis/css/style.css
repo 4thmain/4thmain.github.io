@@ -1,38 +1,38 @@
 /*	Reset	*/
 
 body{
-	background-color:#eaeaea;
 }
 
-h2{
-	margin-bottom:0;
+.row.graph-data{
+	background-color: #fff;
 }
+
 #company-list{
 	list-style: none;
 }
+#company-list small a{
+	display: none;
+}
 
+#company-list li{
+	padding: 5px 0;
+}
 #company-list li:hover{
 	background-color: #eee;
 }
 
-#company-list h5{
-	position:relative;
-	padding:5px;
+#company-list h6{
+	text-align: right;
+	margin: 0;
 }
 
-#company-list h5 small{
-	margin-left:5px;
+#company-list small div{
+	float:right;
 }
 
-#company-list span[data-company]{
-	position:absolute;
-	bottom:0;
-	z-index: 0;
-	background-color:red;
+
+#company-list .label{
 	padding:2px;
-	
-
-} 
-
-#company-list h4{
+	margin-right: 1px;
+	opacity:0.1;
 }

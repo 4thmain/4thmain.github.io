@@ -6,26 +6,25 @@
 	<title>
 		Surveillance Technology Companies in India - CIS
 	</title>
-	<link href="vendor/foundation-4/css/foundation.css" media="all" rel="stylesheet"
+
+	<link href="vendor/foundation-5/css/foundation.css" media="all" rel="stylesheet"
 	type="text/css" />
 	<link href="css/style.css" media="all" rel="stylesheet" type="text/css"
 	/>
-	<script src="vendor/foundation-4/js/vendor/custom.modernizr.js"></script>
-<!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.3/leaflet.ie.css" />
-    <![endif]-->
+	
 
 </head>
 
 <body>
-	<script src="vendor/d3/d3.v3.min.js"></script>
 
 	<div class="container">
-		<h2>Ranking a sample of Surveillance Technology Companies in India </h2>
-		<h4><small> Research by Maria Xynou - Centre for Internet and Society</small></h4>
-
-		<div class="row">
-			<div class="large-12 columns">
+		<div class="row graph-title">
+		<h2>Public surveillance in India</h2>
+			<h4>Ranking a sample of surveillance technology companies based on their clients and solutions. <span class="subheader">Research <small>by Maria Xynou - Centre for Internet and Society</small></span></h4>
+			
+		</div>
+		<div class="row graph-data">
+			<div class="medium-12 columns">
 				<ul id="company-list">
 					
 				</ul>
@@ -33,9 +32,9 @@
 		</div>
 
 	</div>
-	<script src="vendor/jquery.js"></script>
+	<script src="vendor/foundation-5/js/jquery.js"></script>
 	<script src="vendor/jquery.csv-0.71.min.js"></script>
-	<script src="vendor/foundation-4/js/foundation.min.js"></script>
+	<script src="vendor/foundation-5/js/foundation.min.js"></script>
 	<script>
 
 		$(document).ready(function() {
@@ -143,7 +142,8 @@
 
 				data[i].clientClass = data[i].clientThreat.replace(/\s/g,'').split(',');
 				data[i].clientThreat = computeThreat(data[i].clientClass,clientThreatFactor);
-				data[i].companyThreat = data[i].clientThreat * data[i].productThreat;
+				var threatMax = 1080/100;
+				data[i].companyThreat = data[i].clientThreat * data[i].productThreat / threatMax;
 
 				console.log(data[i]);
 
@@ -152,14 +152,17 @@
 			function compare(a,b) {
 				/* Sort companies by threat	*/
 				if (a.companyThreat < b.companyThreat)
-					return -1;
-				if (a.companyThreat > b.companyThreat)
 					return 1;
+				if (a.companyThreat > b.companyThreat)
+					return -1;
 				return 0;
 			}
 
 			/*	Sort	*/
 			data.sort(compare);
+
+			/* Create list header */
+
 
 			/*	Create list from object */
 			for (var i in data){
@@ -168,20 +171,30 @@
 				
 				var companyDetails = "<div></div>"
 
-				var companyThreatBar = "<span data-company="+data[i].companyThreat+" data-client="+data[i].clientThreat+" data-product="+data[i].productThreat+"></span>";
+				var companyThreatBar = "<div class='medium-8 columns'><div class='nice round progress alert' data-company="+data[i].companyThreat+" data-client="+data[i].clientThreat+" data-product="+data[i].productThreat+"><span class='meter'></span></div></div>";
+
+				var companyClients = "<div data-clients="+data[i].clientClass+"><span client-class='8' class='alert label'>ISP</span><span client-class='4' class='alert label'>Pol</span><span client-class='2' class='label'>Govt</span><span client-class='1' class='success label'>Pub</span></div>"
 
 				var companyUrl = "<a href='"+data[i].url+"'>url</a>"
 
-				var companyItem = "<li><h5>"+companyThreatBar+data[i].company+"<small>"+companyUrl+"</small></h5></li>";
+				var companyItem = "<li class='row'><div class='medium-4 columns'><h6>"+data[i].company+"</h6><small>"+companyUrl+companyClients+"</small></div>"+companyThreatBar+"</li>";
 
 				$("#company-list").append(companyItem);
 				
 			}
 
-			$("#company-list span[data-company]").css("width",function(i){
+			$("#company-list div[data-company] .meter").css("width",function(i){
 				/*	Set bar width	*/
-				return $(this).attr("data-company");
+				return $(this).parent().attr("data-company")+"%";
 			});
+
+			/* Set the client label opacity */
+			$("#company-list [data-clients] .label").css("opacity",function(i){
+				var clients = $(this).parent().attr("data-clients");
+				if (clients.indexOf($(this).attr("client-class"))!=-1)
+				return 1;
+			});
+
 			
 			/*	End of load CSV callback	*/
 		});
