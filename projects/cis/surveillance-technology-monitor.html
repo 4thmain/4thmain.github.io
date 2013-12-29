@@ -19,15 +19,24 @@
 
 	<div class="container">
 		<div class="row graph-title">
-		<h2>Public surveillance in India</h2>
+		<h2>Threat Index of surveillance product vendors to India</h2>
 			<h4>Ranking a sample of surveillance technology companies based on their clients and solutions. <span class="subheader">Research <small>by Maria Xynou - Centre for Internet and Society</small></span></h4>
 			
 		</div>
 		<div class="row graph-data">
-			<div class="medium-12 columns">
-				<ul id="company-list">
+			<div id="company-list">
+			<div class="medium-6 columns">
+			<h5>Companies in India</h5>
+				<ul id="indian">
 					
 				</ul>
+				</div>
+				<div class="medium-6 columns">
+				<h5>Companies outside India</h5>
+				<ul id="foreign">
+					
+				</ul>
+				</div>
 			</div>
 		</div>
 
@@ -171,15 +180,20 @@
 				
 				var companyDetails = "<div></div>"
 
-				var companyThreatBar = "<div class='medium-8 columns'><div class='nice round progress alert' data-company="+data[i].companyThreat+" data-client="+data[i].clientThreat+" data-product="+data[i].productThreat+"><span class='meter'></span></div></div>";
+				var companyThreatBar = "<div class='nice round progress alert' data-company="+data[i].companyThreat+" data-client="+data[i].clientThreat+" data-product="+data[i].productThreat+"><span class='meter'></span></div>";
 
 				var companyClients = "<div data-clients="+data[i].clientClass+"><span client-class='8' class='alert label'>ISP</span><span client-class='4' class='alert label'>Pol</span><span client-class='2' class='label'>Govt</span><span client-class='1' class='success label'>Pub</span></div>"
 
 				var companyUrl = "<a href='"+data[i].url+"'>url</a>"
 
-				var companyItem = "<li class='row'><div class='medium-4 columns'><h6>"+data[i].company+"</h6><small>"+companyUrl+companyClients+"</small></div>"+companyThreatBar+"</li>";
+				var companyHQ = "<span>"+data[i].companyHQ+"</span>"
 
-				$("#company-list").append(companyItem);
+				var companyItem = "<li class='row'><div class='medium-4 columns'><h6>"+data[i].company+"</h6><small>"+companyUrl+companyHQ+"</small></div><div class='medium-8 columns'><small>"+companyClients+"</small>"+companyThreatBar+"</div></li>";
+
+				if (data[i].companyHQ.indexOf("India")!=-1)
+				$("#indian").append(companyItem);
+				else
+						$("#foreign").append(companyItem);
 				
 			}
 
@@ -189,12 +203,18 @@
 			});
 
 			/* Set the client label opacity */
-			$("#company-list [data-clients] .label").css("opacity",function(i){
+			$("#company-list [data-clients] .label").addClass(function(i){
 				var clients = $(this).parent().attr("data-clients");
 				if (clients.indexOf($(this).attr("client-class"))!=-1)
-				return 1;
+				return "active";
 			});
-
+//on click
+			$("#company-list [client-class]").on("click",function(){
+				var client = $(this).attr("client-class");
+				$("#company-list li").slideUp();
+				$("[client-class='"+client+"'].active").parent().parent().parent().parent().slideDown();
+			});
+//9224611807
 			
 			/*	End of load CSV callback	*/
 		});

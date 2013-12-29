@@ -7,7 +7,7 @@ body{
 	background-color: #fff;
 }
 
-#company-list{
+#company-list ul{
 	list-style: none;
 }
 #company-list small a{
@@ -22,11 +22,13 @@ body{
 }
 
 #company-list h6{
+	font-size: 80%;
+	font-weight: bold;
 	text-align: right;
 	margin: 0;
 }
 
-#company-list small div{
+#company-list li>div:first-child small{
 	float:right;
 }
 
@@ -35,4 +37,11 @@ body{
 	padding:2px;
 	margin-right: 1px;
 	opacity:0.1;
+}
+
+.progress{
+	height:20px;
+}
+#company-list span.active{
+	opacity:1;
 }
