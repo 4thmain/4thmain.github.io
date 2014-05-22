@@ -15,6 +15,7 @@ body{
 }
 
 #company-list li{
+	background-color: #fafafa;
 	padding: 5px 0;
 }
 #company-list li:hover{
