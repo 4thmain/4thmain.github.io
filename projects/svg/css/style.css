@@ -1,0 +1,47 @@
+/*	Reset	*/
+
+body{
+}
+
+.row.graph-data{
+	background-color: #fff;
+}
+
+#company-list ul{
+	list-style: none;
+}
+#company-list small a{
+	display: none;
+}
+
+#company-list li{
+	padding: 5px 0;
+}
+#company-list li:hover{
+	background-color: #eee;
+}
+
+#company-list h6{
+	font-size: 80%;
+	font-weight: bold;
+	text-align: right;
+	margin: 0;
+}
+
+#company-list li>div:first-child small{
+	float:right;
+}
+
+
+#company-list .label{
+	padding:2px;
+	margin-right: 1px;
+	opacity:0.1;
+}
+
+.progress{
+	height:20px;
+}
+#company-list span.active{
+	opacity:1;
+}
