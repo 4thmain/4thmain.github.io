@@ -6,10 +6,20 @@ tags: [starting, jekyll]
 ---
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
+<li>
+      <a href="hacks/wiki-atlas.html">The Wiki Atlas</a>
+      <p>Demo of multlingual interactive India map using wikidata</p>
     </li>
-  {% endfor %}
+<li>
+      <a href="cis-privacy/india-privacy-monitor.html">Privacy Monitor</a>
+      <p>Status of surveillance projects by Indian Government</p>
+    </li>
+<li>
+      <a href="cis/surveillance-technology-monitor.html">Surveillance Monitor</a>
+      <p>Vizualization of a research report by CIS India</p>
+    </li>
+    <li>
+      <a href="svg/multilingual-svg.html">Multilingual SVG demo</a>
+      <p>Demo of how a single SVG file can hold taxt in multiple languages</p>
+    </li>
 </ul>
