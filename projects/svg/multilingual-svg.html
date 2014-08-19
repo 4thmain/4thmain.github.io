@@ -7,7 +7,6 @@
         Multilingual SVG demo
     </title>
 
-    <link href="vendor/foundation-5/css/foundation.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 
 
@@ -19,10 +18,36 @@
 
     <script>
         //On ready
-        $(document).ready(function () {
+        window.onload = function () {
+        
+        
+            // Select the element where we want thte svg loaded
+            var SVGcontainer = Snap("body");
 
 
-        });
+            Snap.load("img/test.svg", function (f) {
+
+                // Add the loaded SVG
+                SVGcontainer.append(f);
+                
+                // This is the layer name that has language sublayers
+                langLayerName = "text"; 
+                //
+                langLayers = Snap('[inkscape\\:label=' + langLayerName + ']').selectAll("g");
+
+                var langCode = new Array(langLayers.length);
+                
+                for (var i = 0; i < langLayers.length; i++ ) {
+                    langCode[i] = langLayers[i].attr("[inkscape\\:label]");
+                    console.log(langCode[i]);
+                }
+
+
+            });
+
+
+
+        };
     </script>
 
 </body>
