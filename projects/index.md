@@ -10,6 +10,10 @@ tags: [starting, jekyll]
       <a href="hacks/wiki-atlas.html">The Wiki Atlas</a>
       <p>Demo of multlingual interactive India map using wikidata</p>
     </li>
+    <li>
+      <a href="hacks/osm-india.html">The Wiki Atlas</a>
+      <p>Demo of Openstreetmap with a simple hack to show the official Indian boundaries of Jammu & Kashmir</p>
+    </li>
 <li>
       <a href="cis-privacy/india-privacy-monitor.html">Privacy Monitor</a>
       <p>Status of surveillance projects by Indian Government</p>
@@ -22,4 +26,5 @@ tags: [starting, jekyll]
       <a href="svg/multilingual-svg.html">Multilingual SVG demo</a>
       <p>Demo of how a single SVG file can hold taxt in multiple languages</p>
     </li>
+    
 </ul>

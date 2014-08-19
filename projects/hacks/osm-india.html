@@ -12,12 +12,10 @@
   />
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <script src="vendor/foundation-4/js/vendor/custom.modernizr.js"></script>
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.3/leaflet.css" />
-<!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.3/leaflet.ie.css" />
-    <![endif]-->
-
-    <script src="http://cdn.leafletjs.com/leaflet-0.6.3/leaflet.js"></script>
+  
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    
   </head>
 
   <body>
@@ -47,7 +45,7 @@
 
       //Overlay Indian version of Jammu & Kashmir
       $.get("img/jkline.geojson", function(jk) {  //Ajax load boundary file
-        jk = JSON.parse( jk );  //Parse the geojson
+        //jk = JSON.parse( jk );  //Parse the geojson
 
         //When GeoJSON is ready
         var geojsonLayer = new L.GeoJSON(jk);   //New GeoJSON layer
