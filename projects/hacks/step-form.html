@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Multi step form
+    </title>
+    <link href="../../bower_components/foundation/css/foundation.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="../../bower_components/foundation/js/vendor/modernizr.js"></script>
+
+    <!--    Styles-->
+
+    <style>
+        /*form styles*/
+        .step-form {
+            position: relative;
+        }
+        .step-form section {
+            width: 100%;
+            /*stacking sections above each other*/
+            border: 1px solid #aaa;
+            position: absolute;
+            padding: 20px;
+        }
+        /*Hide all except first section*/
+        .step-form section:not(:first-of-type) {
+            display: none;
+        }
+        /*headings*/
+        .fs-title {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #2C3E50;
+            margin-bottom: 10px;
+        }
+        .fs-subtitle {
+            font-weight: normal;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        /*progressbar*/
+        .form-progress {
+            margin: 10 0px;
+            overflow: hidden;
+            /*CSS counters to number the steps*/
+            counter-reset: step;
+            text-align: center;
+        }
+        .form-progress li {
+            list-style-type: none;
+            text-transform: uppercase;
+            font-size: 9px;
+            width: 33.33%;
+            float: left;
+            position: relative;
+        }
+        .form-progress li:before {
+            content: counter(step);
+            counter-increment: step;
+            width: 20px;
+            line-height: 20px;
+            display: block;
+            font-size: 10px;
+            color: #333;
+            background: white;
+            border-radius: 3px;
+            margin: 0 auto 5px auto;
+        }
+        /*progressbar connectors*/
+        .form-progress li:after {
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #eee;
+            position: absolute;
+            left: -50%;
+            top: 9px;
+            z-index: -1;
+            /*put it behind the numbers*/
+        }
+        .form-progress li:first-child:after {
+            /*connector not needed before the first step*/
+            content: none;
+        }
+        /*marking active/completed steps green*/
+        /*The number of the step and the connector before it = green*/
+        .form-progress li.active {
+            font-weight: bold;
+        }
+        .form-progress li.active:before,
+        .form-progress li.active:after {
+            background: #2e2626;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="row">
+        <h2>Multi step form</h2>
+
+        <div class="large-8 columns centered">
+
+            <!-- multistep form -->
+            <form class="step-form">
+                <!-- progressbar -->
+                <ul class="form-progress">
+                    <li class="active">Account Setup</li>
+                    <li>Social Profiles</li>
+                    <li>Personal Details</li>
+                </ul>
+                <!-- sections -->
+                <section>
+                    <h4>Part A</h4>
+                    <input type="text" name="email" placeholder="Email" />
+                    <input type="password" name="pass" placeholder="Password" />
+                    <input type="password" name="cpass" placeholder="Confirm Password" />
+                    <input type="button" name="next" class="next button" value="Next" />
+                </section>
+                <section>
+                    <h4>Part B</h4>
+                    <input type="text" name="twitter" placeholder="Twitter" />
+                    <input type="text" name="facebook" placeholder="Facebook" />
+                    <input type="text" name="gplus" placeholder="Google Plus" />
+                    <input type="button" name="previous" class="previous button" value="Previous" />
+                    <input type="button" name="next" class="next button" value="Next" />
+                </section>
+                <section>
+                    <h4>Part C</h4>
+                    <input type="text" name="fname" placeholder="First Name" />
+                    <input type="text" name="lname" placeholder="Last Name" />
+                    <input type="text" name="phone" placeholder="Phone" />
+                    <textarea name="address" placeholder="Address"></textarea>
+                    <input type="button" name="previous" class="previous button" value="Previous" />
+                    <input type="submit" name="submit" class="submit button" value="Submit" />
+                </section>
+            </form>
+
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../bower_components/foundation/js/foundation.min.js"></script>]
+    <script>
+        // Multi Step Form
+         // Based on http://thecodeplayer.com/walkthrough/jquery-multi-step-form-with-progress-bar
+        $(".step-form .next").click(function () {
+
+            current_fs = $(this).parent();
+            next_fs = $(this).parent().next();
+
+            //activate next step on progressbar using the index of next_fs
+            $(".form-progress li").eq($("section").index(next_fs)).addClass("active");
+
+            //show the next section
+            next_fs.fadeIn();
+            //hide the current section with style
+            current_fs.fadeOut()
+        });
+
+        $(".step-form .previous").click(function () {
+
+            current_fs = $(this).parent();
+            previous_fs = $(this).parent().prev();
+
+            //de-activate current step on progressbar
+            $(".form-progress li").eq($("section").index(current_fs)).removeClass("active");
+
+            //show the previous section
+            previous_fs.fadeIn();
+            //hide the current section with style
+            current_fs.fadeOut();
+        });
+
+        $(".step-form .submit").click(function () {
+            return false;
+        })
+
+
+         $(document).ready(function () {
+            $(document).foundation();
+
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "4th Main",
+  "version": "0.1.0",
+"ignore": [
+        "*src.*",
+	"src",
+	"*.md"
+    ],
+  "dependencies": {
+    "foundation": "zurb/bower-foundation#latest",
+    "foundation-icon-fonts": "zurb/foundation-icon-fonts",
+    "leaflet": "#latest",
+    "d3": "#latest",
+    "underscore": "#latest"
+  }
+}

@@ -3,3 +3,6 @@
 _site
 *.bak
 *.pdf
+src
+*src*.*
+foundation-icon-fonts/svgs
