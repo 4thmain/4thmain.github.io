@@ -11,14 +11,13 @@
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 
     <style>
-        #svg{
+        #svg {
             position: relative;
             border: 1px solid #eee;
         }
-        #svg svg{
+        #svg svg {
             width: 100%;
         }
-            
         #svg-lang {
             position: absolute;
             top: 0;
@@ -32,10 +31,8 @@
 <body>
     <div class="row">
         <h1>Multilingual SVG Demo</h1>
-        <div id="svg" class="medium-8 columns"></div>
-        <div class="medium-4 columns">
-            <h2>Butterfly</h2>
-        </div>
+        <div id="svg"></div>
+        <div class="medium-12 columns">CC-by-sa L. Shyamal, Planemad, <a href="https://commons.wikimedia.org/wiki/File:Butterfly_parts.svg">Wikimedia Commons</a></div>
     </div>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="vendor/snap/dist/snap.svg-min.js"></script>
@@ -49,11 +46,12 @@
             Snap.load("img/Butterfly_parts.svg", function (file) {
 
                 // Load the svg file into the svg container
-                SVGcontainer = Snap("#svg").append(file).attr({
-  viewBox: "0 0 455 550",
-  width: 112.5,
-  height: 75
-});;
+                SVGcontainer = Snap("#svg").append(file);
+//                .attr({
+//                    viewBox: "0 0 455 550",
+//                    width: 112.5,
+//                    height: 75
+//                });
 
                 // This is the layer name that has language sublayers
                 langLayerName = "lang";
