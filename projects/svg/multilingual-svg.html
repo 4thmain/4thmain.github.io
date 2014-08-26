@@ -7,47 +7,102 @@
         Multilingual SVG demo
     </title>
 
+    <link href="../../bower_components/foundation/css/foundation.css" media="all" rel="stylesheet" type="text/css" />
     <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
 
+    <style>
+        #svg{
+            position: relative;
+            border: 1px solid #eee;
+        }
+        #svg svg{
+            width: 100%;
+        }
+            
+        #svg-lang {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px;
+        }
+    </style>
 
 </head>
 
 <body>
-
+    <div class="row">
+        <h1>Multilingual SVG Demo</h1>
+        <div id="svg" class="medium-8 columns"></div>
+        <div class="medium-4 columns">
+            <h2>Butterfly</h2>
+        </div>
+    </div>
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="vendor/snap/dist/snap.svg-min.js"></script>
 
     <script>
         //On ready
-        window.onload = function () {
-        
-        
-            // Select the element where we want thte svg loaded
-            var SVGcontainer = Snap("body");
 
+        $(document).ready(function () {
 
-            Snap.load("img/test.svg", function (f) {
+            // Load the SVG file
+            Snap.load("img/Butterfly_parts.svg", function (file) {
 
-                // Add the loaded SVG
-                SVGcontainer.append(f);
-                
+                // Load the svg file into the svg container
+                SVGcontainer = Snap("#svg").append(file).attr({
+  viewBox: "0 0 455 550",
+  width: 112.5,
+  height: 75
+});;
+
                 // This is the layer name that has language sublayers
-                langLayerName = "text"; 
-                //
+                langLayerName = "lang";
+                // Select all the sub layers under the lang layer
                 langLayers = Snap('[inkscape\\:label=' + langLayerName + ']').selectAll("g");
 
-                var langCode = new Array(langLayers.length);
-                
-                for (var i = 0; i < langLayers.length; i++ ) {
-                    langCode[i] = langLayers[i].attr("[inkscape\\:label]");
-                    console.log(langCode[i]);
+                langCode = new Array(langLayers.length);
+
+                // Start creating language selector
+                langSelectorHTML = "<div id='svg-lang'><label>Language</label><select >";
+
+                // For each lang layer
+                for (var i = 0; i < langLayers.length; i++) {
+                    //Get the language code from the inkscape layer name attribute
+                    langCode[i] = langLayers[i].attr("inkscape:label");
+                    langSelectorHTML += "<option value='" + langCode[i] + "'>" + langCode[i] + "</option>";
                 }
 
+                // Finish creating language selector
+                langSelectorHTML += "</select></div>";
+
+                // Add the selector to the body
+                $(langSelectorHTML).insertAfter("#svg svg");
+
+                //Switch language when selection is changed
+                $('#svg-lang select').change(function () {
+                    // Selected language
+                    lang = this.value;
+                    // Change the svg language
+                    changeSVGLang(lang);
+                });
+
+                // Select English by default
+                $("#svg-lang option").filter("[value='en']", "[value='english']", "[value='English']").prop('selected', true).trigger("change");
+
+                function changeSVGLang(lang) {
+                    for (i = 0; i < langCode.length; i++) {
+                        //Hide all language layers
+                        Snap('[inkscape\\:label=' + langCode[i] + ']').attr("display", "none");
+                    }
+                    //Show the target language group
+                    Snap('[inkscape\\:label=' + lang + ']').attr("display", "");
+                }
 
             });
 
 
 
-        };
+        });
     </script>
 
 </body>
