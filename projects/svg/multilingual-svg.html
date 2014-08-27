@@ -71,7 +71,7 @@
                 }
 
                 // Finish creating language selector
-                langSelectorHTML += "</select></div>";
+                langSelectorHTML += "</select><input id='hide-labels' type='checkbox' value='base'><label for='hide-labels'>Hide labels</label></div>";
 
                 // Add the selector to the body
                 $(langSelectorHTML).insertAfter("#svg svg");
@@ -82,6 +82,18 @@
                     lang = this.value;
                     // Change the svg language
                     changeSVGLang(lang);
+                });
+                
+                //Toogle label overlay when checked
+                $('#svg-lang #hide-labels').change(function () {
+                    // Hide language labels when checked
+                    if( $(this).prop('checked') ){
+                        Snap("[inkscape\\:label='lang'").attr("display", "none");
+                    }
+                    // else display them
+                    else{
+                        Snap("[inkscape\\:label='lang'").attr("display", "");
+                    }
                 });
 
                 // Select English by default

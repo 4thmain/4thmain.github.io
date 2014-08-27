@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.75815155"
-     inkscape:cx="385.75637"
-     inkscape:cy="418.66077"
+     inkscape:cx="282.87456"
+     inkscape:cy="471.42067"
      inkscape:document-units="px"
      inkscape:current-layer="g3982"
      inkscape:window-width="1301"
@@ -848,10 +848,10 @@
            y="513.96014"
            x="773.49213"
            id="tspan3992"
-           sodipodi:role="line"><tspan
-             id="tspan3994"
-             y="513.96014"
-             x="773.49213">Hindleg</tspan></tspan></text>
+           sodipodi:role="line">Pair<tspan
+   id="tspan3994"
+   y="513.96014"
+   x="773.49213" /></tspan></text>
       <text
          style="font-size:30.38605309px"
          id="text3996"
